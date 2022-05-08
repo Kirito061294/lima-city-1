@@ -1,0 +1,83 @@
+#navigation {
+   margin:-1rem -1rem 0;
+   height:3.1rem;
+   font-size:1.6rem;
+   color:#fff
+}
+#menu {
+   margin:0 0 0rem;
+   float:left;
+}
+.kopf a {
+   display:block;
+   text-decoration:none;
+   color:white
+}
+#menu a{
+   font-family:opensans,Arial,Helvetica,sans-serif;
+   line-height:4.5rem
+}
+#menu li {
+   position:relative;
+   float:left;
+   border:0
+}
+#menu > ul > li > a,#menu > ul > li:hover > a {
+   margin:0 0 0 2rem;
+   padding:3px 0 0
+}
+h2, div, em, small, strong, li, ol, table, tr, td, h3, ul {
+   color: lightblue;
+   margin: 0;
+}
+html {
+   font-size:100%;
+   list-style:none;
+   margin:0;
+   overflow-y:scroll;
+}
+body {
+   line-height:1;
+   overflow:hidden;
+   list-style:none;
+   font-size:1.2rem;
+   margin:0;
+   background-image:url("https://mwiese.de/include/gras5.jpg"); /* Hintergrundbild*/
+   background-repeat:no-repeat; /* keine wiederholung*/
+   background-position:top; /* Hintergrund oben*/
+   background-attachment:fixed; /* Hintergrund fixiert*/
+}
+.spass {
+   margin: auto; /* Zentrierung*/
+   width: 50%;
+   padding: 10px;
+   color: black;
+}
+.center1 {
+   margin: auto; /* Zentrierung*/
+   width: 50%;
+   padding: 10px;
+}
+h1 {
+   color: #000000;
+}
+p {
+   padding:0 0 2rem;
+}
+.info001 {
+   color: white;
+}
+.link001 {
+   color: black;
+}
+ul {
+   overflow:hidden;
+   font-size:80%;
+   list-style:none;
+}
+li {
+   height:3rem;
+}
+ol {
+   list-style:none;
+}
