@@ -2,9 +2,9 @@
        "https://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-    <?php include ("include/head1.php"); ?>
+    <?php include ("https://mwiese.de/include/head1.php"); ?>
     <body>
-	    <?php include ("include/body1.php"); ?>
+	    <?php include ("https://mwiese.de/include/body1.php"); ?>
         <div class="center1">
                 <h1>Informationen zur Seite</h1>
             <br />
