@@ -1,8 +1,31 @@
+*{
+   margin:0;
+   padding:0;
+}
+html {
+   height:100%;
+   overflow-y:scroll;
+}
+body {
+   height:100%;
+   line-height:1;
+   overflow:hidden;
+   list-style:none;
+   font-size:1.2rem;
+   background-image:url("https://mwiese.de/include/gras6.jpg"); /* Hintergrundbild*/
+   background-repeat:no-repeat; /* keine wiederholung*/
+   background-position:top; /* Hintergrund oben*/
+   background-attachment:fixed; /* Hintergrund fixiert*/
+}
+p {
+   padding:10px 0px 0px 0px;
+}
 #navigation {
    margin:-1rem -1rem 0;
+   padding:0px 0px 0px 15px;
    height:3.1rem;
    font-size:1.6rem;
-   color:#fff
+   color:#fff;
 }
 #menu {
    margin:0 0 0rem;
@@ -11,47 +34,37 @@
 .kopf a {
    display:block;
    text-decoration:none;
-   color:white
+   color:white;
 }
 #menu a{
    font-family:opensans,Arial,Helvetica,sans-serif;
-   line-height:4.5rem
+   line-height:4rem;
 }
 #menu li {
    position:relative;
    float:left;
-   border:0
+   border:0;
 }
 #menu > ul > li > a,#menu > ul > li:hover > a {
-   margin:0 0 0 2rem;
-   padding:3px 0 0
+   margin:0 0 0 1rem;
 }
-h2, div, em, small, strong, li, ol, table, tr, td, h3, ul {
-   color: lightblue;
-   margin: 0;
-}
-html {
-   font-size:100%;
-   list-style:none;
-   margin:0;
-   overflow-y:scroll;
-}
-body {
-   line-height:1;
-   overflow:hidden;
-   list-style:none;
-   font-size:1.2rem;
-   margin:0;
-   background-image:url("https://mwiese.de/include/gras5.jpg"); /* Hintergrundbild*/
-   background-repeat:no-repeat; /* keine wiederholung*/
-   background-position:top; /* Hintergrund oben*/
-   background-attachment:fixed; /* Hintergrund fixiert*/
-}
-.spass {
+.spass p {
    margin: auto; /* Zentrierung*/
    width: 50%;
    padding: 10px;
    color: black;
+}
+.linkzone01 {
+   height: 300px;
+   overflow: auto;
+   width: 100%;
+   padding: 10px;
+}
+.linkzone01 a {
+   color: black;
+}
+.linkzone01 a:hover {
+   color: grey;
 }
 .center1 {
    margin: auto; /* Zentrierung*/
@@ -61,23 +74,80 @@ body {
 h1 {
    color: #000000;
 }
-p {
-   padding:0 0 2rem;
+.info000 {
+   color: black;
 }
-.info001 {
-   color: white;
+.info001 a {
+   color: black;
+}
+.info001 p, .info001 {
+   color: black;
+   margin: 10px;
+}
+.ueberschrift {
+   color: black; /* Schriftfarbe*/
+   padding: 10px; /* Abstand*/
+   margin: 10px; /* Zentrierung*/
+}
+.ende1, .ende1 p {
+   color: black; /* Schriftfarbe*/
+   padding: 10px; /* Abstand*/
+   margin: auto; /* Zentrierung*/
+}
+.ende1 a {
+   color: black;
 }
 .link001 {
    color: black;
 }
 ul {
-   overflow:hidden;
+   position: fixed;
    font-size:80%;
    list-style:none;
 }
 li {
-   height:3rem;
+   height:1rem;
+}
+nav ul li a:hover {
+   color: grey;
 }
 ol {
    list-style:none;
+}
+nav ul li ul {
+   display:none;
+   position:absolute;
+   background-color:#338585;
+   padding:5px 30px 5px 5px;
+   border-radius:0px 0px 10px 10px;
+   color:red;
+}
+nav ul li:hover ul {
+   display:block;
+}
+.untermenue li a {
+}
+.untermenue li a:hover {
+   background-color:#296b6b;
+   color:orange;
+}
+@media screen and (max-width:800px) { /* Alles BIS 800 Pixel breite */
+   ul {
+      font-size:50%;
+   }
+   body {
+      font-size:0.8rem;
+   }
+}
+@media screen and (min-width:1999px) { /* Alles AB 1999 Pixel breite */
+   ul {
+      font-size:100%;
+   }
+   body {
+      font-size:1.5rem;
+      background-color:green; /* Hintergrundfarbe*/
+      /*background-repeat:no-repeat;  keine wiederholung
+      background-position:top; /* Hintergrund oben
+      background-attachment:fixed; /* Hintergrund fixiert*/
+   }
 }
