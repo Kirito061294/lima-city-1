@@ -4,7 +4,7 @@
 <html>
     <head>
 	    <title>mwiese.de</title>
-    <?php include ("include/head1.php"); ?>
+    <?php include ("https://mwiese.de/include/head1.php"); ?>
             <div class="ueberschrift">
 			    <h1>Informationen zur Seite</h1>
 			</div>
