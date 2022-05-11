@@ -7,17 +7,26 @@
             <section id="navigation">
                 <nav id="menu">
                     <ul class="kopf">
-                        <li><a href="https://mwiese.de/Startpage.php">Startseite</a></li>
-                        <li><a href="https://pc.mwiese.de">Mein Hobby</a></li>
+                        <li><a href="https://mwiese.de">Startseite</a></li>
                         <li><a href="https://mwiese.de/U/U.php">Unterhaltung</a>
 						    <ul class="untermenue">
-							    <li><a href="https://mwiese.de/F/F.php">Filme und Videos</a></li>
 								<li><a href="https://mwiese.de/M/M.php">Musik</a></li>
 								<li><a href="https://mwiese.de/S/S.php">Spiele</a></li>
 							</ul>
 						</li>
-                        <li><a href="https://mwiese.de/T/index.php">Technik</a></li>
-                        <li><a href="https://mwiese.de/N/N.php">Internet/Netzwerk</a></li>
+                        <li><a href="https://mwiese.de/T/index.php">Technik</a>
+						    <ul class="untermenue">
+								<li><a href="https://mwiese.de/OS/OS.php">Betriebssysteme</a></li>
+								<li><a href="https://mwiese.de/N/N.php">Internet/Netzwerk</a></li>
+								<li><a href="https://mwiese.de/T/I.php">Interessantes</a></li>
+							</ul>
+						</li>
+                        <li><a href="">Unterseiten</a>
+						    <ul class="untermenue">
+								<li><a href="https://pc.mwiese.de" target="_blank">Mein Hobby</a></li>
+								<li><a href="https://themen.mwiese.de" target="_blank">Spezielle Themen</a></li>
+							</ul>
+						</li>
                         <li><a href="https://mwiese.de/I.php">Impressum</a></li>
                     </ul>
                 </nav>
