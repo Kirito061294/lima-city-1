@@ -12,41 +12,90 @@ body {
    overflow:hidden;
    list-style:none;
    font-size:1.2rem;
-   background-image:url("https://mwiese.de/include/gras6.jpg"); /* Hintergrundbild*/
-   background-repeat:no-repeat; /* keine wiederholung*/
-   background-position:top; /* Hintergrund oben*/
-   background-attachment:fixed; /* Hintergrund fixiert*/
+   background-size: cover;
+   background-color: #00bb2d; /* Hintergrundfarbe*/
+   /*background-repeat:no-repeat;  keine wiederholung*/
+   /*background-position:top;  Hintergrund oben*/
+   /*background-attachment:fixed;  Hintergrund fixiert*/
+}
+nav {
+   width: 100%;
+   height: 50px;
+   background-color: green;
+   box-shadow: 2px 2px 4px rgba(0,0,0,0.11);
+   padding:0px 0px 0px 15px;
+}
+nav ul {
+   float: left;
+}
+nav ul li {
+   float: left;
+   list-style: none;
+   position: relative;
+}
+nav ul li a {
+   font-family: Arial;
+   color: white;
+   font-size: 24px;
+   text-decoration: none;
+   padding: 5px 0px 10px 15px;
+   display: block;
+}
+nav ul li a:hover {
+   color: grey;
+}
+nav ul li ul {
+   display:none;
+   position:absolute;
+   padding:5px 30px 5px 5px;
+   border-radius:0px 0px 10px 10px;
+   color:red;
+}
+nav ul li:hover ul {
+   display: block;
+}
+nav ul li ul li a {
+   color: orange;
+   padding: 10px 20px;
+   border-radius: 10px;
 }
 p {
    padding:10px 0px 0px 0px;
 }
-#navigation {
-   margin:-1rem -1rem 0;
-   padding:0px 0px 0px 15px;
-   height:3.1rem;
-   font-size:1.6rem;
-   color:#fff;
+select {
+   width: 10%;
+   height: 20px;
+   font-size: 70%;
+   background-color: grey;
+   color: white;
+   -webkit-appearance: none;
+   -moz-appearance: none;
 }
-#menu {
-   margin:0 0 0rem;
+/* For IE <= 11 */
+select::-ms-expand {
+   display: none;
+}
+footer {
+   display: block;
    float:left;
+   text-align: left;
+   background-color: green;
+   color: black;
+   width: 100%;
+   padding:5px 0px 5px 15px;
 }
+/*
+footer p {
+   
+}
+*/
 .kopf a {
    display:block;
    text-decoration:none;
    color:white;
 }
-#menu a{
-   font-family:opensans,Arial,Helvetica,sans-serif;
-   line-height:4rem;
-}
-#menu li {
-   position:relative;
-   float:left;
-   border:0;
-}
-#menu > ul > li > a,#menu > ul > li:hover > a {
-   margin:0 0 0 1rem;
+h1 {
+   color: #000000;
 }
 .spass p {
    margin: auto; /* Zentrierung*/
@@ -70,9 +119,6 @@ p {
    margin: auto; /* Zentrierung*/
    width: 50%;
    padding: 10px;
-}
-h1 {
-   color: #000000;
 }
 .info000 {
    color: black;
@@ -100,40 +146,18 @@ h1 {
 .link001 {
    color: black;
 }
-ul {
-   position: fixed;
-   font-size:80%;
-   list-style:none;
-}
-li {
-   height:1rem;
-}
-nav ul li a:hover {
-   color: grey;
-}
-ol {
-   list-style:none;
-}
-nav ul li ul {
-   display:none;
-   position:absolute;
-   background-color:#338585;
-   padding:5px 30px 5px 5px;
-   border-radius:0px 0px 10px 10px;
-   color:red;
-}
-nav ul li:hover ul {
-   display:block;
-}
 .untermenue li a {
 }
 .untermenue li a:hover {
    background-color:#296b6b;
    color:orange;
 }
-@media screen and (max-width:800px) { /* Alles BIS 800 Pixel breite */
+@media screen and (max-width:1081px) { /* Alles BIS 800 Pixel breite */
    ul {
       font-size:50%;
+   }
+   h1 {
+      font-size:90%;
    }
    body {
       font-size:0.8rem;
