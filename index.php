@@ -4,7 +4,7 @@
 <html>
     <head>
 	    <title>mwiese.de</title>
-    <?php include ("https://mwiese.de/include/head1.php"); ?>
+    <?php include ("include/head1.php"); ?>
             <div class="ueberschrift">
 			    <h1>Informationen zur Seite</h1>
 			</div>
@@ -14,8 +14,8 @@
 				Sollten auf nachfolgenden Seiten anderweitig Daten erhoben werden, weise ich darauf hin.</p>
             <div class="spass">
 			    <p>Aber vor allem gilt natürlich:<br />Viel Spaß auf meiner seite :)</p>
-				<p><a class="link001" href="mobile/index.php">mobile-site</a> - <a class="link001" href="Startpage.php">Zur Startseite</a></p>
 			</div>
         </div>
     </body>
+	<?php include ("include/footer.php"); ?>
 </html>
