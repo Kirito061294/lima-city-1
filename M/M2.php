@@ -14,7 +14,7 @@
 			<form action="" method="post" class="mb-3">
 			    <select name="musik">
                     <option value="" disabled selected></option>
-                    <option value="m001">Adel Tawil</option>
+                    <option selected="selected" value="m001">Adel Tawil</option>
                     <option value="m002">Alan Walker</option>
                     <option value="m004">Anime Tracks</option>
                     <option value="m005">Damestream</option>
@@ -24,8 +24,6 @@
                     <option value="m009">Sunrise Avenue</option>
                     <option value="m003">Anderes</option>
 		        </select>
-                <input type="submit" name="submit" value="Auswahl">
-            </form>
 			<?php
                 if(isset($_POST['submit'])){
                     if(!empty($_POST['musik'])) {$selected = $_POST['m001']; include ("include/cat/A-T.php"); }
@@ -55,6 +53,8 @@
 					if(!empty($_POST['musik'])) {$selected = $_POST['m009']; include ("include/cat/SA.php"); }
                 }
 			?>
+                <input type="submit" name="submit" value="Auswahl">
+            </form>
             </div>
                 <p>____________________________________________</p>
             <div class="ende1">
