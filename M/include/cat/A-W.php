@@ -1,4 +1,4 @@
-			<form action="" method="post" class="mb-3">
+<form action="" method="post" class="mb-3">
 			    <select name="alan">
                     <option value=""></option>
                     <option value="alan001">1</option>
@@ -8,5 +8,4 @@
                     <option value="alan005">1</option>
                     <option value="alan006">1</option>
 		        </select>
-                <input type="submit" name="submit" value="Auswahl">
             </form>
