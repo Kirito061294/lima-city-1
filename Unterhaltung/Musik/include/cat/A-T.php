@@ -35,9 +35,8 @@
 			<?php
 			    if (isset($_POST['adel_tawil'])) {
                     switch ($_POST['adel_tawil']) {
-                        case 'adel001':
-                            include ("include/iframes/a-t/1gg.php");
-                            break;
+                        case 'adel001': include ("include/iframes/a-t/1gg.php"); break;
+                        case 'adel002': include ("include/iframes/a-t/as.php"); break;
                     }
 				}
 			?>
