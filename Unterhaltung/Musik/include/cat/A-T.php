@@ -33,35 +33,38 @@
                     <option value="adel031">Zuhause</option>
                 </select>
 			<?php
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel001') {include ("include/iframes/a-t/1gg.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel002') {include ("include/iframes/a-t/as.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel003') {include ("include/iframes/a-t/at.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel004') {include ("include/iframes/a-t/bhunw.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel005') {include ("include/iframes/a-t/dhsf.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel006') {include ("include/iframes/a-t/d.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel007') {include ("include/iframes/a-t/eweh.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel008') {include ("include/iframes/a-t/eg.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel009') {include ("include/iframes/a-t/fl.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel010') {include ("include/iframes/a-t/gsmb.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel011') {include ("include/iframes/a-t/gl.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel012') {include ("include/iframes/a-t/id.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel013') {include ("include/iframes/a-t/idj.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel014') {include ("include/iframes/a-t/kh.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel015') {include ("include/iframes/a-t/k.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel016') {include ("include/iframes/a-t/ltg.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel017') {include ("include/iframes/a-t/l.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel018') {include ("include/iframes/a-t/nf.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel019') {include ("include/iframes/a-t/ni.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel020') {include ("include/iframes/a-t/nj.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel021') {include ("include/iframes/a-t/nn.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel022') {include ("include/iframes/a-t/sr.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel023') {include ("include/iframes/a-t/sosa.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel024') {include ("include/iframes/a-t/tma.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel025') {include ("include/iframes/a-t/ul.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel026') {include ("include/iframes/a-t/udsh.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel027') {include ("include/iframes/a-t/vm.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel028') {include ("include/iframes/a-t/wdl.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel029') {include ("include/iframes/a-t/w.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel030') {include ("include/iframes/a-t/wsig.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['adel_tawil'] == 'adel031') {include ("include/iframes/a-t/z.php"); }}
+                if (isset($_POST['adel_tawil'])) {
+
+                 if ($_POST['adel_tawil'] == 'adel001') {include ("include/iframes/a-t/1gg.php");  }
+                 if ($_POST['adel_tawil'] == 'adel002') {include ("include/iframes/a-t/as.php");  }
+                 if ($_POST['adel_tawil'] == 'adel003') {include ("include/iframes/a-t/at.php");  }
+                 if ($_POST['adel_tawil'] == 'adel004') {include ("include/iframes/a-t/bhunw.php");  }
+                 if ($_POST['adel_tawil'] == 'adel005') {include ("include/iframes/a-t/dhsf.php");  }
+                 if ($_POST['adel_tawil'] == 'adel006') {include ("include/iframes/a-t/d.php");  }
+                 if ($_POST['adel_tawil'] == 'adel007') {include ("include/iframes/a-t/eweh.php");  }
+                 if ($_POST['adel_tawil'] == 'adel008') {include ("include/iframes/a-t/eg.php");  }
+                 if ($_POST['adel_tawil'] == 'adel009') {include ("include/iframes/a-t/fl.php");  }
+                 if ($_POST['adel_tawil'] == 'adel010') {include ("include/iframes/a-t/gsmb.php");  }
+                 if ($_POST['adel_tawil'] == 'adel011') {include ("include/iframes/a-t/gl.php");  }
+                 if ($_POST['adel_tawil'] == 'adel012') {include ("include/iframes/a-t/id.php");  }
+                 if ($_POST['adel_tawil'] == 'adel013') {include ("include/iframes/a-t/idj.php");  }
+                 if ($_POST['adel_tawil'] == 'adel014') {include ("include/iframes/a-t/kh.php");  }
+                 if ($_POST['adel_tawil'] == 'adel015') {include ("include/iframes/a-t/k.php");  }
+                 if ($_POST['adel_tawil'] == 'adel016') {include ("include/iframes/a-t/ltg.php");  }
+                 if ($_POST['adel_tawil'] == 'adel017') {include ("include/iframes/a-t/l.php");  }
+                 if ($_POST['adel_tawil'] == 'adel018') {include ("include/iframes/a-t/nf.php");  }
+                 if ($_POST['adel_tawil'] == 'adel019') {include ("include/iframes/a-t/ni.php");  }
+                 if ($_POST['adel_tawil'] == 'adel020') {include ("include/iframes/a-t/nj.php");  }
+                 if ($_POST['adel_tawil'] == 'adel021') {include ("include/iframes/a-t/nn.php");  }
+                 if ($_POST['adel_tawil'] == 'adel022') {include ("include/iframes/a-t/sr.php");  }
+                 if ($_POST['adel_tawil'] == 'adel023') {include ("include/iframes/a-t/sosa.php");  }
+                 if ($_POST['adel_tawil'] == 'adel024') {include ("include/iframes/a-t/tma.php");  }
+                 if ($_POST['adel_tawil'] == 'adel025') {include ("include/iframes/a-t/ul.php");  }
+                 if ($_POST['adel_tawil'] == 'adel026') {include ("include/iframes/a-t/udsh.php");  }
+                 if ($_POST['adel_tawil'] == 'adel027') {include ("include/iframes/a-t/vm.php");  }
+                 if ($_POST['adel_tawil'] == 'adel028') {include ("include/iframes/a-t/wdl.php");  }
+                 if ($_POST['adel_tawil'] == 'adel029') {include ("include/iframes/a-t/w.php");  }
+                 if ($_POST['adel_tawil'] == 'adel030') {include ("include/iframes/a-t/wsig.php");  }
+                 if ($_POST['adel_tawil'] == 'adel031') {include ("include/iframes/a-t/z.php");  }
+                }
 			?>

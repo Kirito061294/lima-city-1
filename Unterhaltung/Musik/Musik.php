@@ -27,7 +27,7 @@
                 if (isset($_POST['submit'])) {
                     $selected = $_POST['musik'];
                 }
-                add_option($selected,'mßß1','Adel Tawil');
+                add_option($selected,'m001','Adel Tawil');
                 ?>
                 <option value="m002">Alan Walker</option>
                 <option value="m004">Anime Tracks</option>
