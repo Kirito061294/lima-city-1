@@ -10,11 +10,16 @@
                     <option value="anime006">Seiken Tsukai no World Break Opening 1</option>
 		        </select>
 			<?php
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime00a') {include ("include/cat/A_i/PKMN.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime00b') {include ("include/cat/A_i/FairyTail.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime001') {include ("include/iframes/A-i/AW_op_1.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime002') {include ("include/iframes/A-i/AW_ed_1.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime003') {include ("include/iframes/A-i/A_op_1.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime004') {include ("include/iframes/A-i/LSdAF_op_1.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime005') {include ("include/iframes/A-i/MtglKKSDy_op_1.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime006') {include ("include/iframes/A-i/STnWB_op_1.php"); }}
+			    if (isset($_POST['anime'])) {
+                    switch ($_POST['anime']) {
+                        case 'anime00a': include ("include/cat/A_i/PKMN.php"); break;
+                        case 'anime00b': include ("include/cat/A_i/FairyTail.php"); break;
+                        case 'anime001': include ("include/iframes/A-i/AW_op_1.php"); break;
+                        case 'anime002': include ("include/iframes/A-i/AW_ed_1.php"); break;
+                        case 'anime003': include ("include/iframes/A-i/A_op_1.php"); break;
+                        case 'anime004': include ("include/iframes/A-i/LSdAF_op_1.php"); break;
+                        case 'anime005': include ("include/iframes/A-i/MtgIKKSDy_op_1.php"); break;
+                        case 'anime006': include ("include/iframes/A-i/STnWB_op_1.php"); break;
+                    }
+				}
+			?>
