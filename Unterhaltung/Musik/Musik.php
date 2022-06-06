@@ -15,9 +15,20 @@
 			<form action="" method="post" class="mb-3">
 			    <select name="musik">
                 <?php
-                    if(isset($_POST['submit'])){$selected = $_POST['musik'];}
-                    echo '<option value="" disabled selected></option>';
-                    echo '<option value="m001"'.$selected == 'm001'?'selected = "selected"':''.'>Adel Tawil</option>';
+                $selected = '';
+                function add_option($selected, $option_value,$interpret_name) {
+                    echo '<option value="'.$option_value.'"';
+                    if ($selected == $option_value) {
+                        echo ' selected="selected"';
+                    }
+                    echo '>'.$interpret_name.'</option>';
+                }
+
+                if (isset($_POST['submit'])) {
+                    $selected = $_POST['musik'];
+                }
+                echo '<option value="" disabled selected></option>';
+                add_option($selected,'m001','Adel Tawil');
                     //<option value="m002">Alan Walker</option>
                     //<option value="m004">Anime Tracks</option>
                     //<option value="m005">Damestream</option>
