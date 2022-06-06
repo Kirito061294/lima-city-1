@@ -34,8 +34,12 @@
                 </select>
 			<?php
                 if (isset($_POST['adel_tawil'])) {
+                    switch ($_POST['adel_tawil']) {
+                        case 'adel001':
+                            include ("include/iframes/a-t/1gg.php");
+                            break;
+                    }
 
-                 if ($_POST['adel_tawil'] == 'adel001') {include ("include/iframes/a-t/1gg.php");  }
                  if ($_POST['adel_tawil'] == 'adel002') {include ("include/iframes/a-t/as.php");  }
                  if ($_POST['adel_tawil'] == 'adel003') {include ("include/iframes/a-t/at.php");  }
                  if ($_POST['adel_tawil'] == 'adel004') {include ("include/iframes/a-t/bhunw.php");  }
