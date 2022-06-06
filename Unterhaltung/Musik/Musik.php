@@ -13,8 +13,10 @@
             <div class="linkzone01">
 			<form action="" method="post" class="mb-3">
 			    <select name="musik">
-                    <option value="" disabled selected></option>
-                    <option value="m001">Adel Tawil</option>
+				<?php
+					if(isset($_POST['submit'])){$selected = $_POST['musik']}
+					echo '<option value="" disabled selected></option>'
+                    echo '<option value="m001"'.$selected == 'm001'?'selected = "selected"':''.'>Adel Tawil</option>'
                     <option value="m002">Alan Walker</option>
                     <option value="m004">Anime Tracks</option>
                     <option value="m005">Damestream</option>
