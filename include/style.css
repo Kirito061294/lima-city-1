@@ -286,6 +286,9 @@ footer {
       height: 450px;
    }
 }*/
+.tower01 {
+   padding: 5px 0 0 0;
+}
 @media screen and (max-width: 1081px) { /* Alles BIS 1081 Pixel breite */
    *{
       font-size: 20px;
