@@ -8,14 +8,11 @@
             <div class="ueberschrift">
 			    <h1>Informationen zur Seite</h1>
 			</div>
-                <p class="info001">Diese Seite ist eine art Fun-Projekt und daher kann es sein das es dauert bis neues hinzugefügt wird.
-				Zusätzlich sei gesagt, das diese Website von sich aus keine Browserdaten der Nutzer erhebt.
-				Das einzige was der Provider dieser Domain (Lima-City.de) an Daten erhebt ist die anzahl der einzelnen Seitenaufrufe pro Woche.
-				Sollten auf nachfolgenden Seiten anderweitig Daten erhoben werden, weise ich darauf hin.</p>
-            <div class="spass">
-			    <p>Aber vor allem gilt natürlich:<br />Viel Spaß auf meiner seite :)</p>
+			<div class="info">
+                <p>Diese Seite ist ein Hobby und daher kann es sein das es dauert bis neues hinzugefügt wird.</p>
+				<p>Zusätzlich sei gesagt, das diese Website von sich aus keine Browserdaten der Nutzer erhebt.</p>
+				<p>Das einzige was der Provider dieser Domain (die TrafficPlex GmbH) an Daten erhebt ist die anzahl der einzelnen Seitenaufrufe.</p>
+				<p>Sollten auf nachfolgenden Seiten anderweitig Daten erhoben werden, wird darauf hingewiesen.</p>
 			</div>
-        </div>
-    </body>
-	<?php include ("include/footer.php"); ?>
+                <?php include ("include/footer1.php"); ?>
 </html>
