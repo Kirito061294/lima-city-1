@@ -1,17 +1,18 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-       "http://www.w3.org/TR/html4/loose.dtd">
+<select name="ark">
+							<?php
+                $selected = '';
+                if (isset($_POST['submit'])) {
+                    $selected = $_POST['ark'];
+                }
+                echo '<option value="" disabled selected></option>';
+					add_option($selected,'ark00a','Mein Ark Server');
+							?>
 
-
-<html>
-    <head>
-        <title>ARK (Survival Evolved)</title>
-        <?php include ("../../../include/head1.php"); ?>
-            <div class="ueberschrift">
-                <h1>ARK (Survival Evolved)</h1>
-			</div>
-                <p>_________________________________________________________________</p>
-            <div class="linkzone01">
-                <p><a href="Ark/AS.php">Mein Ark Server</a></p>
-            </div>
-                <?php include ("../../../include/footer1.php"); ?>
-</html>
+						</select>
+							<?php
+				if (isset($_POST['ark'])) {
+					switch ($_POST['ark']) {
+                        case 'ark00a': include ("Konsole/Ark/AS.php"); break;
+					}
+				}
+							?>

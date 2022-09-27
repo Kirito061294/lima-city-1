@@ -1,17 +1,18 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-      "http://www.w3.org/TR/html4/loose.dtd">
+<select name="o">
+						<?php
+                $selected = '';
+                if (isset($_POST['submit'])) {
+                    $selected = $_POST['o'];
+                }
+                echo '<option value="" disabled selected></option>';
+					add_option($selected,'o00a','MMORPG´s');
+						?>
 
-
-<html>
-    <head>
-        <title>Online Spiele</title>
-        <?php include ("../../../include/head1.php"); ?>
-            <div class="ueberschrift">
-                <h1>Online Spiele</h1>
-			</div>
-                <p>_________________________________________________________________</p>
-            <div class="linkzone01">
-                <p><a href="MMO.php">MMORPGs</a></p>
-            </div>
-                <?php include ("../../../include/footer1.php"); ?>
-</html>
+					</select>
+						<?php
+			    if (isset($_POST['o'])) {
+                    switch ($_POST['o']) {
+                        case 'o00a': include ("Online/MMO.php"); break;
+                    }
+				}
+			?>

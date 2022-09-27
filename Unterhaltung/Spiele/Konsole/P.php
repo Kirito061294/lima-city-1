@@ -1,17 +1,18 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-       "http://www.w3.org/TR/html4/loose.dtd">
+<select name="pkmn">
+							<?php
+                $selected = '';
+                if (isset($_POST['submit'])) {
+                    $selected = $_POST['pkmn'];
+                }
+                echo '<option value="" disabled selected></option>';
+					add_option($selected,'pkmn00a','Pokemon Cheats');
+							?>
 
-
-<html>
-    <head>
-        <title>Pokemon</title>
-        <?php include ("../../../include/head1.php"); ?>
-            <div class="ueberschrift">
-                <h1>Pokemon</h1>
-			</div>
-                <p>_________________________________________________________________</p>
-            <div class="linkzone01">
-                <p><a href="P/PkmnCh.php">Pokemon Cheats</a></p>
-            </div>
-                <?php include ("../../../include/footer1.php"); ?>
-</html>
+						</select>
+							<?php
+				if (isset($_POST['pkmn'])) {
+					switch ($_POST['pkmn']) {
+                        case 'pkmn00a': include ("Konsole/P/PkmnCh.php"); break;
+					}
+				}
+							?>
