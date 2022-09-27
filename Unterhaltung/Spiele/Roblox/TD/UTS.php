@@ -12,7 +12,7 @@
 							<?php
 					if (isset($_POST['uts'])) {
 						switch ($_POST['uts']) {
-							case 'uts00a': include ("PC/MC/L.php"); break;
+							case 'uts00a': include ("Roblox/TD/UTS/tower.php"); break;
 						}
 					}
 				?>
