@@ -1,18 +1,18 @@
-<select name="epic">
+<select name="divine">
 									<?php
 						$selected = '';
 						if (isset($_POST['submit'])) {
-							$selected = $_POST['epic'];
+							$selected = $_POST['divine'];
 						}
 						echo '<option value="" disabled selected></option>';
-							//add_option($selected,'epic00a','');
+							add_option($selected,'divine00a','Blackbeard');
 							?>
 	
 								</select>
 									<?php
-					if (isset($_POST['epic'])) {
-						switch ($_POST['epic']) {
-							//case 'epic00a': include ("Roblox/TD/UTS/Tower/4epic/.php"); break;
+					if (isset($_POST['divine'])) {
+						switch ($_POST['divine']) {
+							case 'divine00a': include ("Roblox/TD/UTS/Tower/8divine/bb.php"); break;
 						}
 					}
 				?>
