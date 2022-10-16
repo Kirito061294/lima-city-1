@@ -95,35 +95,13 @@ nav li:hover {
 nav input[type="checkbox"] {
    display: none;
 }
-.expandable_li {
+.expandable_li { /* Kategorien im Header */
    display: flex;
    justify-content: center;
    align-items: center;
 }
-.toggle_button {
-   width: 30px;
-   height: 23px;
-   
-   position: absolute;
-   top: 25px;
-   right: 25px;
-   
-   display: none;
-   flex-direction: column;
-   justify-content: space-between;
-}
-.bar {
-   height: 4px;
-   width: 100%;
-   background: var(--nav-c);
-   border-radius: 100px;
-}
 .kopf a {
    text-decoration:none;
-   color:white;
-}
-h1 {
-   color: #000000;
 }
 .center1 {
    margin: auto;
@@ -273,21 +251,35 @@ footer {
 .rechte p {
    font-size: 20px;
 }
-.zitat1 p {
-   color: gold;
-   padding: 0;
-}
-.zitat2 p {
-   color: red;
-}
 /*@media screen and (min-height: 1081px) {  Alles ab 1081 Pixel höhe 
    .video001 iframe {
       width: 100%;
       height: 450px;
    }
 }*/
+
+/* Für Spieleseiten */
+
+/* Roblox - Tower Defense */
 .tower01 {
    padding: 5px 0 0 0;
+}/* ------------------- */
+
+.bar { /* button zum umschalten des headers */
+   height: 4px;
+   width: 100%;
+   background: var(--nav-c);
+   border-radius: 100px;
+}
+.toggle_button { /* klasse zum umschalten des headers */
+   width: 30px;
+   height: 23px;
+   position: absolute;
+   top: 25px;
+   right: 25px;
+   display: none;
+   flex-direction: column;
+   justify-content: space-between;
 }
 @media screen and (max-width: 1081px) { /* Alles BIS 1081 Pixel breite */
    *{
