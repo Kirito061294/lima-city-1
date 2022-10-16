@@ -53,3 +53,136 @@ Unterhaltung/mf-include/field/atrsfy.php
 Unterhaltung/mf-include/field/morpheus/ahfst.php
 Unterhaltung/MorphicFields.php
 include/head1.php
+Glaube/Bibel/BasisBibel.php
+Glaube/Bibel/BB/NT.php
+Glaube/Bibel/BB/NT/buch_matthaeus1.php
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01.php
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k01.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k17.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k18.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k19.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v01.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k24.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k23.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k22.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k21.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k20.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v10.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v09.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v08.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v07.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v06.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v05.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v04.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v03.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v02.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v19.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v18.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v17.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v16.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v15.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v14.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v13.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v12.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v11.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v20.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v21.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v22.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v23.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v24.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k01.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k02.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k03.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k04.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k05.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k06.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k07.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k08.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k09.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k10.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k11.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k12.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k13.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k14.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k15.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k16.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k17.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k18.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k19.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k20.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k21.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k22.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k23.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k24.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v01.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v02.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v03.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v04.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v05.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v06.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v07.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v08.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v09.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v10.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v11.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v12.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v13.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v14.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v15.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v16.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v17.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v18.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v19.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v20.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v21.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v22.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v23.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v24.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k01.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k02.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k03.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k04.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k05.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k06.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k07.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k08.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k09.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k10.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k11.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k12.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k13.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k14.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k15.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k16.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k17.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k18.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k19.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k20.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k21.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k22.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k23.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k24.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v01.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v02.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v03.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v04.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v05.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v06.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v07.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v08.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v09.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v10.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v11.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v12.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v13.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v14.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v15.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v16.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v17.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v18.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v19.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v20.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v21.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v22.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v23.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v24.txt
