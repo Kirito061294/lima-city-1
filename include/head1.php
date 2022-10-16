@@ -1,5 +1,5 @@
-<link rel="shortcut icon" href="http://raspi.local:5000/include/45454.ico" type="image/x-icon"/>
-        <link rel="stylesheet" type="text/css" href="http://raspi.local:5000/include/style.css">
+<link rel="shortcut icon" href="https://mwiese.de/include/45454.ico" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="https://mwiese.de/include/style.css">
         <meta lang="de" charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     </head>
 	<body>
@@ -30,8 +30,8 @@
 							<label for="subdomains_checkbox">Unterseiten</label>
 						    <ul class="dropdown"><li><a href="http://raspi.local:5000/Glaube/Glaube.php" target="_blank">Glaubensthemen</a></li><li><a href="https://pc.mwiese.de" target="_blank">Mein Hobby</a></li><li><a href="http://raspi.local:5000/Themen/Themen.php" target="_blank">Spezielle Themen</a></li></ul>
 						</li>
-                        <li><a href="http://raspi.local:5000/Rechtliches/Impressum.php" target="_blank">Impressum</a></li>
-                        <li><a href="http://raspi.local:5000/Rechtliches/Datenschutz.php" target="_blank">Datenschutz</a></li>
+                        <li><a href="https://mwiese.de/Rechtliches/Impressum.php" target="_blank">Impressum</a></li>
+                        <li><a href="https://mwiese.de/Rechtliches/Datenschutz.php" target="_blank">Datenschutz</a></li>
                     </ul>
                 </nav>
             </section>
