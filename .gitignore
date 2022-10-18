@@ -1,72 +1,14 @@
 
 spezielles/aussagen/aussagen.php
-spezielles/aussagen/include/cat/bewusstsein.php
-spezielles/aussagen/include/cat/bewusstsein/trance.php
-spezielles/aussagen/include/cat/bewusstsein/trance/ts.php
-spezielles/aussagen/include/cat/körper.php
-spezielles/aussagen/include/cat/körper/gesundheit.php
-spezielles/aussagen/include/cat/körper/gesundheit/augen.php
-spezielles/aussagen/include/cat/körper/gesundheit/augen/klar.php
-spezielles/aussagen/include/cat/körper/gesundheit/haut.php
-spezielles/aussagen/include/cat/körper/gesundheit/haut/rein.php
-spezielles/aussagen/include/cat/körper/gesundheit/ohren.php
-spezielles/aussagen/include/cat/körper/gesundheit/ohren/klar.php
-spezielles/aussagen/include/cat/körper/veränderungen.php
-spezielles/aussagen/include/cat/körper/veränderungen/augen.php
-spezielles/aussagen/include/cat/körper/veränderungen/augen/nacht.php
-spezielles/aussagen/include/cat/körper/veränderungen/augen/tc.php
-spezielles/aussagen/include/cat/körper/veränderungen/elf.php
-spezielles/aussagen/include/cat/körper/veränderungen/elf/e.php
-spezielles/aussagen/include/cat/körper/veränderungen/elf/o.php
-spezielles/aussagen/include/cat/körper/veränderungen/katze.php
-spezielles/aussagen/include/cat/körper/veränderungen/katze/a.php
-spezielles/aussagen/include/cat/körper/veränderungen/katze/b.php
-spezielles/aussagen/include/cat/körper/veränderungen/katze/flk.php
-spezielles/aussagen/include/cat/körper/veränderungen/katze/katzengesicht(768x512).jpeg
-spezielles/aussagen/include/cat/körper/veränderungen/katze/kf.php
-spezielles/aussagen/include/cat/körper/veränderungen/katze/kg.php
-spezielles/aussagen/include/cat/körper/veränderungen/katze/ki.php
-spezielles/aussagen/include/cat/körper/veränderungen/katze/kp.php
-spezielles/aussagen/include/cat/körper/veränderungen/katze/ks.php
-spezielles/aussagen/include/cat/körper/veränderungen/katze/r.php
-spezielles/aussagen/include/cat/körper/veränderungen/mu+be.php
-spezielles/aussagen/include/cat/körper/veränderungen/katze/re.php
-spezielles/aussagen/include/cat/körper/veränderungen/mu+be/pb.php
-spezielles/aussagen/include/cat/körper/veränderungen/mu+be/rb.php
-spezielles/aussagen/include/cat/körper/veränderungen/sinne.php
-spezielles/aussagen/include/cat/körper/veränderungen/sinne/gg.php
-spezielles/aussagen/include/cat/körper/veränderungen/sinne/sy.php
-spezielles/aussagen/include/cat/verstärkungen/aussagen.php
-spezielles/aussagen/include/cat/verstärkungen.php
-spezielles/aussagen/include/cat/verstärkungen/trance.php
-spezielles/aussagen/include/cat/wellness.php
-spezielles/aussagen/include/cat/wellness/e.php
-spezielles/aussagen/include/cat/wellness/trance.php
-spezielles/aussagen/include/cat/wellness/trance/tv.php
-spezielles/aussagen/include/info.php
+spezielles/aussagen/include/*
 Technik/2/trolling.py
-Unterhaltung/mf-include/cat/morpheus/r+r.php
-Unterhaltung/mf-include/cat/maitreya/beziehungen.php
-Unterhaltung/mf-include/ersteller/mait_fields.php
-Unterhaltung/mf-include/ersteller/morpheus_fields.php
-Unterhaltung/mf-include/field/atrsfy.php
-Unterhaltung/mf-include/field/morpheus/ahfst.php
+Unterhaltung/mf-include/*
 Unterhaltung/MorphicFields.php
 include/head1.php
 Glaube/Bibel/BasisBibel.php
 Glaube/Bibel/BB/NT.php
 Glaube/Bibel/BB/NT/buch_matthaeus1.php
 Glaube/Bibel/BB/NT/buch_matthaeus1/k01.php
-Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k01.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k17.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k18.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k19.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v01.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k24.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k23.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k22.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k21.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k01/k20.txt
 Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v10.txt
 Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v09.txt
 Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v08.txt
@@ -90,78 +32,6 @@ Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v21.txt
 Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v22.txt
 Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v23.txt
 Glaube/Bibel/BB/NT/buch_matthaeus1/k01/v24.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k01.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k02.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k03.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k04.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k05.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k06.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k07.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k08.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k09.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k10.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k11.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k12.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k13.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k14.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k15.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k16.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k17.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k18.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k19.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k20.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k21.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k22.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k23.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/k24.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v01.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v02.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v03.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v04.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v05.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v06.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v07.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v08.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v09.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v10.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v11.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v12.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v13.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v14.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v15.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v16.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v17.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v18.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v19.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v20.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v21.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v22.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v23.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02 - Kopie/v24.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k01.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k02.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k03.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k04.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k05.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k06.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k07.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k08.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k09.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k10.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k11.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k12.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k13.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k14.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k15.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k16.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k17.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k18.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k19.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k20.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k21.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k22.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k23.txt
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/k24.txt
 Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v01.txt
 Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v02.txt
 Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v03.txt
@@ -186,3 +56,5 @@ Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v21.txt
 Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v22.txt
 Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v23.txt
 Glaube/Bibel/BB/NT/buch_matthaeus1/k02/v24.txt
+Glaube/Bibel/BB/NT/buch_matthaeus1/kapitelvorlage.php
+Glaube/Bibel/BB/NT/buch_matthaeus1/vorlage/*
