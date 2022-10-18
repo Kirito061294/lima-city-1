@@ -7,7 +7,7 @@
         <header>
             <section>
                 <nav>
-				    <a class="logo" href="raspi.local:5000">Home</a>
+				    <a class="logo" href="https://mwiese.de">Home</a>
 				    <input type="checkbox" id="toggle_button">
 					<label for="toggle_button" class="toggle_button"><span class="bar"></span><span class="bar"></span><span class="bar"></span></label>
                     <ul class="kopf">
@@ -15,16 +15,16 @@
 						    <input type="checkbox" id="technik_checkbox">
 							<label for="technik_checkbox">Bibel lesen</label>
 						    <ul class="dropdown">
-								<li><a href="Bibel/BasisBibel.php">BasisBibel</a></li>
+								<li><a href="https://mwiese.de/Glaube/Bibel/BasisBibel.php">BasisBibel</a></li>
 							</ul>
 						</li>
                         <li class="expandable_li">
 						    <input type="checkbox" id="technik_checkbox">
 							<label for="technik_checkbox">Themen</label>
 						    <ul class="dropdown">
-								<li><a href="themen/judr.php">Jesus und die Religionen</a></li>
-								<li><a href="themen/gs-jn.php">Gott schauen - Ja/Nein?</a></li>
-								<li><a href="themen/wkidh.php">Wer kommt in die Hölle?</a></li>
+								<li><a href="https://mwiese.de/Glaube/themen/judr.php">Jesus und die Religionen</a></li>
+								<li><a href="https://mwiese.de/Glaube/themen/gs-jn.php">Gott schauen - Ja/Nein?</a></li>
+								<li><a href="https://mwiese.de/Glaube/themen/wkidh.php">Wer kommt in die Hölle?</a></li>
 							</ul>
 						</li>
                         <li><a href="https://mwiese.de/Rechtliches/Impressum.php" target="_blank">Impressum</a></li>
