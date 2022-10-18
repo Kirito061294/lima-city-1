@@ -1,16 +1,6 @@
 
-spezielles/aussagen/aussagen.php
-spezielles/aussagen/include/*
+spezielles/aussagen/*
 Technik/2/trolling.py
 Unterhaltung/mf-include/*
 Unterhaltung/MorphicFields.php
-include/head1.php
-Glaube/Bibel/BasisBibel.php
-Glaube/Bibel/BB/NT.php
-Glaube/Bibel/BB/NT/buch_matthaeus1.php
-Glaube/Bibel/BB/NT/buch_matthaeus1/k01.php
-Glaube/Bibel/BB/NT/buch_matthaeus1/k01/*
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02.php
-Glaube/Bibel/BB/NT/buch_matthaeus1/k02/*
-Glaube/Bibel/BB/NT/buch_matthaeus1/kapitelvorlage.php
-Glaube/Bibel/BB/NT/buch_matthaeus1/vorlage/*
+Glaube/*
