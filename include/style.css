@@ -214,6 +214,9 @@ select::-ms-expand {
    background-color:#296b6b;
    color:yellow;
 }
+.rechts_angezeigt {
+   float: right;
+}
 .main-mod {
    padding: 0 0 10px 0;
 }
