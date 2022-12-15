@@ -30,9 +30,9 @@
 					}
 					echo '<option value="" disabled selected></option>';
 						add_option($selected,'themen001','Politik');
-						//add_option($selected,'themen002','Medien');
+						add_option($selected,'themen002','Medien');
 						add_option($selected,'themen003','Covid-19');
-						//add_option($selected,'themen004','Technik');
+						add_option($selected,'themen004','Technik');
 					?>
 
 					</select>
@@ -40,9 +40,9 @@
 				if (isset($_POST['themen'])) {
 					switch ($_POST['themen']) {
 						case 'themen001': include ("include/cat/Politik.php"); break;
-						case 'themen002': include ("include/cat/Medien.php"); break;
+						//case 'themen002': include ("include/cat/Medien.php"); break;
 						case 'themen003': include ("include/cat/Covid.php"); break;
-						case 'themen004': include ("include/cat/Technik.php"); break;
+						//case 'themen004': include ("include/cat/Technik.php"); break;
 					}
 				}
 			?>
