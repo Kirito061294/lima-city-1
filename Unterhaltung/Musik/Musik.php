@@ -31,16 +31,16 @@
 						$selected = $_POST['musik'];
 					}
 					echo '<option value="" disabled selected></option>';
-						add_option($selected,'m001','Adele');
-						add_option($selected,'m002','Adel Tawil');
+						//add_option($selected,'m001','Adele');
+						//add_option($selected,'m002','Adel Tawil');
 						//add_option($selected,'m003','Alan Walker');
 						add_option($selected,'m005','Anime Tracks');
 						//add_option($selected,'m006','Damestream');
 						add_option($selected,'m007','Geometry Dash');
 						//add_option($selected,'m008','George Ezra');
 						//add_option($selected,'m009','Nightcore');
-						add_option($selected,'m010','Sunrise Avenue');
-						add_option($selected,'m004','Anderes');
+						//add_option($selected,'m010','Sunrise Avenue');
+						//add_option($selected,'m004','Anderes');
 					?>
 
 					</select>
