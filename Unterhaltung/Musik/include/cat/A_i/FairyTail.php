@@ -1,72 +1,93 @@
-<select name="fairy">
-                    <option value="" disabled selected></option>
-                    <option value="fairy001">Opening 1</option>
-                    <!--<option value="fairy00a">Ending 1</option>-->
-                    <option value="fairy002">Opening 2</option>
-                    <!--<option value="fairy00a">Ending 1</option>-->
-                    <option value="fairy003">Opening 3</option>
-                    <!--<option value="fairy00a">Ending 1</option>-->
-                    <option value="fairy004">Opening 4</option>
-                    <!--<option value="fairy00a">Ending 1</option>-->
-                    <option value="fairy005">Opening 5</option>
-                    <!--<option value="fairy00a">Ending 1</option>-->
-                    <option value="fairy006">Opening 6</option>
-                    <!--<option value="fairy00a">Ending 1</option>-->
-                    <option value="fairy007">Opening 7</option>
-                    <!--<option value="fairy00a">Ending 7</option>-->
-                    <option value="fairy008">Opening 8</option>
-                    <!--<option value="fairy00a">Ending 8</option>-->
-                    <option value="fairy009">Opening 9</option>
-                    <!--<option value="fairy00a">Ending 9</option>-->
-                    <option value="fairy010">Opening 10</option>
-                    <!--<option value="fairy00a">Ending 10</option>-->
-                    <option value="fairy011">Opening 11</option>
-                    <!--<option value="fairy00a">Ending 11</option>-->
-                    <option value="fairy012">Opening 12</option>
-                    <!--<option value="fairy00a">Ending 12</option>-->
-                    <option value="fairy013">Opening 13</option>
-                    <!--<option value="fairy00a">Ending 13</option>-->
-                    <option value="fairy014">Opening 14</option>
-                    <!--<option value="fairy00a">Ending 14</option>-->
-                    <option value="fairy015">Opening 15</option>
-                    <!--<option value="fairy00a">Ending 15</option>-->
-                    <option value="fairy016">Opening 16</option>
-                    <!--<option value="fairy00a">Ending 16</option>-->
-                    <option value="fairy017">Opening 17</option>
-                    <!--<option value="fairy00a">Ending 17</option>-->
-		        </select>
+			<select name="fairy">
+							<?php
+							$selected = '';
+							if (isset($_POST['submit'])) {
+								$selected = $_POST['fairy'];
+							}
+							echo '<option value="" disabled selected></option>';
+								add_option($selected,'fairy001','S1 Opening 1');
+								add_option($selected,'fairy00a','S1 Ending 1');
+								add_option($selected,'fairy002','S1 Opening 2');
+								add_option($selected,'fairy00b','S1 Ending 2');
+								add_option($selected,'fairy003','S1 Opening 3');
+								add_option($selected,'fairy00c','S1 Ending 3');
+								add_option($selected,'fairy004','S1 Opening 4');
+								add_option($selected,'fairy00d','S1 Ending 4');
+								add_option($selected,'fairy005','S2 Opening 1');
+								add_option($selected,'fairy00e','S2 Ending 1');
+								add_option($selected,'fairy006','S2 Opening 2');
+								add_option($selected,'fairy00f','S2 Ending 2');
+								add_option($selected,'fairy007','S2 Opening 3');
+								add_option($selected,'fairy00g','S2 Ending 3');
+								add_option($selected,'fairy008','S2 Opening 4');
+								add_option($selected,'fairy00h','S2 Ending 4');
+								add_option($selected,'fairy009','S3 Opening 1');
+								add_option($selected,'fairy00i','S3 Ending 1');
+								add_option($selected,'fairy010','S3 Opening 2');
+								add_option($selected,'fairy00j','S3 Ending 2');
+								add_option($selected,'fairy011','S3 Opening 3');
+								add_option($selected,'fairy00k','S3 Ending 3');
+								add_option($selected,'fairy012','S3 Opening 4');
+								add_option($selected,'fairy00l','S3 Ending 4');
+								add_option($selected,'fairy013','S4 Opening 1');
+								add_option($selected,'fairy00m','S4 Ending 1');
+								add_option($selected,'fairy014','S4 Opening 2');
+								add_option($selected,'fairy00n','S4 Ending 2');
+								add_option($selected,'fairy015','S5 Opening 1');
+								add_option($selected,'fairy00o','S5 Ending 1');
+								add_option($selected,'fairy016','S5 Opening 2');
+								add_option($selected,'fairy00p','S5 Ending 2');
+								add_option($selected,'fairy017','S5 Opening 3');
+								add_option($selected,'fairy00q','S5 Ending 3');
+								//add_option($selected,'fairy018','S6 Opening 1');
+								//add_option($selected,'fairy00r','S6 Ending 1');
+								//add_option($selected,'fairy019','S6 Opening 2');
+								//add_option($selected,'fairy00s','S6 Ending 2');
+								//add_option($selected,'fairy020','S6 Opening 3');
+								//add_option($selected,'fairy00t','S6 Ending 3');
+							?>
+
+						</select>
 			<?php
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy001') {include ("include/iframes/A-i/FT/op/1.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00a') {include ("include/iframes/A-i/FT/ed/1.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy002') {include ("include/iframes/A-i/FT/op/2.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy003') {include ("include/iframes/A-i/FT/op/3.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy004') {include ("include/iframes/A-i/FT/op/4.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy005') {include ("include/iframes/A-i/FT/op/5.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy006') {include ("include/iframes/A-i/FT/op/6.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy007') {include ("include/iframes/A-i/FT/op/7.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy008') {include ("include/iframes/A-i/FT/op/8.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy009') {include ("include/iframes/A-i/FT/op/9.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy010') {include ("include/iframes/A-i/FT/op/10.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy011') {include ("include/iframes/A-i/FT/op/11.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy012') {include ("include/iframes/A-i/FT/op/12.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy013') {include ("include/iframes/A-i/FT/op/13.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy014') {include ("include/iframes/A-i/FT/op/14.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy015') {include ("include/iframes/A-i/FT/op/15.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy016') {include ("include/iframes/A-i/FT/op/16.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy017') {include ("include/iframes/A-i/FT/op/17.php"); }}
-                //if(isset($_POST['submit'])){if ($_POST['fairy'] == 'fairy00b') {include ("include/iframes/A-i/FT/ed/2.php"); }}
+			    if (isset($_POST['fairy'])) {
+                    switch ($_POST['fairy']) {
+                        case 'fairy001': include ("include/iframes/A-i/FT/op/01/1.php"); break;
+                        case 'fairy002': include ("include/iframes/A-i/FT/op/01/2.php"); break;
+                        case 'fairy003': include ("include/iframes/A-i/FT/op/01/3.php"); break;
+                        case 'fairy004': include ("include/iframes/A-i/FT/op/01/4.php"); break;
+                        case 'fairy005': include ("include/iframes/A-i/FT/op/02/5.php"); break;
+                        case 'fairy006': include ("include/iframes/A-i/FT/op/02/6.php"); break;
+                        case 'fairy007': include ("include/iframes/A-i/FT/op/02/7.php"); break;
+                        case 'fairy008': include ("include/iframes/A-i/FT/op/02/8.php"); break;
+                        case 'fairy009': include ("include/iframes/A-i/FT/op/03/9.php"); break;
+                        case 'fairy010': include ("include/iframes/A-i/FT/op/03/10.php"); break;
+                        case 'fairy011': include ("include/iframes/A-i/FT/op/03/11.php"); break;
+                        case 'fairy012': include ("include/iframes/A-i/FT/op/03/12.php"); break;
+                        case 'fairy013': include ("include/iframes/A-i/FT/op/04/13.php"); break;
+                        case 'fairy014': include ("include/iframes/A-i/FT/op/04/14.php"); break;
+                        case 'fairy015': include ("include/iframes/A-i/FT/op/05/15.php"); break;
+                        case 'fairy016': include ("include/iframes/A-i/FT/op/05/16.php"); break;
+                        case 'fairy017': include ("include/iframes/A-i/FT/op/05/17.php"); break;
+                        case 'fairy018': include ("include/iframes/A-i/FT/op/06/18.php"); break;
+                        case 'fairy019': include ("include/iframes/A-i/FT/op/06/19.php"); break;
+                        case 'fairy020': include ("include/iframes/A-i/FT/op/06/20.php"); break;
+                        case 'fairy00a': include ("include/iframes/A-i/FT/ed/1.php"); break;
+                        case 'fairy00b': include ("include/iframes/A-i/FT/ed/2.php"); break;
+                        case 'fairy00c': include ("include/iframes/A-i/FT/ed/3.php"); break;
+                        case 'fairy00d': include ("include/iframes/A-i/FT/ed/4.php"); break;
+                        case 'fairy00e': include ("include/iframes/A-i/FT/ed/5.php"); break;
+                        case 'fairy00f': include ("include/iframes/A-i/FT/ed/6.php"); break;
+                        case 'fairy00g': include ("include/iframes/A-i/FT/ed/7.php"); break;
+                        case 'fairy00h': include ("include/iframes/A-i/FT/ed/8.php"); break;
+                        case 'fairy00i': include ("include/iframes/A-i/FT/ed/9.php"); break;
+                        case 'fairy00j': include ("include/iframes/A-i/FT/ed/10.php"); break;
+                        case 'fairy00k': include ("include/iframes/A-i/FT/ed/11.php"); break;
+                        case 'fairy00l': include ("include/iframes/A-i/FT/ed/12.php"); break;
+                        case 'fairy00m': include ("include/iframes/A-i/FT/ed/13.php"); break;
+                        case 'fairy00n': include ("include/iframes/A-i/FT/ed/14.php"); break;
+                        case 'fairy00o': include ("include/iframes/A-i/FT/ed/15.php"); break;
+                        case 'fairy00p': include ("include/iframes/A-i/FT/ed/16.php"); break;
+                        case 'fairy00q': include ("include/iframes/A-i/FT/ed/17.php"); break;
+                    }
+				}
+			?>

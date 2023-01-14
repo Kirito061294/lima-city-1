@@ -1,35 +1,38 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-       "http://www.w3.org/TR/html4/loose.dtd">
+<select name="clientmods">
+								<?php
+							$selected = '';
+							if (isset($_POST['submit'])) {
+								$selected = $_POST['clientmods'];
+							}
+							echo '<option value="" disabled selected></option>';
+								add_option($selected,'cm00e','Agricraft');
+								add_option($selected,'cm00d','GregTech Intergalactical');
+								add_option($selected,'cm00b','JourneyMap');
+								add_option($selected,'cm00c','Just Enough Items');
+								add_option($selected,'cm00f','Mystical Agriculture');
+								add_option($selected,'cm00a','Optifine');
+								add_option($selected,'cm00g','Thaumcraft');
+								add_option($selected,'cm00h','Waila');
+								//add_option($selected,'cm00i','Light Overlay');
+								//add_option($selected,'cm00j','Light Overlay');
+								//add_option($selected,'cm00k','Light Overlay');
+								//add_option($selected,'cm00l','Light Overlay');
+							?>
 
-
-<html>
-    <head>
-        <title>Minecraft Client Mods</title>
-    <?php include ("../../../../include/head1.php"); ?>
-            <div class="ueberschrift">
-                <h1>Client Mods</h1>
-			</div>
-                <p>_________________________________________________________________</p>
-			<div class="linkzone01">
-                <div class="pre-spoiler">
-                    <input name="button" type="button" onClick="if (this.parentNode.getElementsByTagName('div')[0].style.display != 'none') { this.parentNode.getElementsByTagName('div')[0].style.display = 'none'; this.value = 'BuildCraft'; } else { this.parentNode.getElementsByTagName('div')[0].style.display = 'block'; this.value = 'BuildCraft';}" value="BuildCraft">
-                    <div class="spoiler" style="display: none;"><p><a href="http://bit.ly/1HSMpTM" target="_blank">(1.7.10)</a> / <a href="http://bit.ly/1JV4Jwb" target="_blank">(1.6.4)</a></p></div> 
-                </div>
-            <br />
-                <div class="pre-spoiler">
-                    <input name="button" type="button" onClick="if (this.parentNode.getElementsByTagName('div')[0].style.display != 'none') { this.parentNode.getElementsByTagName('div')[0].style.display = 'none'; this.value = 'Rei´s Minimap'; } else { this.parentNode.getElementsByTagName('div')[0].style.display = 'block'; this.value = 'Rei´s Minimap';}" value="Rei´s Minimap">
-                    <div class="spoiler" style="display: none;"><h3><a href="http://bit.ly/1L40RHH" target="_blank">(1.7.10)</a> / <a href="http://bit.ly/1HrysG6" target="_blank">(1.7.2)</a> / <a href="http://bit.ly/1CvDfuc" target="_blank">(1.6.4)</a> / <a href="http://bit.ly/1RpauGh" target="_blank">1.6.2)</a> / <a href="http://bit.ly/1fvmHIJ" target="_blank">(1.5.2)</a></h3></div> 
-                </div>
-            <br />
-                <div class="pre-spoiler">
-                    <input name="button" type="button" onClick="if (this.parentNode.getElementsByTagName('div')[0].style.display != 'none') { this.parentNode.getElementsByTagName('div')[0].style.display = 'none'; this.value = 'Too Many Items'; } else { this.parentNode.getElementsByTagName('div')[0].style.display = 'block'; this.value = 'Too Many Items';}" value="Too Many Items">
-                    <div class="spoiler" style="display: none;"><h3><a href="http://bit.ly/1NUSHAO" target="_blank">(1.7.2)</a></h3></div> 
-                </div>
-            <br />
-                <div class="pre-spoiler">
-                    <input name="button" type="button" onClick="if (this.parentNode.getElementsByTagName('div')[0].style.display != 'none') { this.parentNode.getElementsByTagName('div')[0].style.display = 'none'; this.value = 'Pixelmon'; } else { this.parentNode.getElementsByTagName('div')[0].style.display = 'block'; this.value = 'Pixelmon';}" value="Pixelmon">
-                    <div class="spoiler" style="display: none;"><h3><a href="http://www.mediafire.com/download/85ped32j00g9ivb/Pixelmon-1.8-4.0.1-universal.jar" target="_blank">1.7.10</a></h3></div>
-                </div>
-            </div>
-                <?php include ("../../../../include/footer1.php"); ?>
-</html>
+							</select>
+								<?php
+					if (isset($_POST['clientmods'])) {
+						switch ($_POST['clientmods']) {
+							case 'cm00a': include ("PC/MC/CM/optifine.php"); break;
+							case 'cm00b': include ("PC/MC/CM/journeymap.php"); break;
+							case 'cm00c': include ("PC/MC/CM/jei.php"); break;
+							case 'cm00d': include ("PC/MC/CM/gti.php"); break;
+							case 'cm00e': include ("PC/MC/CM/agricraft.php"); break;
+							case 'cm00f': include ("PC/MC/CM/myst_agri.php"); break;
+							case 'cm00g': include ("PC/MC/CM/thaumcraft.php"); break;
+							case 'cm00h': include ("PC/MC/CM/waila.php"); break;
+							//case 'cm00i': include ("PC/MC/L.php"); break;
+							//case 'cm00j': include ("PC/MC/L.php"); break;
+						}
+					}
+				?>

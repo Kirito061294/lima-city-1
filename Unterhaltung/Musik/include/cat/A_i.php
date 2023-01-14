@@ -1,20 +1,34 @@
 <select name="anime">
-                    <option value="" disabled selected></option>
-                    <option value="anime00a">Pokemon</option>
-                    <option value="anime00b">Fairy Tail</option>
-                    <option value="anime001">Accel World Opening 1</option>
-                    <option value="anime002">Accel World Ending 1</option>
-                    <option value="anime003">Amnesia Opening 1</option>
-                    <option value="anime004">La Storia Della Arcana Famiglia Opening 1</option>
-                    <option value="anime005">Mondaiji-tachi ga Isekai Kara Kuru Sou Desu yo Opening 1</option>
-                    <option value="anime006">Seiken Tsukai no World Break Opening 1</option>
-		        </select>
-			<?php
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime00a') {include ("include/cat/A_i/PKMN.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime00b') {include ("include/cat/A_i/FairyTail.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime001') {include ("include/iframes/A-i/AW_op_1.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime002') {include ("include/iframes/A-i/AW_ed_1.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime003') {include ("include/iframes/A-i/A_op_1.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime004') {include ("include/iframes/A-i/LSdAF_op_1.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime005') {include ("include/iframes/A-i/MtglKKSDy_op_1.php"); }}
-                if(isset($_POST['submit'])){if ($_POST['anime'] == 'anime006') {include ("include/iframes/A-i/STnWB_op_1.php"); }}
+							<?php
+						$selected = '';
+						if (isset($_POST['submit'])) {
+							$selected = $_POST['anime'];
+						}
+						echo '<option value="" disabled selected></option>';
+							add_option($selected,'anime00c','Accel World');
+							add_option($selected,'anime00d','Amnesia');
+							add_option($selected,'anime00b','Fairy Tail');
+							add_option($selected,'anime00h','Food Wars');
+							add_option($selected,'anime00e','La Storia Della Arcana Famiglia');
+							add_option($selected,'anime00i','Maou Gakuin no Futekigousha');
+							add_option($selected,'anime00f','Mondaiji-tachi ga Isekai Kara Kuru Sou Desu yo');
+							add_option($selected,'anime00a','Pokemon');
+							add_option($selected,'anime00g','Seiken Tsukai no World Break');
+						?>
+
+						</select>
+				<?php
+			    if (isset($_POST['anime'])) {
+                    switch ($_POST['anime']) {
+                        case 'anime00a': include ("include/cat/A_i/PKMN.php"); break;
+                        case 'anime00b': include ("include/cat/A_i/FairyTail.php"); break;
+                        case 'anime00c': include ("include/cat/A_i/accel-world.php"); break;
+                        case 'anime00d': include ("include/cat/A_i/amnesia.php"); break;
+                        case 'anime00e': include ("include/cat/A_i/LSdAF.php"); break;
+                        case 'anime00f': include ("include/cat/A_i/MtgIKKSDy.php"); break;
+                        case 'anime00g': include ("include/cat/A_i/STnWB.php"); break;
+                        case 'anime00h': include ("include/cat/A_i/FoodWars.php"); break;
+                        case 'anime00i': include ("include/cat/A_i/MGnF.php"); break;
+                    }
+				}
+			?>

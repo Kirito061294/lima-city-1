@@ -1,21 +1,26 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-       "http://www.w3.org/TR/html4/loose.dtd">
+<select name="minecraft">
+							<?php
+						$selected = '';
+						if (isset($_POST['submit'])) {
+							$selected = $_POST['minecraft'];
+						}
+						echo '<option value="" disabled selected></option>';
+							add_option($selected,'mc00c','Client Mods');
+							add_option($selected,'mc00a','Launcher');
+							add_option($selected,'mc00b','Server Plugins');
+							//add_option($selected,'mc00d','Launcher');
+							//add_option($selected,'mc00e','Launcher');
+						?>
 
-
-<html>
-    <head>
-        <title>Minecraft</title>
-    <?php include ("../../../../include/head1.php"); ?>
-            <div class="ueberschrift">
-                <h1>Minecraft</h1>
-			</div>
-                <p>_________________________________________________________________</p>
-			<div class="linkzone01">
-                <p><a href="L.php">Launcher</a></p>
-                <p><a href="SP.php">Server Plugins</a></p>
-                <p><a href="CM.php">Client Mods</a></p>
-                <!--<p><a href="S.php">Meine Server</a></p>
-                <p><a href="">Server auf denen ich spiele</a></p>-->
-            </div>
-                <?php include ("../../../../include/footer1.php"); ?>
-</html>
+						</select>
+							<?php
+					if (isset($_POST['minecraft'])) {
+						switch ($_POST['minecraft']) {
+							case 'mc00a': include ("PC/MC/L.php"); break;
+							case 'mc00b': include ("PC/MC/SP.php"); break;
+							case 'mc00c': include ("PC/MC/CM.php"); break;
+							//case 'mc00d': include ("PC/MC/L.php"); break;
+							//case 'mc00e': include ("PC/MC/L.php"); break;
+						}
+					}
+				?>

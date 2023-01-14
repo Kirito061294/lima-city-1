@@ -1,77 +1,67 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
+       "http://www.w3.org/TR/html4/loose.dtd">
 
 
 <html>
-<head>
-    <title>Musik</title>
-    <?php include("../../include/head1.php"); ?>
-    <div class="ueberschrift">
-        <h1>Musik</h1>
-    </div>
-    <p>____________________________________________</p>
-    <div class="linkzone01">
-        <form action="" method="post" class="mb-3">
-            <select name="musik">
-                <?php
-                $selected = '';
-                function add_option($selected, $option_value,$interpret_name) {
-                    echo '<option value="'.$option_value.'"';
-                    if ($selected == $option_value) {
-                        echo ' selected="selected"';
-                    }
-                    echo '>'.$interpret_name.'</option>';
-                }
+    <head>
+        <title>Musik</title>
+        <?php include ("../../include/head1.php"); ?>
+            <div class="ueberschrift">
+                <h1>Musik</h1>
+			</div>
+			<div class="rechte">
+				<p>Der Inhalt dieser eingebetteten Videos stammt nicht von mir und ich habe keinerlei Kontakt oder Verbindung zum Rechteinhaber.</p>
+				<p>Sollten rechtliche Probleme auftreten werde ich die betreffenden Videos statt sie einzubetten lediglich verlinken.</p>
+			</div>
+            <div class="medienzone01">
+			<form action="" method="post" class="mb-3">
+				<div><input type="submit" name="submit" value="Auswahl"></div>
+				<div class="include1">
+					<select name="musik">
+						<?php
+					$selected = '';
+					function add_option($selected, $option_value,$interpret_name) {
+						echo '<option value="'.$option_value.'"';
+						if ($selected == $option_value) {
+							echo ' selected="selected"';
+						}
+						echo '>'.$interpret_name.'</option>';
+					}
+					if (isset($_POST['submit'])) {
+						$selected = $_POST['musik'];
+					}
+					echo '<option value="" disabled selected></option>';
+						//add_option($selected,'m001','Adele');
+						//add_option($selected,'m002','Adel Tawil');
+						//add_option($selected,'m003','Alan Walker');
+						add_option($selected,'m005','Anime Tracks');
+						//add_option($selected,'m006','Damestream');
+						add_option($selected,'m007','Geometry Dash');
+						//add_option($selected,'m008','George Ezra');
+						//add_option($selected,'m009','Nightcore');
+						//add_option($selected,'m010','Sunrise Avenue');
+						//add_option($selected,'m004','Anderes');
+					?>
 
-                if (isset($_POST['submit'])) {
-                    $selected = $_POST['musik'];
-                }
-                echo '<option value="" disabled selected></option>';
-                add_option($selected,'m001','Adel Tawil');
-                ?>
-                <option value="m002">Alan Walker</option>
-                <option value="m004">Anime Tracks</option>
-                <option value="m005">Damestream</option>
-                <option value="m006">Geometry Dash</option>
-                <option value="m007">George Ezra</option>
-                <option value="m008">Nightcore</option>
-                <option value="m009">Sunrise Avenue</option>
-                <option value="m003">Anderes</option>
-
-            </select>
-            <?php
-            if (isset($_POST['submit'])) {
-                if ($_POST['musik'] == 'm001') {
-                    include("include/cat/A-T.php");
-                }
-                if ($_POST['musik'] == 'm002') {
-                    include("include/cat/A-W.php");
-                }
-                if ($_POST['musik'] == 'm003') {
-                    include("include/cat/a2.php");
-                }
-                if ($_POST['musik'] == 'm004') {
-                    include("include/cat/A_i.php1111");
-                }
-                if ($_POST['musik'] == 'm005') {
-                    include("include/cat/ds.php");
-                }
-                if ($_POST['musik'] == 'm006') {
-                    include("include/cat/gd.php");
-                }
-                if ($_POST['musik'] == 'm007') {
-                    include("include/cat/G-E.php");
-                }
-                if ($_POST['musik'] == 'm008') {
-                    include("include/cat/N.php");
-                }
-                if ($_POST['musik'] == 'm009') {
-                    include("include/cat/S-A.php");
-                }
-            }
-            ?>
-            <input type="submit" name="submit" value="Auswahl">
-        </form>
-    </div>
-    <?php include("../../include/footer1.php"); ?>
+					</select>
+						<?php
+				if (isset($_POST['musik'])) {
+					switch ($_POST['musik']) {
+						case 'm001': include ("include/cat/adele.php"); break;
+						case 'm002': include ("include/cat/A-T.php"); break;
+						//case 'm003': include ("include/cat/A-W.php"); break;
+						case 'm004': include ("include/cat/a2.php"); break;
+						case 'm005': include ("include/cat/A_i.php"); break;
+						//case 'm006': include ("include/cat/ds.php"); break;
+						case 'm007': include ("include/cat/gd.php"); break;
+						//case 'm008': include ("include/cat/G-E.php"); break;
+						//case 'm009': include ("include/cat/N.php"); break;
+						case 'm010': include ("include/cat/S-A.php"); break;
+					}
+				}
+			?>
+				</div>
+            </form>
+            </div>
+			<?php include ("../../include/footer1.php"); ?>
 </html>

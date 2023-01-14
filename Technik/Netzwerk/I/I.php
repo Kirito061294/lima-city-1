@@ -1,0 +1,1 @@
+<p><a href="http://www.dein-ip-check.de/" target="_blank">IP-Test</a> - (by dein-ip-check.de)</p>

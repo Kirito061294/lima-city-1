@@ -1,0 +1,77 @@
+:root {
+   --bg-c: #00bb2d; /* Hintergrundfarbe*/
+   --t-c: black; /* Textfarbe */
+   --h-c: grey; /* Hoverfarbe */
+   --nav-h: 50px; /* Höhe der NAV-Bar*/
+   --nav-bg: green; /* Hintergrund der NAV-Bar*/
+   --nav-c: white; /* Textfarbe der NAV-Bar*/
+   --mc-submod: yellow;
+   --border1: #30ff30;
+   --border2: #50ff50;
+}
+.dropdown{
+   width: 250px;
+   left: 0;
+}
+.dropdown li {
+   height: 30px;
+}
+.dropdown li a {
+   padding-left: 10px;
+   width: calc(100% - 10px);
+}
+nav li:hover {
+   color: var(--h-c);
+}
+.dropdown li a:hover {
+   background-color:#296b6b;
+   color:yellow;
+}
+.center1 {
+   width: 80%;
+}
+p {
+   padding:5px 0px 5px 0px;
+}
+.Textzone01 {
+   border-color: var(--border1);
+   border-style: dashed;
+}
+.info {
+   font-size: 20px;
+   border-color: var(--nav-bg);
+   border-style: dashed;
+}
+.include1 {
+   padding: 0.4em 0;
+}
+.include2 {
+}
+.scroll_y {
+   height: 400px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+.abstand1 {
+   padding:  0 0 90px 0;
+}
+.abstand2 {
+   padding:  0 0 200px 0;
+}
+.kommentar1 p {
+   padding: 0 0 0 10px;
+   display: none;
+}
+.zitat1 p {
+   color: gold;
+   padding: 0;
+}
+.zitat2 p {
+   color: red;
+}
+.verse {
+   padding: 5px 0;
+}
+#toggle_button1:checked ~ .kommentar1 p {
+   display:block;
+}
