@@ -139,7 +139,7 @@ p {
 }
 .medienzone01 .video001 iframe {
    width: 100%;
-   height: 450px;
+   height: 650px;
 }
 .Textzone01 {
    width: calc(100% - 20px);
@@ -351,7 +351,7 @@ footer {
    }*/
    .medienzone01 .video001 iframe {
       width: 100%;
-      height: 300px;
+      height: 200px;
    }
    .rechte p {
       font-size: 16px;
