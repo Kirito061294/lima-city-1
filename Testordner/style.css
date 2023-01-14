@@ -72,6 +72,6 @@ p {
 .verse {
    padding: 5px 0;
 }
-#toggle_button1:checked ~ .kommentar1 p {
+#toggle_button1 input[type="checkbox"]:checked ~ .kommentar1 p {
    display:block;
 }
