@@ -14,8 +14,7 @@
 				<div>
 					<div>
 						<input type="submit" name="submit" value="Auswahl">
-						<input type="checkbox" id="toggle_button1" style="display:none;">
-                        <div> hallo1</div>
+                        <div>hallo1</div>
 						<label class="rechts_angezeigt" for="toggle_button1" class="toggle_button1"><span>Kommentare einblenden</span></label>
 					</div>
                     <div> hallo2</div>
@@ -47,6 +46,7 @@
 				}
 			?>
 				</div>
+						<input type="checkbox" id="toggle_button1" style="display:none;">
             </form>
             </div>
 			<?php include ("../include/footer1.php"); ?>
