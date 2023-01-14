@@ -254,6 +254,13 @@ footer {
 .rechte p {
    font-size: 20px;
 }
+.zitat1 p {
+   color: gold;
+   padding: 0;
+}
+.zitat2 p {
+   color: red;
+}
 /*@media screen and (min-height: 1081px) {  Alles ab 1081 Pixel höhe 
    .video001 iframe {
       width: 100%;
