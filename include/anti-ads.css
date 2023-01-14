@@ -1,0 +1,35 @@
+@media (orientation:portrait){
+.adsbygoogle{
+	display:none;
+}	
+}
+#werbung{
+display:none;
+}
+#mobile-werbung{
+display:none;
+}
+.banner{
+display:none;
+}
+#pjsfrrsplayer{
+display:none;
+}
+#counter{
+display:none;
+}
+.krest{
+display:none;
+}
+.close{
+width:14px;
+height:14px
+}
+@media (min-width: 401px) {
+	#ix{overflow: hidden; margin-top: -190px; margin-left:-10px; width:105vw; height:160vh;
+	}
+}
+@media (max-width: 400px) {
+	#ix{overflow: hidden; margin-top: -305px; margin-left:-10px; width:105vw; height:200vh
+	}
+}
