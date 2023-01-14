@@ -15,6 +15,7 @@
 					<div>
 						<input type="submit" name="submit" value="Auswahl">
 						<input type="checkbox" id="toggle_button1" style="display:none;">
+                        <div> hallo</div>
 						<label class="rechts_angezeigt" for="toggle_button1" class="toggle_button1"><span>Kommentare einblenden</span></label>
 					</div>
 				</div>

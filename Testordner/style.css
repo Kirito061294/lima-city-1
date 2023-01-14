@@ -37,6 +37,8 @@ nav li:hover {
    padding: 0 0 0 10px;
    display: none;
 }
-#toggle_button1 input[type="checkbox"]:checked ~ .kommentar1 p {
+
+#toggle_button1:checked ~ div  {
+   background-color: red;
    display:block;
 }
