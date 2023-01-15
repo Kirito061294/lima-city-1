@@ -46,6 +46,8 @@
 						case 's003': include ("PC/PC.php"); break;
 						case 's004': include ("Roblox/Roblox.php"); break;
 					}
+				} else {
+					include ("else.php");
 				}
 			?>
 				</div>
