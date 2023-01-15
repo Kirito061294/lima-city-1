@@ -44,6 +44,8 @@
 						case 'themen003': include ("include/cat/Covid.php"); break;
 						//case 'themen004': include ("include/cat/Technik.php"); break;
 					}
+				} else {
+					include ("include/else.php");
 				}
 			?>
 				</div>
