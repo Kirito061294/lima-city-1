@@ -58,7 +58,10 @@
 						//case 'm009': include ("include/cat/N.php"); break;
 						case 'm010': include ("include/cat/S-A.php"); break;
 					}
+				} else {
+					include ("include/else.php");
 				}
+				
 			?>
 				</div>
             </form>
