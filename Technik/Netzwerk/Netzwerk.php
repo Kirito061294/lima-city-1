@@ -36,6 +36,8 @@
 					switch ($_POST['netzwerk']) {
 						case 'i001': include ("I/I.php"); break;
 					}
+				} else {
+					include ("../../include/else.php");
 				}
 			?>
 				</div>
