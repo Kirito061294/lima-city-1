@@ -5,7 +5,7 @@
                     $selected = $_POST['k'];
                 }
                 echo '<option value="" disabled selected></option>';
-					add_option($selected,'k00a','Ark');
+					//add_option($selected,'k00a','Ark');
 					add_option($selected,'k00b','Pokemon');
 						?>
 
