@@ -3,22 +3,7 @@
 	display:none;
 }	
 }
-#werbung{
-display:none;
-}
-#mobile-werbung{
-display:none;
-}
-.banner{
-display:none;
-}
-#pjsfrrsplayer{
-display:none;
-}
-#counter{
-display:none;
-}
-.krest{
+#werbung, #werbung #b, #werbung #b #counter, #mobile-werbung, #licnt1644, .banner, #pjsfrrsplayer, #counter, .krest, .ytp-ad-overlay-image, iframe html body a{
 display:none;
 }
 .close{
