@@ -28,7 +28,7 @@
                 }
                 echo '<option value="" disabled selected></option>';
 					add_option($selected,'i001','Passwort-Generator');
-					add_option($selected,'i002','Raspberry Pi zeugs');
+					//add_option($selected,'i002','Raspberry Pi zeugs');
 				?>
 		        </select>
 			<?php
@@ -37,6 +37,8 @@
 						case 'i001': include ("1/pw.php"); break;
 						case 'i002': include ("pi/pi.php"); break;
 					}
+				} else {
+					include ("../include/else.php");
 				}
 			?>
 				</div>
