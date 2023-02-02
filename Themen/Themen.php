@@ -40,12 +40,12 @@
 				if (isset($_POST['themen'])) {
 					switch ($_POST['themen']) {
 						case 'themen001': include ("include/cat/Politik.php"); break;
-						//case 'themen002': include ("include/cat/Medien.php"); break;
+						case 'themen002': include ("include/cat/Medien.php"); break;
 						case 'themen003': include ("include/cat/Covid.php"); break;
-						//case 'themen004': include ("include/cat/Technik.php"); break;
+						case 'themen004': include ("include/cat/Technik.php"); break;
 					}
 				} else {
-					include ("include/else.php");
+					include ("../include/else.php");
 				}
 			?>
 				</div>
