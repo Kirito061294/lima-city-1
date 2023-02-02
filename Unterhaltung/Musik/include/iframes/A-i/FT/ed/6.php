@@ -1,4 +1,4 @@
 				<div class="video001">
-								<iframe src="https://www.youtube-nocookie.com/embed/o1sbinw0xJ8" frameborder="0" allowfullscreen></iframe>
-								<p><a href="https://www.youtube.com/watch?v=zm8Kpf1WCUQ" target="_blank">Originaler Song</a> - W-inds - Be as One</p>
+								<iframe src="http://marcel1.local:3000/embed/o1sbinw0xJ8"<?php include ("include/1.php"); ?>></iframe>
+								<p><a href="http://marcel1.local:3000/watch?v=zm8Kpf1WCUQ" target="_blank">Originaler Song</a> - W-inds - Be as One</p>
 							</div>
