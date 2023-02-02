@@ -147,6 +147,9 @@ p {
    border-color: var(--border1);
    border-style: dashed;
 }
+.Textzone01 a:hover {
+   color: grey;
+}
 .aussage {
    padding: 5px;
    width: 80%;
