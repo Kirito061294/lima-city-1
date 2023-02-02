@@ -5,7 +5,7 @@
 <html>
     <head>
         <title>Betriebssysteme</title>
-        <?php include ("../../include/head1.php"); ?>
+        <?php include ("../include/head1.php"); ?>
             <div class="ueberschrift">
                 <h1>Betriebssysteme</h1>
 			</div>
@@ -38,10 +38,12 @@
 								case 'os001': include ("OS/Linux.php"); break;
 								case 'os002': include ("OS/Win.php"); break;
 							}
-						}
+						} else {
+					include ("../include/else.php");
+				}
 					?>
 				</div>
             </form>
 			</div>
-                <?php include ("../../include/footer1.php"); ?>
+                <?php include ("../include/footer1.php"); ?>
 </html>
