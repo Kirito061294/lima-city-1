@@ -3,32 +3,48 @@
         <meta lang="de" charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     </head>
 	<body>
-        <header>
-            <section>
-                <nav>
-				    <a class="logo" href="https://mwiese.de">Home</a>
-				    <input type="checkbox" id="toggle_button">
-					<label for="toggle_button" class="toggle_button"><span class="bar"></span><span class="bar"></span><span class="bar"></span></label>
-                    <ul class="kopf">
-                        <li class="expandable_li">
-						    <input type="checkbox" id="unterhaltung_checkbox">
-							<label for="unterhaltung_checkbox">Unterhaltung</label>
-						    <ul class="dropdown"><li><a href="https://mwiese.de/Unterhaltung/Musik/Musik.php">Musik</a></li><li><a href="https://mwiese.de/Unterhaltung/Spiele/Spiele.php">Spiele</a></li></ul>
-						</li>
-                        <li class="expandable_li">
-						    <input type="checkbox" id="technik_checkbox">
-							<label for="technik_checkbox">Technik</label>
-						    <ul class="dropdown"><li><a href="https://mwiese.de/Technik/OS.php">Betriebssysteme</a></li><li><a href="https://mwiese.de/Technik/Netzwerk/Netzwerk.php">Internet/Netzwerk</a></li><li><a href="https://mwiese.de/Technik/Interessantes.php">Interessantes</a></li></ul>
-						</li>
-                        <li class="expandable_li">
-						    <input type="checkbox" id="subdomains_checkbox">
-							<label for="subdomains_checkbox">Unterseiten</label>
-						    <ul class="dropdown"><li><a href="https://mwiese.de/Glaube/Vorschaltung.php" target="_blank">Glaubensthemen</a></li><li><a href="https://pc.mwiese.de" target="_blank">Mein Hobby</a></li><li><a href="https://mwiese.de/Themen/Themen.php" target="_blank">Spezielle Themen</a></li></ul>
-						</li>
-                        <li><a href="https://mwiese.de/Rechtliches/Impressum.php" target="_blank">Impressum</a></li>
-                        <li><a href="https://mwiese.de/Rechtliches/Datenschutz.php" target="_blank">Datenschutz</a></li>
-                    </ul>
-                </nav>
-            </section>
-        </header>
+		<header>
+			<nav>
+				<?php
+				// Eingabe
+				$menu = array(
+					'Home' => 'mwiese.de',
+					'Unterhaltung' => array(
+					'Musik' => 'https://mwiese.de/Unterhaltung/Musik/Musik.php',
+					'Spiele' => 'https://mwiese.de/Unterhaltung/Spiele/Spiele.php',
+					//'Live-TV' => 'https://mwiese.de/Unterhaltung/1/live-tv.php'
+					),
+					'Technik' => array(
+					'Betriebssysteme' => 'https://mwiese.de/Technik/OS.php',
+					'Internet/Netzwerk' => 'https://mwiese.de/Technik/Netzwerk/Netzwerk.php',
+					'Interessantes' => 'https://mwiese.de/Technik/Interessantes.php'
+					),
+					'Unterseiten' => array(
+					//'Web Development' => '#',
+					//'Design' => '#',
+					//'Consulting' => '#'
+					),
+					'Impressum' => 'https://mwiese.de/Rechtliches/Impressum.php'
+					'Datenschutz' => 'https://mwiese.de/Rechtliches/Datenschutz.php'
+				);
+				// Diese Links in einem neuen Tab öffnen
+				//$links = array("https://mwiese.de/Glaube/Vorschaltung.php", "https://pc.mwiese.de/", "https://mwiese.de/Themen/Themen.php", "https://mwiese.de/Rechtliches/Impressum.php", "https://mwiese.de/Rechtliches/Datenschutz.php");
+				//foreach ($links as $link) {
+				//	echo '<a href="'.$link.'" target="_blank">'.$link.'</a><br>';
+				//}
+				// Ausgabe
+				echo '<ul class="kopf">';
+				foreach($menu as $item => $url) {
+					if(is_array($url)) {echo '<li class="expandable_li">' . $item;echo '<ul class="dropdown">';
+					foreach($url as $subitem => $suburl) {echo '<li><a href="' . $suburl . '">' . $subitem . '</a></li>';}
+					echo '</ul>';
+					echo '</li>';
+					} else {
+					echo '<li><a href="' . $url . '">' . $item . '</a></li>';
+					}
+				}
+				echo '</ul>';
+				?>
+			</nav>
+		</header>
         <div class="center1">
