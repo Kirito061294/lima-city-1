@@ -14,6 +14,7 @@
 							add_option($selected,'anime00f','Mondaiji-tachi ga Isekai Kara Kuru Sou Desu yo');
 							add_option($selected,'anime00a','Pokemon');
 							add_option($selected,'anime00g','Seiken Tsukai no World Break');
+							add_option($selected,'anime00j','Sword Art Online');
 						?>
 
 						</select>
@@ -29,6 +30,7 @@
                         case 'anime00g': include ("include/cat/A_i/STnWB.php"); break;
                         case 'anime00h': include ("include/cat/A_i/FoodWars.php"); break;
                         case 'anime00i': include ("include/cat/A_i/MGnF.php"); break;
+                        case 'anime00j': include ("include/cat/A_i/SAO.php"); break;
                     }
 				}
 			?>
