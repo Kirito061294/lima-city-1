@@ -8,7 +8,7 @@
 				<?php
 				// Eingabe
 				$menu = array(
-					'Home' => 'mwiese.de',
+					'Home' => 'https://mwiese.de',
 					'Unterhaltung' => array(
 					'Musik' => 'https://mwiese.de/Unterhaltung/Musik/Musik.php',
 					'Spiele' => 'https://mwiese.de/Unterhaltung/Spiele/Spiele.php',
@@ -24,14 +24,14 @@
 					//'Design' => '#',
 					//'Consulting' => '#'
 					),
-					'Impressum' => 'https://mwiese.de/Rechtliches/Impressum.php'
+					'Impressum' => 'https://mwiese.de/Rechtliches/Impressum.php',
 					'Datenschutz' => 'https://mwiese.de/Rechtliches/Datenschutz.php'
 				);
 				// Diese Links in einem neuen Tab öffnen
-				//$links = array("https://mwiese.de/Glaube/Vorschaltung.php", "https://pc.mwiese.de/", "https://mwiese.de/Themen/Themen.php", "https://mwiese.de/Rechtliches/Impressum.php", "https://mwiese.de/Rechtliches/Datenschutz.php");
-				//foreach ($links as $link) {
-				//	echo '<a href="'.$link.'" target="_blank">'.$link.'</a><br>';
-				//}
+				$links = array("https://mwiese.de/Glaube/Vorschaltung.php", "https://pc.mwiese.de/", "https://mwiese.de/Themen/Themen.php", "https://mwiese.de/Rechtliches/Impressum.php", "https://mwiese.de/Rechtliches/Datenschutz.php");
+				foreach ($links as $link) {
+					echo '<a href="'.$link.'" target="_blank">'.$link.'</a><br>';
+				}
 				// Ausgabe
 				echo '<ul class="kopf">';
 				foreach($menu as $item => $url) {
