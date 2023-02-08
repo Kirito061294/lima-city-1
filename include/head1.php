@@ -8,7 +8,6 @@
 				<?php
 				
 				function keks($menue_eintrag) {
-					echo '<ul class="kopf">';
 					foreach($menue_eintrag as $item => $url) {
 						if(is_array($url)) {
 							echo '<li class="expandable_li"><br />' . $item;echo '<ul class="dropdown">';
@@ -21,7 +20,6 @@
 							echo '<li><a href="' . $url . '">' . $item . '</a></li>';
 					}
 				}
-				echo '</ul>';
 				}
 				// Eingabe
 				$menu = array(
@@ -40,21 +38,23 @@
 						//'Web Development' => '#',
 						//'Design' => '#',
 						//'Consulting' => '#'
-					),
-					'Impressum' => 'https://mwiese.de/Rechtliches/Impressum.php',
-					'Datenschutz' => 'https://mwiese.de/Rechtliches/Datenschutz.php'
+					)
 				);
 				// Diese Links in einem neuen Tab öffnen
 				$links = array(
-					"Glaube" => "https://mwiese.de/Glaube/Vorschaltung.php",
-					"PC" => "https://pc.mwiese.de/",
-					"Themen" => "https://mwiese.de/Themen/Themen.php",
+					'Unterseiten' => array(
+						"Glaube" => "https://mwiese.de/Glaube/Vorschaltung.php",
+						"PC" => "https://pc.mwiese.de/",
+						"Themen" => "https://mwiese.de/Themen/Themen.php"
+					),
 					"Impressum" => "https://mwiese.de/Rechtliches/Impressum.php",
 					"Datenschutz" => "https://mwiese.de/Rechtliches/Datenschutz.php"
 				);
 				// Ausgabe
-				keks ($menu)
-				keks ($links)
+				echo '<ul class="kopf">';
+				keks($menu);
+				keks($links);
+				echo '</ul>';
 				?>
 
 			</nav>
