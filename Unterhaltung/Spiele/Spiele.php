@@ -47,7 +47,7 @@
 						case 's004': include ("Roblox/Roblox.php"); break;
 					}
 				} else {
-					include ("else.php");
+					include ("../../include/else.php");
 				}
 			?>
 				</div>
