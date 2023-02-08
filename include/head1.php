@@ -35,7 +35,7 @@
 				// Ausgabe
 				echo '<ul class="kopf">';
 				foreach($menu as $item => $url) {
-					if(is_array($url)) {echo '<li class="expandable_li">' . $item;echo '<ul class="dropdown">';
+					if(is_array($url)) {echo '<li class="expandable_li"><br />' . $item;echo '<ul class="dropdown">';
 					foreach($url as $subitem => $suburl) {echo '<li><a href="' . $suburl . '">' . $subitem . '</a></li>';}
 					echo '</ul>';
 					echo '</li>';
@@ -45,6 +45,7 @@
 				}
 				echo '</ul>';
 				?>
+
 			</nav>
 		</header>
         <div class="center1">
