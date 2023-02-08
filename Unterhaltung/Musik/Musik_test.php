@@ -4,6 +4,45 @@
 
 <html>
     <head>
+	<script>
+    function dropdownMenu() {
+      document.getElementById("dropdown").classList.toggle("show");
+    }
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropdown-button')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+    .show {
+      display: block;
+    }
+  </style>
         <title>Musik</title>
         <?php include ("../../include/head1.php"); ?>
             <div class="ueberschrift">
@@ -14,40 +53,15 @@
 				<p>Sollten rechtliche Probleme auftreten werde ich die betreffenden Videos statt sie einzubetten lediglich verlinken.</p>
 			</div>
             <div class="medienzone01">
-			<?php
-			require_once ('konfiguration.php');
-			$db_link = mysqli_connect (
-								MYSQL_HOST, 
-								MYSQL_BENUTZER, 
-								MYSQL_KENNWORT, 
-								MYSQL_DATENBANK
-								);
-			
-			$sql = "SELECT * FROM Musik";
-			
-			$db_erg = mysqli_query( $db_link, $sql );
-			if ( ! $db_erg )
-			{
-			die('Ungültige Abfrage: ' . mysqli_error());
-			}
-
-			echo '<table border="1">';
-			while ($zeile = mysqli_fetch_array( $db_erg, MYSQLI_ASSOC))
-			{
-			echo "<tr>";
-			echo "<td>". $zeile['id'] . "</td>";
-			echo "<td>". $zeile['nachname'] . "</td>";
-			echo "<td>". $zeile['vorname'] . "</td>";
-			echo "<td>". $zeile['akuerzel'] . "</td>";
-			echo "<td>". $zeile['strasse'] . "</td>";
-			echo "<td>". $zeile['plz'] . "</td>";
-			echo "<td>". $zeile['telefon'] . "</td>";
-			echo "</tr>";
-			}
-			echo "</table>";
-
-			mysqli_free_result( $db_erg );
-			?>
+			<div class="dropdown">
+    <button onclick="dropdownMenu()" class="dropdown-button">Links</button>
+    <div id="dropdown" class="dropdown-content">
+      <a href="https://www.google.com">Google</a>
+      <a href="https://www.facebook.com">Facebook</a>
+      <a href="#">Sublink 1</a>
+      <a href="#">Sublink 2</a>
+    </div>
+  </div>
 				</div>
             </form>
             </div>
