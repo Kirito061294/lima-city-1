@@ -10,21 +10,21 @@
 				function keks($menue_eintrag,$new_tab=false) {
 					foreach($menue_eintrag as $item => $url) {
 						if(is_array($url)) {
-							echo '<li class="expandable_li"><br />' . $item;echo '<ul class="dropdown">';
+							echo '<li class="expandable_li">' . $item;echo '<ul class="dropdown">'.PHP_EOL;
 							foreach($url as $subitem => $suburl) {
 								if($new_tab) {
-									echo '<li><a href="' . $suburl . '" target="_blank">' . $subitem . '</a></li>';
+									echo '<li><a href="' . $suburl . '" target="_blank">' . $subitem . '</a></li>'.PHP_EOL;
 								} else {
-									echo '<li><a href="' . $suburl . '">' . $subitem . '</a></li>';
+									echo '<li><a href="' . $suburl . '">' . $subitem . '</a></li>'.PHP_EOL;
 								}
 							}
-							echo '</ul>';
-							echo '</li>';
+							echo '</ul>'.PHP_EOL;
+							echo '</li>'.PHP_EOL;
 						} else {
 							if($new_tab) {
-								echo '<li><a href="' . $url . '" target="_blank">' . $item . '</a></li>';
+								echo '<li><a href="' . $url . '" target="_blank">' . $item . '</a></li>' .PHP_EOL;
 							} else {
-								echo '<li><a href="' . $url . '">' . $item . '</a></li>';
+								echo '<li><a href="' . $url . '">' . $item . '</a></li>'.PHP_EOL;
 							}
 						}
 					}
@@ -54,10 +54,10 @@
 					"Datenschutz" => "https://mwiese.de/Rechtliches/Datenschutz.php"
 				);
 				// Ausgabe
-				echo '<ul class="kopf">';
+				echo '<ul class="kopf">'.PHP_EOL;
 				keks($menu);
 				keks($links,true);
-				echo '</ul>';
+				echo '</ul>'.PHP_EOL;
 				?>
 
 			</nav>
