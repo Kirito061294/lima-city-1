@@ -7,19 +7,27 @@
 			<nav>
 				<?php
 				
-				function keks($menue_eintrag) {
+				function keks($menue_eintrag,$new_tab=false) {
 					foreach($menue_eintrag as $item => $url) {
 						if(is_array($url)) {
 							echo '<li class="expandable_li"><br />' . $item;echo '<ul class="dropdown">';
 							foreach($url as $subitem => $suburl) {
-								echo '<li><a href="' . $suburl . '">' . $subitem . '</a></li>';
+								if($new_tab) {
+									echo '<li><a href="' . $suburl . '" target="_blank">' . $subitem . '</a></li>';
+								} else {
+									echo '<li><a href="' . $suburl . '">' . $subitem . '</a></li>';
+								}
 							}
 							echo '</ul>';
 							echo '</li>';
 						} else {
-							echo '<li><a href="' . $url . '">' . $item . '</a></li>';
+							if($new_tab) {
+								echo '<li><a href="' . $url . '" target="_blank">' . $item . '</a></li>';
+							} else {
+								echo '<li><a href="' . $url . '">' . $item . '</a></li>';
+							}
+						}
 					}
-				}
 				}
 				// Eingabe
 				$menu = array(
@@ -33,11 +41,6 @@
 						'Betriebssysteme' => 'https://mwiese.de/Technik/OS.php',
 						'Internet/Netzwerk' => 'https://mwiese.de/Technik/Netzwerk/Netzwerk.php',
 						'Interessantes' => 'https://mwiese.de/Technik/Interessantes.php'
-					),
-					'Unterseiten' => array(
-						//'Web Development' => '#',
-						//'Design' => '#',
-						//'Consulting' => '#'
 					)
 				);
 				// Diese Links in einem neuen Tab öffnen
@@ -53,7 +56,7 @@
 				// Ausgabe
 				echo '<ul class="kopf">';
 				keks($menu);
-				keks($links);
+				keks($links,true);
 				echo '</ul>';
 				?>
 
