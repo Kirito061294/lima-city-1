@@ -7,7 +7,7 @@
 			<nav>
 				<?php
 				
-				function keks($menue_eintrag,$new_tab=false) {
+				function php_header($menue_eintrag,$new_tab=false) {
 					foreach($menue_eintrag as $item => $url) {
 						if(is_array($url)) {
 							echo '<li class="expandable_li">' . $item;echo '<ul class="dropdown">'.PHP_EOL;
@@ -55,8 +55,8 @@
 				);
 				// Ausgabe
 				echo '<ul class="kopf">'.PHP_EOL;
-				keks($menu);
-				keks($links,true);
+				php_header($menu);
+				php_header($links,true);
 				echo '</ul>'.PHP_EOL;
 				?>
 
