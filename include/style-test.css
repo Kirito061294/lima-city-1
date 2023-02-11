@@ -1,32 +1,28 @@
+.musik1, .musik2, .dropdown1 {
+   display: none;
+}
 .dropdown1 {
-   position: relative;
-   display: inline-block;
+   float: right;
 }
-.dropdown2 {
-   position: relative;
-   display: inline-block;
+.m1:hover, .m2:hover {
+   color: grey;
 }
-.dropdown-folder1 {
-   display: none;
-   position: absolute;
-   z-index: 1;
-   background-color: #f9f9f9;
-   min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   padding: 12px 16px;
+.expandable_list {
+   width: 25%;
 }
-.dropdown-folder2 {
-   display: none;
-   position: absolute;
-   z-index: 1;
-   background-color: #f9f9f9;
-   min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   padding: 12px 16px;
-}
-.dropdown1:hover .dropdown-folder1 {
+.expandable_list input[type="checkbox"]:checked ~ .dropdown1, .dropdown1 .expandable_list input[type="checkbox"]:checked ~ .dropdown1 {
    display: block;
 }
-.dropdown2:hover .dropdown-folder2 {
-   display: block;
+.hide {
+   display:none;
+}
+input[type="checkbox"] {
+   width: 2em;
+}
+.expandable_list label {
+   text-decoration: none;
+}
+.video001 iframe {
+   width: 100%;
+   height: 100%;
 }
