@@ -47,16 +47,16 @@
 						<?php
 				if (isset($_POST['musik'])) {
 					switch ($_POST['musik']) {
-						case 'm001': include ("include/cat/adele.php"); break;
-						case 'm002': include ("include/cat/A-T.php"); break;
-						case 'm003': include ("include/cat/A-W.php"); break;
-						case 'm004': include ("include/cat/a2.php"); break;
-						case 'm005': include ("include/cat/A_i.php"); break;
-						case 'm006': include ("include/cat/ds.php"); break;
-						case 'm007': include ("include/cat/gd.php"); break;
-						case 'm008': include ("include/cat/G-E.php"); break;
-						case 'm009': include ("include/cat/N.php"); break;
-						case 'm010': include ("include/cat/S-A.php"); break;
+						case 'm001': include ("include/cat/Adele.php"); break;
+						case 'm002': include ("include/cat/Adel-Tawil.php"); break;
+						case 'm003': include ("include/cat/Alen-Walker.php"); break;
+						case 'm004': include ("include/cat/Anderes.php"); break;
+						case 'm005': include ("include/cat/Anime.php"); break;
+						case 'm006': include ("include/cat/Damestream.php"); break;
+						case 'm007': include ("include/cat/GeometryDash.php"); break;
+						case 'm008': include ("include/cat/George-Ezra.php"); break;
+						case 'm009': include ("include/cat/Nightcore.php"); break;
+						case 'm010': include ("include/cat/Sunrise-Avenue.php"); break;
 					}
 				} else {
 					include ("../../include/else.php");
