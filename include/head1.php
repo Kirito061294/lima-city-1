@@ -10,21 +10,22 @@
 				function php_header($menue_eintrag,$new_tab=false) {
 					foreach($menue_eintrag as $item => $url) {
 						if(is_array($url)) {
-							echo '<li class="expandable_li">' . $item;echo '<ul class="dropdown">'.PHP_EOL;
+							echo '					<li class="expandable_li">' . $item.PHP_EOL;
+							echo '					<ul class="dropdown">'.PHP_EOL;
 							foreach($url as $subitem => $suburl) {
 								if($new_tab) {
-									echo '<li><a href="' . $suburl . '" target="_blank">' . $subitem . '</a></li>'.PHP_EOL;
+									echo '						<li><a href="' . $suburl . '" target="_blank">' . $subitem . '</a></li>'.PHP_EOL;
 								} else {
-									echo '<li><a href="' . $suburl . '">' . $subitem . '</a></li>'.PHP_EOL;
+									echo '						<li><a href="' . $suburl . '">' . $subitem . '</a></li>'.PHP_EOL;
 								}
 							}
-							echo '</ul>'.PHP_EOL;
-							echo '</li>'.PHP_EOL;
+							echo '				</ul>'.PHP_EOL;
+							echo '				</li>'.PHP_EOL;
 						} else {
 							if($new_tab) {
-								echo '<li><a href="' . $url . '" target="_blank">' . $item . '</a></li>' .PHP_EOL;
+								echo '						<li><a href="' . $url . '" target="_blank">' . $item . '</a></li>' .PHP_EOL;
 							} else {
-								echo '<li><a href="' . $url . '">' . $item . '</a></li>'.PHP_EOL;
+								echo '						<li><a href="' . $url . '">' . $item . '</a></li>'.PHP_EOL;
 							}
 						}
 					}
@@ -57,7 +58,7 @@
 				echo '<ul class="kopf">'.PHP_EOL;
 				php_header($menu);
 				php_header($links,true);
-				echo '</ul>'.PHP_EOL;
+				echo '				</ul>'.PHP_EOL;
 				?>
 
 			</nav>
