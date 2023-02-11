@@ -20,13 +20,14 @@
 				<?php
 					// some previous code...
 					$connection = Connection::getInstance();
-					$query = "SELECT * FROM user WHERE id = :user_id";
+					$query = "SELECT * FROM Interpret";// WHERE InterpretID = :InterpretID";
 
 					$statement = $connection->prepare($query);
-					$statement->bindValue('user_id', $user_id, \PDO::PARAM_INT);
+					//$statement->bindValue('InterpretID', $InterpretID, \PDO::PARAM_INT);
 					$statement->execute();
 
 					$result = $statement->fetchColumn();
+                    //echo 
 
 					// some next code...
 				?>
