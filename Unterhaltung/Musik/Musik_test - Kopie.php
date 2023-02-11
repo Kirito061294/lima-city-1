@@ -16,16 +16,19 @@
             <div class="medienzone01">
 				<?php
 					require_once ("../../include/data.php");
-					// Create connection
-					$conn = mysqli_connect($MYSQL_HOST, $MYSQL_BENUTZER, $MYSQL_KENNWORT, $MYSQL_DATENBANK);
-					// Check connection
-					if (!$conn) {
-						die("<p>fehlgeschlagen</p>" . mysqli_connect_error());
-					}
-					echo "<p>verbunden</p>";
-					// Perform database operations
-					// Close connection
-					mysqli_close($conn);
+				?>
+				<?php
+					// some previous code...
+					$connection = Connection::getInstance();
+					$query = "SELECT * FROM user WHERE id = :user_id";
+
+					$statement = $connection->prepare($query);
+					$statement->bindValue('user_id', $user_id, \PDO::PARAM_INT);
+					$statement->execute();
+
+					$result = $statement->fetchColumn();
+
+					// some next code...
 				?>
             </div>
 			<?php include ("../../include/footer1.php"); ?>
