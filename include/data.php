@@ -1,17 +1,10 @@
-
-define ( 'MYSQL_HOST', 'localhost' );
-
-define ( 'MYSQL_BENUTZER', 'USER348875_abcd' );
-define ( 'MYSQL_KENNWORT', 'OeyMNQyPklNN5j0fL8RzjgwJADITSbdw' );
-
-define ( 'MYSQL_DATENBANK', 'db_348875_3' );
 <?php
 
 class Connection {
 
     protected static $instance;
 
-    private static $dsn = 'mysql:host=localhost;dbname=db_348875_3';
+    private static $dsn = 'mysql:host=localhost;port=8889;dbname=db_348875_3';
 
     private static $username = 'USER348875_abcd';
 
