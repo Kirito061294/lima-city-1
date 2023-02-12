@@ -27,6 +27,7 @@ body {
    background-size: cover;
    background: var(--bg-c);
 }
+/* Header */
 nav {
    height: var(--nav-h);
    width: 100%;
@@ -102,6 +103,40 @@ nav input[type="checkbox"] {
 }
 .kopf a {
    text-decoration:none;
+}
+.dropdown li a:hover {
+   background-color:#296b6b;
+   color:yellow;
+}
+.bar { /* button zum umschalten des headers */
+   height: 4px;
+   width: 100%;
+   background: var(--nav-c);
+   border-radius: 100px;
+}
+.toggle_button { /* klasse zum umschalten des headers */
+   width: 30px;
+   height: 23px;
+   position: absolute;
+   top: 25px;
+   right: 25px;
+   display: none;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+/* Header Ende */
+/*#####################################*/
+
+/* Seitendesign */
+
+.interpret {
+   text-align: center;
+   width: 9em;
+   height: 1em;
+   background-color: green;
+   border-color: darkgreen;
+   border-style: groove;
 }
 .center1 {
    margin: auto;
@@ -213,10 +248,6 @@ select::-ms-expand {
    padding: 10px 0 0 0; /* Abstand*/
    margin: auto; /* Zentrierung*/
 }
-.dropdown li a:hover {
-   background-color:#296b6b;
-   color:yellow;
-}
 .rechts_angezeigt {
    float: right;
 }
@@ -238,16 +269,6 @@ select::-ms-expand {
    overflow-y: scroll;
    overflow-x: hidden;
 }
-footer {
-   display: block;
-   float: left;
-   position: fixed;
-   text-align: left;
-   background-color: var(--nav-bg);
-   width: 100%;
-   padding: 5px 0px 5px 15px;
-   bottom: 0;
-}
 .abstand1 {
    padding:  0 0 90px 0;
 }
@@ -264,6 +285,22 @@ footer {
 .zitat2 p {
    color: red;
 }
+
+/* Seitendesign Ende */
+/*#####################################*/
+
+/* Footer */
+
+footer {
+   display: block;
+   float: left;
+   position: fixed;
+   text-align: left;
+   background-color: var(--nav-bg);
+   width: 100%;
+   padding: 5px 0px 5px 15px;
+   bottom: 0;
+}
 /*@media screen and (min-height: 1081px) {  Alles ab 1081 Pixel höhe 
    .video001 iframe {
       width: 100%;
@@ -276,24 +313,10 @@ footer {
 /* Roblox - Tower Defense */
 .tower01 {
    padding: 5px 0 0 0;
-}/* ------------------- */
+}
+/* ------------------- */
 
-.bar { /* button zum umschalten des headers */
-   height: 4px;
-   width: 100%;
-   background: var(--nav-c);
-   border-radius: 100px;
-}
-.toggle_button { /* klasse zum umschalten des headers */
-   width: 30px;
-   height: 23px;
-   position: absolute;
-   top: 25px;
-   right: 25px;
-   display: none;
-   flex-direction: column;
-   justify-content: space-between;
-}
+
 @media screen and (max-width: 1081px) { /* Alles BIS 1081 Pixel breite */
    *{
       font-size: 20px;
