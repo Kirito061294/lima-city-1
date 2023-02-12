@@ -14,7 +14,7 @@ class Connection {
         try {
             self::$instance = new PDO(self::$dsn, self::$username, self::$password);
         } catch (PDOException $e) {
-            echo "MySql Connection Error: " . $e->getMessage();
+            echo "MySql Connection Error: " . $e->getMessage().PHP_EOL;
         }
     }
 
