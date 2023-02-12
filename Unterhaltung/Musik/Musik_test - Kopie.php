@@ -14,23 +14,35 @@
 				<p>Sollten rechtliche Probleme auftreten werde ich die betreffenden Videos statt sie einzubetten lediglich verlinken.</p>
 			</div>
             <div class="medienzone01">
+				<link rel="stylesheet" type="text/css" href="https://mwiese.de/include/style-test.css">
+				<?php require_once ("../../include/data.php"); ?>
 				<?php
-					require_once ("../../include/data.php");
-				?>
-				<?php
-					// some previous code...
+					//  Für Interpretenliste
 					$connection = Connection::getInstance();
-					$query = "SELECT * FROM Interpret";// WHERE InterpretID = :InterpretID";
+					$InterpretID = filter_input(INPUT_GET, 'InterpretID', FILTER_VALIDATE_INT);
+
+					if ($InterpretID === false) {
+						echo "Ungültiger InterpretID-Wert";
+						exit;
+					}
+					$query = "SELECT * FROM Interpret";
 
 					$statement = $connection->prepare($query);
-					//$statement->bindValue('InterpretID', $InterpretID, \PDO::PARAM_INT);
+					//$statement->bindValue(1, $InterpretID, PDO::PARAM_INT);
 					$statement->execute();
 
-					$result = $statement->fetchColumn();
-                    //echo 
-
-					// some next code...
+					while ($row = $statement->fetch()) {
+                        echo ''.PHP_EOL;
+						echo '                <li class="hide">ID: ' . $row['InterpretID'] . '</li>'.PHP_EOL;
+						echo '                <li class="interpret">' . $row['InterpretName'] . '</li>'.PHP_EOL;
+						// and so on for each column in the table...
+					}
+                
 				?>
+                <?php
+                    //  Für Songtitel
+                    //
+                ?>
             </div>
 			<?php include ("../../include/footer1.php"); ?>
 </html>
