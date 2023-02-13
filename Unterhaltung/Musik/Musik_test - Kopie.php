@@ -13,36 +13,41 @@
 				<p>Der Inhalt dieser eingebetteten Videos stammt nicht von mir und ich habe keinerlei Kontakt oder Verbindung zum Rechteinhaber.</p>
 				<p>Sollten rechtliche Probleme auftreten werde ich die betreffenden Videos statt sie einzubetten lediglich verlinken.</p>
 			</div>
+			<div id="output">
+				
+			</div>
             <div class="medienzone01">
 				<link rel="stylesheet" type="text/css" href="https://mwiese.de/include/style-test.css">
-				<?php require_once ("../../include/data.php"); ?>
-				<?php
+				<div class="musikauswahl">
+					<script src="include/ajax.js"></script>
+					<script src="../../include/jquery.js"></script>
+					<?php require_once ("../../include/data.php");
 					//  Für Interpretenliste
 					$connection = Connection::getInstance();
-					$InterpretID = filter_input(INPUT_GET, 'InterpretID', FILTER_VALIDATE_INT);
-
-					if ($InterpretID === false) {
-						echo "Ungültiger InterpretID-Wert";
-						exit;
-					}
+					//$InterpretID = filter_input(INPUT_GET, 'InterpretID', FILTER_VALIDATE_INT);
+					//		if ($InterpretID === false) {
+					//	echo "Ungültiger InterpretID-Wert".PHP_EOL;
+					//	exit;
+					//}
 					$query = "SELECT * FROM Interpret";
+					//$query = "SELECT * From Song WHERE InterpretID";
 
 					$statement = $connection->prepare($query);
 					//$statement->bindValue(1, $InterpretID, PDO::PARAM_INT);
 					$statement->execute();
-
-					while ($row = $statement->fetch()) {
-                        echo ''.PHP_EOL;
-						echo '                <li class="hide">ID: ' . $row['InterpretID'] . '</li>'.PHP_EOL;
-						echo '                <li class="interpret">' . $row['InterpretName'] . '</li>'.PHP_EOL;
+					
+						echo ''.PHP_EOL;
+						while ($row = $statement->fetch()) {
+						echo '                	<option onClick="selectInterpret(this)" value="' . $row['InterpretID'] . '" class="interpret">' . $row['InterpretName'] . '</option>'.PHP_EOL;
+						// ausgabe dieses echo: <option value="1" class="interpret">InterpretName</option>
+			
 						// and so on for each column in the table...
-					}
-                
-				?>
-                <?php
-                    //  Für Songtitel
-                    //
-                ?>
+						}
+						//  Für Songtitel
+						
+						//
+					?>
+				</div>
             </div>
 			<?php include ("../../include/footer1.php"); ?>
 </html>
