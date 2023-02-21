@@ -11,7 +11,7 @@
 	$data=$statement->fetchAll();
 	$array=[];
 	foreach($data as $row) {
-		$array[]=[$row["SongID"],$row["Song"]];
-		echo '                	<option value="' . $row['SongID'] . '">' . $row['Song'] . '</option>'.PHP_EOL;
+		$array[]=[$row["SongID"],$row["SongName"]];
+		echo '                	<option value="' . $row['SongID'] . '">' . $row['SongName'] . '</option>'.PHP_EOL;
 	}
 ?>
