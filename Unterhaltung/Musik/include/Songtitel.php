@@ -12,6 +12,6 @@
 	$array=[];
 	foreach($data as $row) {
 		$array[]=[$row["SongID"],$row["Song"]];
-		echo '                	<option value="' . $row['SongID'] . '">' . $row['Songs'] . '</option>'.PHP_EOL;
+		echo '                	<option value="' . $row['SongID'] . '">' . $row['Song'] . '</option>'.PHP_EOL;
 	}
 ?>
