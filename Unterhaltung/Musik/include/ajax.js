@@ -1,14 +1,28 @@
-function async_getSongs(InterpretID) {
+function async_getKategorien(InterpretID) {
 	$.ajax({
 		url: 'include/Songtitel.php',
 		data: {'Interpret': InterpretID},
 		type: 'POST',
 		success: function (data)  {
-			document.getElementById("output").innerText=data
+			document.getElementById("output").innerHTML=data
+		}
+	});
+}
+function async_getSongs(catID,InterpretID) {
+	$.ajax({
+		url: 'include/Songtitel.php',
+		data: {'Interpret': InterpretID,'Kategorien': catID},
+		type: 'POST',
+		success: function (data)  {
+			document.getElementById("output2").innerHTML=data
 		}
 	});
 }
 function selectInterpret(event) {
+    console.log(event.value);
+	async_getKategorien(event.value)
+}
+function selectKategorien(event) {
     console.log(event.value);
 	async_getSongs(event.value)
 }
