@@ -1,6 +1,6 @@
 <meta charset="UTF-8" lang="de" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 		<link rel="shortcut icon" href="https://mwiese.de/include/45454.ico" type="image/x-icon"/>
-        <link rel="stylesheet" type="text/css" href="https://mwiese.de/include/style.css">
+        <link rel="stylesheet" type="text/css" href="https://mwiese.de/include/css/style.css">
     </head>
 	<body>
 		<header>
