@@ -1,0 +1,132 @@
+:root {
+   --bg-c: #00bb2d; /* Hintergrundfarbe*/
+   --t-c: black; /* Textfarbe */
+   --h-c: grey; /* Hoverfarbe */
+   --mc-submod: yellow;
+   --border1: #30ff30;
+   --border2: #50ff50;
+}
+body {
+}
+
+/* Seitendesign */
+
+p {
+   padding:5px 0px 5px 0px;
+}
+.medienzone01 {
+   width: calc(100% - 20px);
+   padding: 10px;
+   border-color: var(--border1);
+   border-style: dashed;
+}
+.medienzone01 a:hover {
+   color: grey;
+}
+.medienzone01 .video001 iframe {
+   width: 100%;
+   height: 650px;
+}
+.musikauswahl {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px; 
+    border: 1px solid black; 
+}
+.spalte {
+   /*width: calc(100% / 3);*/
+   display: inline-block;
+}
+.interpret, .cat2, .cat3 {
+   text-align: center;
+   width: 100%;
+   height: 1em;
+   background-color: green;
+   border: 1px solid darkgreen;
+}
+.info {
+   width: calc(100% - 20px);
+   font-size: 20px;
+   padding: 10px;
+   border-color: var(--nav-bg);
+   border-style: dashed;
+}
+.info001 p {
+   font-size: 20px;
+}
+.info001 {
+   padding: 10px;
+   width: calc(100% - 20px);
+   border-color: var(--bg-c);
+   border-style: solid;
+}
+.include1 {
+   padding: 0.4em 0;
+}
+.include2 {
+}
+input {
+   width: 8em;
+   height: 1.85em;
+   font-size: 70%;
+   background-color: #c9c9c9;
+   color: black;
+}
+.select {
+   padding: 5px 0 0 0;
+}
+select {
+   width: 10em;
+   height: 1.85em;
+   font-size: 70%;
+   background-color: #c9c9c9;
+   color: black;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+/* For IE <= 11 */
+select::-ms-expand {
+   display: none;
+}
+.rechte p {
+   font-size: 20px;
+}
+/* Seitendesign Ende */
+/*#####################################*/
+
+/*@media screen and (min-height: 1081px) {  Alles ab 1081 Pixel höhe 
+   .video001 iframe {
+      width: 100%;
+      height: 450px;
+   }
+}*/
+
+/* ------------------- */
+
+
+@media screen and (max-width: 1081px) { /* Alles BIS 1081 Pixel breite */
+   select {
+   width: 10.85em;
+   height: 1.85em;
+   font-size: 70%;
+   }/*
+   .medienzone01 {
+      width: 100%;
+      padding: 10px;
+      border-color: green;
+      border-style: dashed;
+   }
+   .medienzone01 a:hover {
+      color: grey;
+   }*/
+   .medienzone01 .video001 iframe {
+      width: 100%;
+      height: 200px;
+   }
+   .rechte p {
+      font-size: 16px;
+   }
+}
+@media screen and (min-width:1999px) { /* Alles AB 1999 Pixel breite */
+   
+}
