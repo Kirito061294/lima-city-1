@@ -1,20 +1,32 @@
 <?php
-	//echo $_POST["Interpret"];
+	require_once ("../../../include/data.php");
 	$connection = Connection::getInstance();
-	//$InterpretID = filter_input(INPUT_GET, 'InterpretID', FILTER_VALIDATE_INT);
-	//if ($InterpretID === false) {
-	//	echo "Ungültiger InterpretID-Wert".PHP_EOL;
-	//	exit;
-	//}
-	$query = "SELECT * From Song WHERE InterpretID =:interpreten";
+	
+	// Bei Klick auf eine Kategorie wenn Interpret ausgewählt:
+	if isset($_POST["Kategorie"]) {
+		echo 'struktur unfertig';
+//		$query = "SELECT * From Songs WHERE InterpretID =:interpreten AND catID =:category";
+//
+//		$statement = $connection->prepare($query, [PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY]);
+//		$statement->execute([":interpreten"=>$_POST["Interpret"],":category"=>$_POST["Kategorien"]]);
+//		$data=$statement->fetchAll();
+//		$array=[];
+//		foreach($data as $row) {
+//			$array[]=[$row["SongID"],$row["Songs"]];
+//			echo '                	<option value="' . $row['SongID'] . '">' . $row['Songs'] . '</option>'.PHP_EOL;
+		}
+	// Bei Klick auf Interpreten:
+	} else {
+		$query = "SELECT * From Kategorien WHERE InterpretID =:interpreten";
 
-	$statement = $connection->prepare($query, [PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY]);
-	$statement->execute([":interpreten"=>$_POST["Interpret"]]);
-	$data=$statement->fetchAll();
-	var_dump($data);
-	$array=[];
-	foreach($data as $row) {
-		$array[]=[$row["SongID"],$row["Songtitel"]];
-		echo $row["Songtitel"].PHP_EOL;
+		$statement = $connection->prepare($query, [PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY]);
+		$statement->execute([":interpreten"=>$_POST["Interpret"]]);
+		$data=$statement->fetchAll();
+		$array=[];
+		foreach($data as $row) {
+			$array[]=[$row["catID"],$row["Kategorien"]];
+			echo '                	<option onClick="selectKategorien(this)"  value="' . $row['catID'] . '">' . $row['Kategorien'] . '</option>'.PHP_EOL;
+		}
 	}
+	
 ?>
