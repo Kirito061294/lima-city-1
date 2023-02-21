@@ -13,7 +13,7 @@
 						if(is_array($url)) {
 							echo '					<li class="expandable_li">'.PHP_EOL;
 							echo '						<input type="checkbox" id="' . $item . '_checkbox">'.PHP_EOL;
-							echo '						<label class="hide-onDesktop" for="' . $item . '_checkbox">' . $item . '</label>' . $item.PHP_EOL;
+							echo '						<label for="' . $item . '_checkbox">' . $item . '</label>'.PHP_EOL;
 							echo '						<ul class="dropdown">'.PHP_EOL;
 							foreach($url as $subitem => $suburl) {
 								if($new_tab) {
@@ -24,7 +24,6 @@
 							}
 							echo '						</ul>'.PHP_EOL;
 							echo '					</li>'.PHP_EOL;
-							//echo ''
 						} else {
 							if($new_tab) {
 								echo '					<li><a href="' . $url . '" target="_blank">' . $item . '</a></li>' .PHP_EOL;
