@@ -1,6 +1,6 @@
-function async_getKategorien(InterpretID) {
+function async_getCat(InterpretID) {
 	$.ajax({
-		url: 'include/Songtitel.php',
+		url: 'include/cat.php',
 		data: {'Interpret': InterpretID},
 		type: 'POST',
 		success: function (data)  {
@@ -20,9 +20,9 @@ function async_getSongs(catID,InterpretID) {
 }
 function selectInterpret(event) {
     console.log(event.value);
-	async_getKategorien(event.value)
+	async_getCat(event.value)
 }
-function selectKategorien(event) {
+function selectCat(event) {
     console.log(event.value);
 	async_getSongs(event.value)
 }
