@@ -19,7 +19,6 @@ function async_getSongs(catID,InterpretID) {
 	});
 }
 function selectInterpret(event) {
-    console.log(event.value);
 	async_getCat(event.value)
 }
 function selectCat(event) {
