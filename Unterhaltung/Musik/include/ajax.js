@@ -8,6 +8,11 @@ function async_getCat(InterpretID) {
 		}
 	});
 }
+function selectInterpret(event) {
+	async_getCat(event.value)
+}
+
+
 function async_getSongs(catID,InterpretID) {
 	$.ajax({
 		url: 'include/Songtitel.php',
@@ -17,9 +22,6 @@ function async_getSongs(catID,InterpretID) {
 			document.getElementById("output2").innerHTML=data
 		}
 	});
-}
-function selectInterpret(event) {
-	async_getCat(event.value)
 }
 function selectCat(event) {
     console.log(event.value);
