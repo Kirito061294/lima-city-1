@@ -21,16 +21,16 @@
 				<?php
 			    if (isset($_POST['anime'])) {
                     switch ($_POST['anime']) {
-                        case 'anime00a': include ("include/cat/A_i/PKMN.php"); break;
-                        case 'anime00b': include ("include/cat/A_i/FairyTail.php"); break;
-                        case 'anime00c': include ("include/cat/A_i/accel-world.php"); break;
-                        case 'anime00d': include ("include/cat/A_i/amnesia.php"); break;
-                        case 'anime00e': include ("include/cat/A_i/LSdAF.php"); break;
-                        case 'anime00f': include ("include/cat/A_i/MtgIKKSDy.php"); break;
-                        case 'anime00g': include ("include/cat/A_i/STnWB.php"); break;
-                        case 'anime00h': include ("include/cat/A_i/FoodWars.php"); break;
-                        case 'anime00i': include ("include/cat/A_i/MGnF.php"); break;
-                        case 'anime00j': include ("include/cat/A_i/SAO.php"); break;
+                        case 'anime00a': include ("include/cat/Anime/PKMN.php"); break;
+                        case 'anime00b': include ("include/cat/Anime/FairyTail.php"); break;
+                        case 'anime00c': include ("include/cat/Anime/accel-world.php"); break;
+                        case 'anime00d': include ("include/cat/Anime/amnesia.php"); break;
+                        case 'anime00e': include ("include/cat/Anime/LSdAF.php"); break;
+                        case 'anime00f': include ("include/cat/Anime/MtgIKKSDy.php"); break;
+                        case 'anime00g': include ("include/cat/Anime/STnWB.php"); break;
+                        case 'anime00h': include ("include/cat/Anime/FoodWars.php"); break;
+                        case 'anime00i': include ("include/cat/Anime/MGnF.php"); break;
+                        case 'anime00j': include ("include/cat/Anime/SAO.php"); break;
                     }
 				}
 			?>
