@@ -36,6 +36,9 @@ p {
 .spalte {
    /*width: calc(100% / 3);*/
    display: inline-block;
+   height: 300px;
+   overflow-y: scroll;
+   overflow-x: hidden;
 }
 .interpret, .cat2, .cat3 {
    text-align: center;
