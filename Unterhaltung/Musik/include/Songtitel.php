@@ -3,7 +3,6 @@
 	$connection = Connection::getInstance();
 	
 	// Bei Klick auf eine Kategorie wenn Interpret ausgewählt:
-	//echo 'struktur unfertig';
 	$query = "SELECT * From Songs WHERE InterpretID =:interpreten AND catID =:category";
 
 	$statement = $connection->prepare($query, [PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY]);
