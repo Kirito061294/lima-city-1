@@ -47,6 +47,9 @@ p {
    background-color: green;
    border: 1px solid darkgreen;
 }
+.player {
+   padding: 1em 0 0 0;
+}
 .info {
    width: calc(100% - 20px);
    font-size: 20px;
