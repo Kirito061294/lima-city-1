@@ -15,9 +15,9 @@
 				<p>Sollten rechtliche Probleme auftreten werde ich die betreffenden Videos statt sie einzubetten lediglich verlinken.</p>
 			</div>
             <div class="medienzone01">
+				<script src="include/ajax.js"></script>
+				<script src="../../include/jquery.js"></script>
 				<div class="musikauswahl">
-					<script src="include/ajax.js"></script>
-					<script src="../../include/jquery.js"></script>
 					<div class="spalte">
 						<div class="Interpreten">
 							<?php require_once ("../../include/data.php");
@@ -25,7 +25,7 @@
 								$connection = Connection::getInstance();
 								$query = "SELECT * FROM Interpret";
 		
-								$statement = $connection->prepare($query);
+								$statement = $connection->prepare($query, [PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY]);
 								$statement->execute();
 					
 								echo ''.PHP_EOL;
@@ -38,6 +38,7 @@
 					<div class="spalte"><div id="output" class="cat2"></div></div>
 					<div class="spalte"><div id="output2" class="cat3"></div></div>
 				</div>
+				<div id="player"></div>
             </div>
 			<?php include ("../../include/footer1.php"); ?>
 </html>
