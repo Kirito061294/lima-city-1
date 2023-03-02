@@ -3,7 +3,7 @@
 	$connection = Connection::getInstance();
 
 	// Bei Klick auf Interpreten:
-	$query = "SELECT * From Kategorien WHERE InterpretID =:interpreten";
+	$query = "SELECT * FROM Kategorien WHERE InterpretID =:interpreten";
 
 	$statement = $connection->prepare($query, [PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY]);
 	$statement->execute([":interpreten"=>$_POST["Interpret"]]);
@@ -11,6 +11,6 @@
 	$array=[];
 	foreach($data as $row) {
 		$array[]=[$row["catID"],$row["KategorieName"]];
-		echo '                	<option onClick="selectCat(this)" value="' . $row['catID'] . '">' . $row['KategorieName'] . '</option>'.PHP_EOL;
+		echo '                	<option onClick="selectCat(this)" class="kategorie" value="' . $row['catID'] . '">' . $row['KategorieName'] . '</option>'.PHP_EOL;
 	}
 ?>
