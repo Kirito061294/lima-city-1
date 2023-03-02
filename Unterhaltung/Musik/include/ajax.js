@@ -1,4 +1,8 @@
-function async_getCat(InterpretID) {
+var catID
+var InterpretID
+var SongID
+
+function async_getCat() {
 	$.ajax({
 		url: 'include/cat.php',
 		data: {'Interpret': InterpretID},
@@ -9,11 +13,12 @@ function async_getCat(InterpretID) {
 	});
 }
 function selectInterpret(event) {
+	InterpretID=event.value
 	async_getCat(event.value)
 }
 
 
-function async_getSongs(catID,InterpretID) {
+function async_getSongs() {
 	$.ajax({
 		url: 'include/Songtitel.php',
 		data: {'Interpret': InterpretID,'Kategorien': catID},
@@ -24,12 +29,12 @@ function async_getSongs(catID,InterpretID) {
 	});
 }
 function selectCat(event) {
-    console.log(event.value);
+	catID=event.value
 	async_getSongs(event.value)
 }
 
 
-function async_getPlayer(catID,InterpretID,SongID) {
+function async_getPlayer() {
 	$.ajax({
 		url: 'include/Player.php',
 		data: {'Interpret': InterpretID,'Kategorien': catID,'Songs': SongID},
@@ -40,6 +45,6 @@ function async_getPlayer(catID,InterpretID,SongID) {
 	});
 }
 function selectSong(event) {
-    console.log(event.value);
+	SongID=event.value
 	async_getPlayer(event.value)
 }
