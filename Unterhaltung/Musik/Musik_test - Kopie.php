@@ -6,7 +6,7 @@
     <head>
         <title>Musik</title>
         <?php include ("../../include/head1.php"); ?>
-			<link rel="stylesheet" type="text/css" href="https://mwiese.de/include/css/musik.css">
+			<link rel="stylesheet" type="text/css" href="include/musik.css">
             <div class="ueberschrift">
                 <h1>Musik</h1>
 			</div>
@@ -20,7 +20,8 @@
 				<div class="musikauswahl">
 					<div class="spalte">
 						<div class="Interpreten">
-							<?php require_once ("../../include/data.php");
+							<?php
+								require_once ("../../include/data.php");
 								//  Für Interpretenliste
 								$connection = Connection::getInstance();
 								$query = "SELECT * FROM Interpret";
