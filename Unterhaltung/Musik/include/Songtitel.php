@@ -3,7 +3,7 @@
 	$connection = Connection::getInstance();
 	
 	// Bei Klick auf eine Kategorie wenn Interpret ausgewählt:
-	$query = "SELECT * FROM Songs WHERE catID =:category AND InterpretID =:interpreten";
+	$query = "SELECT * FROM Songs WHERE catID =:category AND InterpretID =:interpreten ORDER BY SongName ASC";
 
 	$statement = $connection->prepare($query, [PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY]);
 	$statement->execute([":category"=>$_POST["Kategorien"],":interpreten"=>$_POST["Interpret"]]);
