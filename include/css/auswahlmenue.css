@@ -1,0 +1,43 @@
+#auswahlmenue {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   border: 1px solid black;
+}
+.spalte1, .spalte2, .spalte3 {
+   display: inline-block;
+   overflow-y: auto;
+   overflow-x: hidden;
+   height: 20vh;
+   border: 2px solid black;
+}
+.interpret, .kategorie, .song {
+   text-align: center;
+   width: 100%;
+   height: 0.9em;
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+}
+#player iframe {
+   padding: 1em 0 0 0;
+   margin: auto;
+   width: 100%;
+   height: 60vh;
+}
+@media screen and (max-width: 1081px) { /* Alles BIS 1081 Pixel breite */
+   #auswahlmenue {
+      display: block;
+   }
+   .spalte1, .spalte2, .spalte3 {
+      display: block;
+	  height: 15vh;
+   }
+   .spalte1 {
+	  height: 11vh;
+   }
+   .interpret, .kategorie, .song {
+      height: 0.6em;
+   }
+   #player iframe, .include1 .video001 iframe {
+      height: 30vh;
+   }
+}
