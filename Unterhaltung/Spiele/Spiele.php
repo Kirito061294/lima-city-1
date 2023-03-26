@@ -9,10 +9,12 @@
             <div class="ueberschrift">
                 <h1>Spiele</h1>
 			</div>
-			<div class="rechte">
+			<script src="https://mwiese.de/js/visibility_switch.js"></script>
+			<div id="info">
                 <p>Die meisten Dateilinks stammen nicht von mir und ich habe keinen Kontakt zum Uploader.</p>
                 <p>Ich übernehme keine verantwortung für eventuell auftretende Schwierigkeiten</p>
             </div>
+			<button id="myButton" class="footer-bg" onclick="toggleInfo()">Rechtliches</button>
             <div class="linkzone01">
 			<form action="" method="post" class="mb-4">
 				<div><input type="submit" name="submit" value="Auswahl"></div>
