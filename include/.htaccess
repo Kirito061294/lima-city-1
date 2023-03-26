@@ -1,0 +1,6 @@
+<Files "Musik_test2.php">
+	AuthName "data"
+	AuthType Basic
+	AuthUserFile /home/webpages/lima-city/marcderjedi/marcderjedi/include/.htpasswd
+	require valid-user
+</Files>
