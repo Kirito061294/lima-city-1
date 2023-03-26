@@ -3,7 +3,7 @@
 	$connection = Connection::getInstance();
 
 	// Bei Klick auf Interpreten:
-	$query = "SELECT * FROM Kategorien WHERE InterpretID =:interpreten";
+	$query = "SELECT * FROM Kategorien WHERE InterpretID =:interpreten ORDER BY KategorieName ASC";
 
 	$statement = $connection->prepare($query, [PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY]);
 	$statement->execute([":interpreten"=>$_POST["Interpret"]]);
