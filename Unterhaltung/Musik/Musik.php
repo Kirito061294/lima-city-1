@@ -10,12 +10,13 @@
             <div class="ueberschrift">
                 <h1>Musik</h1>
 			</div>
-			<div class="rechte">
+			<div id="info">
 				<p>Der Inhalt dieser eingebetteten Videos stammt nicht von mir und ich habe keinerlei Kontakt oder Verbindung zum Rechteinhaber.</p>
 				<p>Sollten rechtliche Probleme auftreten werde ich die betreffenden Videos statt sie einzubetten lediglich verlinken.</p>
 			</div>
+			<button class="knopf" onclick="toggleBlock('info')">Rechtliches</button>
             <div class="medienzone01">
-			<form action="" method="post" class="mb-3">
+				<form action="" method="post" class="mb-3">
 				<div><input type="submit" name="submit" value="Auswahl"></div>
 				<div class="include1">
 					<select name="musik">
@@ -66,7 +67,7 @@
 							}
 						?>
 				</div>
-            </form>
+				</form>
             </div>
 			<?php include ("../../include/footer1.php"); ?>
 </html>
