@@ -3,10 +3,10 @@
         <link rel="stylesheet" type="text/css" href="https://mwiese.de/include/css/style.css">
     </head>
 	<body>
+		<script src="https://mwiese.de/js/visibility_switch.js"></script>
 		<header>
 			<nav>
-				<input type="checkbox" id="toggle_button">
-				<label for="toggle_button" class="toggle_button"><span class="bar"></span><span class="bar"></span><span class="bar"></span></label>
+				<button class="knopf mobile_header hide1" onclick="toggleBlock('dropdown')">Menü</button>
 				<?php
 				function php_header($menue_eintrag,$new_tab=false) {
 					foreach($menue_eintrag as $item => $url) {
@@ -52,13 +52,13 @@
 					'Unterseiten' => array(
 						"Glaube" => "https://mwiese.de/Glaube/Vorschaltung.php",
 						"PC" => "https://pc.mwiese.de/",
-						"Themen" => "https://mwiese.de/Themen/Themen.php"
+						//"Themen" => "https://mwiese.de/Themen/Themen.php"
 					),
 					"Impressum" => "https://mwiese.de/Rechtliches/Impressum.php",
 					"Datenschutz" => "https://mwiese.de/Rechtliches/Datenschutz.php"
 				);
 				// Ausgabe
-				echo '<ul class="kopf">'.PHP_EOL;
+				echo '<ul class="kopf" id="dropdown">'.PHP_EOL;
 				php_header($menu);
 				php_header($links,true);
 				echo '				</ul>'.PHP_EOL;
