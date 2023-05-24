@@ -3,21 +3,31 @@
    grid-template-columns: 1fr 1fr 1fr;
    border: 1px solid black;
 }
+.menue_switch {
+   width: 100%;
+   background-color: var(--footer-bg);
+   margin-bottom: 0.5em;
+}
 .spalte1, .spalte2, .spalte3 {
    display: inline-block;
    overflow-y: auto;
    overflow-x: hidden;
-   height: 20vh;
+   /*height: 20vh;*/
    border: 2px solid black;
 }
-.interpret, .kategorie, .song {
+.spalte1 select, .spalte2 select, .spalte3 select {
+   display: block;
+   height: 5vh;
+   width: 100%;
+}
+.kategorie01, .kategorie02, .kategorie03 {
    text-align: center;
    width: 100%;
-   height: 0.9em;
+   height: 1em;
    border-top: 2px solid black;
    border-bottom: 2px solid black;
 }
-#player iframe {
+#ausgabe iframe {
    padding: 1em 0 0 0;
    margin: auto;
    width: 100%;
@@ -29,15 +39,14 @@
    }
    .spalte1, .spalte2, .spalte3 {
       display: block;
-	  height: 15vh;
    }
-   .spalte1 {
-	  height: 11vh;
+   .spalte1 select, .spalte2 select, .spalte3 select {
+      height: 4vh;
    }
-   .interpret, .kategorie, .song {
-      height: 0.6em;
+   .kategorie01, .kategorie02, .kategorie03 {
+      height: 0.8em;
    }
-   #player iframe, .include1 .video001 iframe {
+   #ausgabe iframe {
       height: 30vh;
    }
 }
