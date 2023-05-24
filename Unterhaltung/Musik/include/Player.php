@@ -16,6 +16,8 @@
 		echo '<iframe src="';
 		echo $embed;
 		echo htmlspecialchars($row['SongURL']);
-		echo '" frameborder="0" allowfullscreen></iframe>'.PHP_EOL;
+		echo '" frameborder="0"';
+		include ("1.php");
+		echo 'allowfullscreen></iframe>'.PHP_EOL;
 	}
 ?>
