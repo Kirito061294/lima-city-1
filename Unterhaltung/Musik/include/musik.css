@@ -1,22 +1,6 @@
-body {
-}
 
-/* Seitendesign */
-
-p {
-   padding:5px 0px;
-}
-.rechte p {
+#info p {
    font-size: 20px;
-}
-.medienzone01 {
-   width: calc(100% - 20px);
-   padding: 10px;
-   border-color: var(--nav-bg);
-   border-style: dashed;
-}
-.medienzone01 a:hover {
-   color: grey;
 }
 .include1 .video001 iframe {
    padding: 1em 0 0 0;
@@ -30,34 +14,10 @@ p {
 
 
 @media screen and (max-width: 1081px) { /* Alles BIS 1081 Pixel breite */
-   /*
-   .medienzone01 {
-      width: 100%;
-      padding: 10px;
-      border-color: green;
-      border-style: dashed;
-   }
-   .medienzone01 a:hover {
-      color: grey;
-   }
-   */
    .rechte p {
       font-size: 16px;
    }
-   #auswahlmenue {
-      display: block;
-   }
-   .spalte1, .spalte2, .spalte3 {
-      display: block;
-	  height: 15vh;
-   }
-   .spalte1 {
-	  height: 11vh;
-   }
-   .interpret, .kategorie, .song {
-      height: 0.6em;
-   }
-   #player iframe, .include1 .video001 iframe {
+   .include1 .video001 iframe {
       height: 30vh;
    }
 }
