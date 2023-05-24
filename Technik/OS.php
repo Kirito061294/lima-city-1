@@ -9,7 +9,7 @@
             <div class="ueberschrift">
                 <h1>Betriebssysteme</h1>
 			</div>
-            <div class="linkzone01">
+            <div class="main_content">
 			<form action="" method="post" class="mb-3">
 				<div><input type="submit" name="submit" value="Auswahl"></div>
 				<div class="include1">
@@ -35,12 +35,12 @@
 					<?php
 						if (isset($_POST['os'])) {
 							switch ($_POST['os']) {
-								case 'os001': include ("OS/Linux.php"); break;
+								//case 'os001': include ("OS/Linux.php"); break;
 								case 'os002': include ("OS/Win.php"); break;
 							}
 						} else {
-					include ("../include/else.php");
-				}
+							include ("../include/else.php");
+						}
 					?>
 				</div>
             </form>
