@@ -11,6 +11,6 @@
 	$array=[];
 	foreach($data as $row) {
 		$array[]=[$row["SongID"],$row["SongName"]];
-		echo '                	<option onClick="selectSong(this)" class="song" value="' . $row['SongID'] . '">' . $row['SongName'] . '</option>'.PHP_EOL;
+		echo '                	<option class="kategorie03" value="' . $row['SongID'] . '">' . $row['SongName'] . '</option>'.PHP_EOL;
 	}
 ?>
