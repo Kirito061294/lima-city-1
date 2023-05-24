@@ -4,8 +4,40 @@ var SongID
 var gemeindeID
 var serienID
 var predigtID
+var buchID
+var kapitelID
 
-
+function KapitelAufrufen() {
+	$.ajax({
+		url: 'BB/ausgabe.php',
+		data: {'Tabelle_BasisBibel_Buch': buchID,'Tabelle_BasisBibel_Kapitel': kapitelID},
+		type: 'POST',
+		success: function (data)  {
+			document.getElementById("ausgabe").innerHTML=data
+		}
+	});
+}
+function selectKapitel(event) {
+	kapitelID=event.value
+	KapitelAufrufen(event.value)
+}
+function KapitelAuflisten() {
+	$.ajax({
+		url: 'BB/kapitel.php',
+		data: {'Tabelle_BasisBibel_Buch': buchID},
+		type: 'POST',
+		success: function (data)  {
+			document.getElementById("output").innerHTML=data
+		}
+	});
+}
+function selectBuch(event) {
+	buchID=event.value
+	KapitelAuflisten(event.value)
+}
+//
+//#############################################
+//
 function SerienAuflisten() {
 	$.ajax({
 		url: 'Predigten/serien.php',
@@ -40,7 +72,7 @@ function PredigtenAufrufen() {
 		data: {'Tabelle_Gemeinde': gemeindeID,'Tabelle_Serien': serienID,'Tabelle_Predigten': predigtID},
 		type: 'POST',
 		success: function (data)  {
-			document.getElementById("player").innerHTML=data
+			document.getElementById("ausgabe").innerHTML=data
 		}
 	});
 }
@@ -85,7 +117,7 @@ function async_getPlayer() {
 		data: {'Interpret': InterpretID,'Kategorien': catID,'Songs': SongID},
 		type: 'POST',
 		success: function (data)  {
-			document.getElementById("player").innerHTML=data
+			document.getElementById("ausgabe").innerHTML=data
 		}
 	});
 }
