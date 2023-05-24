@@ -8,7 +8,7 @@
             <div class="ueberschrift">
                 <h1>Interessantes</h1>
 			</div>
-            <div class="linkzone01">
+            <div class="main_content">
 			<form action="" method="post" class="mb-3">
 				<div><input type="submit" name="submit" value="Auswahl"></div>
 				<div class="include1">
