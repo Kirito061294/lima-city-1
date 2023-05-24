@@ -10,29 +10,28 @@
             <div class="ueberschrift">
                 <h1>Musik</h1>
 			</div>
+			<button class="knopf" onclick="toggleBlock('info')">Rechtliches</button>
 			<div id="info">
 				<p>Der Inhalt dieser eingebetteten Videos stammt nicht von mir und ich habe keinerlei Kontakt oder Verbindung zum Rechteinhaber.</p>
-				<p>Sollten rechtliche Probleme auftreten werde ich die betreffenden Videos statt sie einzubetten lediglich verlinken.</p>
 			</div>
-			<button class="knopf" onclick="toggleBlock('info')">Rechtliches</button>
             <div class="medienzone01">
-				<script src="https://mwiese.de/js/auswahlmenue.js"></script>
 				<script src="https://mwiese.de/js/jquery.js"></script>
 				<div>
-					<button class="knopf hide1" onclick="toggleBlock('auswahlmenue')">Menü ein-/ausblenden</button>
-					<button class="knopf hide2" onclick="toggleGrid('auswahlmenue')">Menü ein-/ausblenden</button>
+					<button class="menue_switch" onclick="switch_button('auswahlmenue')">Menü ein-/ausblenden</button>
 				</div>
-				<div id="auswahlmenue"><link rel="stylesheet" type="text/css" href="https://mwiese.de/include/css/auswahlmenue.css">
+				<div id="auswahlmenue">
+					<link rel="stylesheet" type="text/css" href="https://mwiese.de/include/css/auswahlmenue.css">
+					<script src="https://mwiese.de/js/auswahlmenue.js"></script>
 					<div class="spalte1">
 						<div>
-							<!--<select name="musik">-->
+							<select name="musik" onChange="selectInterpret(this)">
 								<?php
 									require_once ("../../include/data.php");
 									//  Für Interpretenliste
 									$selected = '';
 									
 									$connection = Connection::getInstance();
-									$query = "SELECT * FROM Interpret ORDER BY InterpretName ASC";
+									$query = "SELECT * FROM Interpret";
 			
 									$statement = $connection->prepare($query, [PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY]);
 									$statement->execute();
@@ -40,16 +39,16 @@
 									echo ''.PHP_EOL;
 									while ($row = $statement->fetch()) {
 										echo '					<option onClick="selectInterpret(this)" value="' . $row['InterpretID'] . '"';
-										echo 'class="interpret">' . $row['InterpretName'] . '</option>'.PHP_EOL;
+										echo 'class="kategorie01">' . $row['InterpretName'] . '</option>'.PHP_EOL;
 									}
 								?>
-							<!--</select>-->
+							</select>
 						</div>
 					</div>
 					<div class="spalte2"><div id="output" class="cat2"></div></div>
 					<div class="spalte3"><div id="output2" class="cat3"></div></div>
 				</div>
-				<div id="player"></div>
+				<div id="ausgabe"></div>
             </div>
 			<?php include ("../../include/footer1.php"); ?>
 </html>
