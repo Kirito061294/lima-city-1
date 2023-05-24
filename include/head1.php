@@ -6,7 +6,7 @@
 		<script src="https://mwiese.de/js/visibility_switch.js"></script>
 		<header>
 			<nav>
-				<button class="knopf mobile_header hide1" onclick="toggleBlock('dropdown')">Menü</button>
+				<button class="knopf mobile_header mobile" onclick="toggleBlock('dropdown')">Menü</button>
 				<?php
 				function php_header($menue_eintrag,$new_tab=false) {
 					foreach($menue_eintrag as $item => $url) {
@@ -34,8 +34,9 @@
 					}
 				}
 				// Eingabe
+				$mwiese = 'https://mwiese.de';
 				$menu = array(
-					'Home' => 'https://mwiese.de',
+					'Home' => $mwiese,
 					'Unterhaltung' => array(
 						'Musik' => 'https://mwiese.de/Unterhaltung/Musik/Musik.php',
 						'Spiele' => 'https://mwiese.de/Unterhaltung/Spiele/Spiele.php',
@@ -50,9 +51,9 @@
 				// Diese Links in einem neuen Tab öffnen
 				$links = array(
 					'Unterseiten' => array(
-						"Glaube" => "https://mwiese.de/Glaube/Vorschaltung.php",
-						"PC" => "https://pc.mwiese.de/",
-						//"Themen" => "https://mwiese.de/Themen/Themen.php"
+						'Glaube' => 'https://mwiese.de/Glaube/Vorschaltung.php',
+						'PC' => 'https://pc.mwiese.de/',
+						//'Themen' => 'https://mwiese.de/Themen/Themen.php'
 					),
 					"Impressum" => "https://mwiese.de/Rechtliches/Impressum.php",
 					"Datenschutz" => "https://mwiese.de/Rechtliches/Datenschutz.php"
