@@ -1,19 +1,22 @@
 :root {
-   --nav-h: 4vh; /* Höhe der NAV-Bar*/
-   --nav-bg: #3333ff; /* Hintergrund der NAV-Bar*/
+   --nav-h: 4vh; /* Höhe der NAV-Bar */
+   --nav-bg: #0099ff; /* Hintergrund der NAV-Bar */
    
    --footer-bg: #6699ff;
    
-   --bg-c: linear-gradient(to bottom, var(--nav-bg) 0%, var(--footer-bg) 100%); /* Hintergrundfarbe*/
+   --bg-c: linear-gradient(to bottom, var(--nav-bg) 0%, var(--footer-bg) 100%); /* Hintergrundfarbe */
    --t-c: black; /* Textfarbe */
    
    --h-c: grey; /* Hoverfarbe */
-   --link-c: white; /* Textfarbe der Links*/
+   --link-c: white; /* Textfarbe der Links */
    --mc-submod: yellow;
-   --border1: #30ff30;
+   --border: #30ff30;
    --border2: #50ff50;
    
    --selection: grey;
+
+   /* Explanation of the short Names */
+   /* bg-c = background-color ## t-c = text-color ## nav-h = navigation-height ## h-c = hover-color */
 }
 *{
    margin: 0;
@@ -26,7 +29,6 @@ html {
    width: 100vw;
 }
 body {
-   /*height:100%;*/
    width: 100%;
    line-height:1;
    list-style:none;
@@ -137,14 +139,6 @@ nav input[type="checkbox"] {
    margin: auto;
    width: 80%;
 }
-#myText {
-   display: none;
-}
-#myButton {
-}
-.medienzone01 button {
-   width: 100%;
-}
 .knopf {
    background-color: var(--footer-bg);
    margin-bottom: 0.5em;
@@ -153,7 +147,7 @@ nav input[type="checkbox"] {
    padding: calc(var(--nav-h) + 1em) 0 1em 0; /* Abstand nach oben */
 }
 p {
-   padding:5px 0px 5px 0px;
+   padding:5px 0px;
 }
 #info {
    width: calc(100% - 20px);
@@ -162,32 +156,18 @@ p {
    display: none;
    border-color: var(--nav-bg);
    border-style: dashed;
+   margin-bottom: 0.5em;
 }
-.linkzone01 {
+.main_content {
    width: calc(100% - 20px);
    padding: 10px;
-   border-color: var(--nav-bg);
+   border-color: var(--border);
    border-style: dashed;
 }
-.linkzone01 .linkzone02 {
-   width: calc(100% - 20px);
-   padding: 10px;
-   border-color: var(--border2);
-   border-style: dashed;
-}
-.linkzone01 a:hover {
+.main_content a:hover {
    color: grey;
 }
-.Textzone01 {
-   width: calc(100% - 20px);
-   padding: 10px;
-   border-color: var(--nav-bg);
-   border-style: dashed;
-}
-.Textzone01 a:hover {
-   color: grey;
-}
-.hide1 {
+.mobile {
    display: none;
 }
 .aussage {
@@ -220,10 +200,7 @@ select {
 /* For IE <= 11 */
 select::-ms-expand {
    display: none;
-}/*
-.include1 {
-   padding: 0.4em 0;
-}*/
+}
 .rechts_angezeigt {
    float: right;
 }
@@ -277,12 +254,6 @@ footer {
    bottom: 0;
    background-color: var(--footer-bg);
 }
-/*@media screen and (min-height: 1081px) {  Alles ab 1081 Pixel höhe 
-   .video001 iframe {
-      width: 100%;
-      height: 450px;
-   }
-}*/
 
 /* Für Spieleseiten */
 
@@ -297,18 +268,15 @@ footer {
    *{
       font-size: 20px;
    }
-   .hide1 {
+   .mobile {
       display: block;
    }
-   .hide2 {
+   .desktop {
       display: none;
    }
    .center1 {
       width: 80%;
    }
-   /*nav {
-   height: 100%;
-   }*/
    nav ul {
       height: min-content;
 	  width: 100%;
@@ -354,9 +322,9 @@ footer {
 	  justify-content: center;
    }
    select {
-   width: 10.85em;
-   height: 1.85em;
-   font-size: 70%;
+      width: 10.85em;
+      height: 1.85em;
+      font-size: 70%;
    }
    .rechte p {
       font-size: 16px;
