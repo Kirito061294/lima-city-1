@@ -24,25 +24,27 @@
 						<div>
 							<select name="musik" onChange="selectInterpret(this)">
 								<?php
+									$Spalte1_Tabelle = 'Interpret';
+									$Spalte1_ID = 'InterpretID';
+									$Spalte1_Bezeichnung = 'InterpretName';
+									
 									require_once ("../../include/data.php");
 									//  Für Interpretenliste
 									$selected = '';
 									
 									$connection = Connection::getInstance();
-									$query = "SELECT * FROM Interpret";
+									$query = "SELECT * FROM $Spalte1_Tabelle WHERE visible = '1'";
 			
 									$statement = $connection->prepare($query, [PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY]);
 									$statement->execute();
 					
 									echo ''.PHP_EOL;
 									while ($row = $statement->fetch()) {
-										echo '					<option value="' . $row['InterpretID'] . '" ';
-										echo 'class="kategorie01">' . $row['InterpretName'] . '</option>'.PHP_EOL;
+										echo '					<option value="' . $row[$Spalte1_ID] . '" ';
+										echo 'class="kategorie01">' . $row[$Spalte1_Bezeichnung] . '</option>'.PHP_EOL;
 									}
 								?>
 							</select>
-							<!--
-							-->
 						</div>
 					</div>
 					<div class="spalte2"><div class="cat2"><select id="output" name="cat" onChange="selectCat(this)"></select></div></div>
