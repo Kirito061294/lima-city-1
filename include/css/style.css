@@ -32,7 +32,6 @@ body {
    width: 100%;
    line-height:1;
    list-style:none;
-   overflow-x: hidden;
    background-size: cover;
    background: var(--bg-c);
    background-repeat: no-repeat;
@@ -119,16 +118,6 @@ nav input[type="checkbox"] {
    height: 1vh;
    background: var(--link-c);
 }
-.toggle_button { /* klasse zum umschalten des headers */
-   width: 30px;
-   height: 23px;
-   position: absolute;
-   top: 25px;
-   right: 25px;
-   display: none;
-   flex-direction: column;
-   justify-content: space-between;
-}
 
 /* Header Ende */
 /*#####################################*/
@@ -163,6 +152,7 @@ p {
    padding: 10px;
    border-color: var(--border);
    border-style: dashed;
+   height: 70vh;
 }
 .main_content a:hover {
    color: grey;
@@ -266,7 +256,7 @@ footer {
 
 @media screen and (max-width: 1081px) { /* Alles BIS 1081 Pixel breite */
    *{
-      font-size: 20px;
+      font-size: 18px;
    }
    .mobile {
       display: block;
@@ -275,7 +265,9 @@ footer {
       display: none;
    }
    .center1 {
-      width: 80%;
+      width: 91%;
+   }
+   .main_content {
    }
    nav ul {
       height: min-content;
@@ -285,21 +277,25 @@ footer {
 	  position: absolute;
 	  top: var(--nav-h);
    }
+   nav ul a {
+      padding: 5px 0;
+   }
    .mobile_header {
-      padding: 0;
       height: var(--nav-h);
       width: 100%;
    }
    nav li {
-      height: 4vh;
+      height: min-content;
 	  width: 100%;
    }
    .expandable_li {
       display: block;
+	  padding: 0;
    }
    .expandable_li label {
-	   cursor: pointer;
-	   display: block;
+	  cursor: pointer;
+	  display: block;
+	  padding: 5px 0;
    }
    .expandable_li:hover .dropdown {
       display: none;
@@ -310,11 +306,12 @@ footer {
    .dropdown {
       position: static;
 	  width: 100%;
+	  height: 100%;
    }
    .dropdown li {
       position: static;
 	  display: block;
-	  height: 2vh;
+	  height: 3vh;
    }
    .dropdown li a {
       width: 100%;
@@ -335,13 +332,28 @@ footer {
    .non-padding {
       padding: 0;
    }
+   .2-grids {
+      display: block;
+   }
+   .3-grids {
+      display: block;
+   }
 }
-@media screen and (min-width:1999px) { /* Alles AB 1999 Pixel breite */
+@media screen and (min-width: 1999px) { /* Alles AB 1999 Pixel breite */
    ul {
       font-size:100%;
    }
    body {
       font-size: 30px;
       background-color:var(--bg-c); /* Hintergrundfarbe*/
+   }
+}
+@media screen and (max-width: 500px) { /* Alles BIS 480 Pixel breite */
+   .center1 {
+      width: 100%;
+   }
+   .main_content {
+	  border-right: none;
+	  border-left: none;
    }
 }
