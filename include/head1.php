@@ -40,7 +40,9 @@
 					'Unterhaltung' => array(
 						'Musik' => 'https://mwiese.de/Unterhaltung/Musik/Musik.php',
 						'Spiele' => 'https://mwiese.de/Unterhaltung/Spiele/Spiele.php',
-						//'Live-TV' => 'https://mwiese.de/Unterhaltung/1/live-tv.php'
+						'Lesen' => 'https://mwiese.de/Unterhaltung/Lesen.php',
+						//'Live-TV' => 'https://mwiese.de/Unterhaltung/1/live-tv.php',
+						'YouTube' => 'https://mwiese.de/Unterhaltung/Youtube/Youtube.php'
 					),
 					'Technik' => array(
 						'Betriebssysteme' => 'https://mwiese.de/Technik/OS.php',
