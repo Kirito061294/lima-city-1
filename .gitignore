@@ -33,3 +33,4 @@ include/head2.php
 include/tests
 *.rar
 Unterhaltung/Lesen/ascendence-of-a-bookworm
+Unterhaltung/Lesen_hidden.php
