@@ -1,0 +1,54 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Jenseits vom Garten Eden</b><br><br><b>Kain erschlägt Abel</b><br>Vers 1: Adam schlief mit seiner Frau Eva. Sie wurde schwanger und brachte Kain zur Welt. Da sagte sie: »Mithilfe des Herrn habe ich einen Sohn bekommen.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>2: Danach brachte sie seinen Bruder Abel zur Welt. Abel wurde Hirte und Kain wurde Ackerbauer.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Eines Tages brachte Kain dem Herrn von dem Ertrag seines Feldes eine Opfergabe dar.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Auch Abel brachte ein Opfer dar: die erstgeborenen Tiere seiner Herde und ihr Fett. Der Herr schaute wohlwollend auf Abel und sein Opfer.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Doch Kain und sein Opfer schaute er nicht wohlwollend an. Da packte Kain der Zorn, und er blickte finster zu Boden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Der Herr fragte Kain: »Warum bist du so zornig, und warum blickst du zu Boden?<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Ist es nicht so: Wenn du Gutes planst, kannst du den Blick frei erheben. Hast du jedoch nichts Gutes im Sinn, dann lauert die Sünde an der Tür. Sie lockt dich, aber du darfst ihr nicht nachgeben!«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Kain sagte zu seinem Bruder Abel: »Lass uns aufs Feld gehen!« Als sie auf dem Feld waren, fiel Kain über seinen Bruder Abel her und erschlug ihn.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Da sagte der Herr zu Kain: »Wo ist dein Bruder Abel?« Kain antwortete: »Das weiß ich nicht. Bin ich dazu da, auf meinen Bruder achtzugeben?«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Der Herr entgegnete ihm: »Was hast du getan? Das Blut deines Bruders schreit vom Ackerboden zu mir.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Verflucht sollst du sein, verbannt vom Ackerboden, den deine Hand mit seinem Blut getränkt hat!<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Wenn du ihn bearbeitest, wird er dir künftig keinen Ertrag mehr bringen. Du wirst ein heimatloser Flüchtling sein und von Ort zu Ort ziehen.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Kain erwiderte dem Herrn: »Die Strafe ist zu schwer für mich.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Du verjagst mich jetzt vom Ackerland und verbannst mich aus deiner Gegenwart. Als heimatloser Flüchtling muss ich von Ort zu Ort ziehen. Jeder, dem ich begegne, kann mich erschlagen.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Der Herr antwortete: »Das soll nicht geschehen! Wer Kain tötet, an dem soll es siebenfach gerächt werden.« Der Herr machte ein Zeichen an Kain. Niemand, der ihm begegnete, durfte ihn töten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Kain zog fort, weg vom Herrn, und ließ sich im Land Nod nieder. Das liegt östlich des Gartens Eden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Kains Nachkommen</b><br>17: Kain schlief mit seiner Frau. Sie wurde schwanger und brachte Henoch zur Welt. Danach gründete Kain eine Stadt und nannte sie nach seinem Sohn ebenfalls Henoch.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Henoch bekam einen Sohn: Irad. Irad war der Vater von Mehujael. Mehujael war der Vater von Metuschael und Metuschael der Vater von Lamech.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Lamech heiratete zwei Frauen. Die eine hieß Ada und die andere Zilla.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>20: Ada brachte Jabal zur Welt. Jabal war der Stammvater der Menschen, die in Zelten leben und Vieh züchten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Sein Bruder hieß Jubal. Er war der Stammvater aller Harfen- und Flötenspieler.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>22: Zilla brachte Tubal-Kain zur Welt. Tubal-Kain war Schmied. Er stellte alle Arten von Bronze- und Eisengeräten her. Seine Schwester hieß Naama.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>23: Lamech sagte zu seinen Frauen: »Ada und Zilla, hört mir gut zu! Ihr Frauen Lamechs, merkt euch meine Worte! Ich erschlage den Mann, der mich verwundet. Ich erschlage das Kind, das mich schlägt. <?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>24: Wird Kain siebenmal gerächt, soll Lamech siebenundsiebzigmal gerächt werden.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Adam und Eva bekommen noch einen Sohn</b><br>25: Adam schlief wieder mit seiner Frau, und Eva bekam noch einen Sohn. Sie nannte ihn Set, das heißt: Ersatz. Denn sie sagte: »Gott hat mir einen anderen Sohn geschenkt. Denn Abel ist ja von Kain erschlagen worden.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>26: Auch Set bekam einen Sohn und nannte ihn Enosch. Damals begann man, den Herrn bei seinem Namen anzurufen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>
