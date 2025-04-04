@@ -1,0 +1,60 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Der Brief an die Gemeinde in Ephesus</b><br>Vers 1: »Schreib an den Engel der Gemeinde <a onclick="toggleBlock('001')">!</a><i id="001"></i> in Ephesus <a onclick="toggleBlock('001')">!</a><i id="001"></i>: ›So spricht der, der sieben Sterne in seiner rechten Hand hält und zwischen sieben goldenen Leuchtern <a onclick="toggleBlock('001')">!</a><i id="001"></i> umhergeht:<?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Ich kenne deine Taten, deine Mühe und deine Standhaftigkeit. Ich weiß, dass du böse Menschen nicht ertragen kannst. Du hast diejenigen auf die Probe gestellt, die sich selbst Apostel nennen, es aber nicht sind. Und du hast sie als Lügner entlarvt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Du bist standhaft und hast viel ertragen, weil du dich zu mir bekennst. Und du bist darin nicht müde geworden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Aber ich habe dir vorzuwerfen, dass du deine anfängliche Liebe aufgegeben hast.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Denk daran, aus welcher Höhe du gefallen bist. Ändere dich und handle wieder so wie am Anfang. Wenn du dich nicht änderst, werde ich gegen dich vorgehen und deinen Leuchter von seinem Platz stoßen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Allerdings spricht für dich, dass du das Treiben der Nikolaiten genauso hasst, wie ich es hasse.‹<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Wer ein Ohr dafür hat, soll gut zuhören, was der Geist Gottes den Gemeinden sagt: ›Wer siegreich ist und standhaft im Glauben, dem gebe ich vom Baum des Lebens zu essen. Das ist der Baum, der in Gottes Paradies steht.‹«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Der Brief an die Gemeinde in Smyrna</b><br>8: Der Brief an die Gemeinde in Smyrna<br>8»Schreib an den Engel der Gemeinde in Smyrna: ›So spricht der Erste und der Letzte, der tot war und wieder lebendig wurde:<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Ich weiß, dass du bedrängt wirst und in Armut lebst. – Aber in Wirklichkeit bist du reich! – Ich weiß von den Lästerungen aus dem Kreis derer, die sich als Juden bezeichnen. Das sind sie aber nicht, sondern sie sind die Versammlung des Satans.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Fürchte dich nicht vor dem Leiden, das dir noch bevorsteht. Der Teufel wird einige aus deinen Reihen ins Gefängnis werfen. Denn er will sie auf die Probe stellen. Zehn Tage lang werden sie leiden müssen. Bleib mir treu, auch wenn es dich das Leben kostet. Dann werde ich dir als Siegeskranz das ewige Leben geben.‹<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Wer ein Ohr dafür hat, soll gut zuhören, was der Geist Gottes den Gemeinden sagt: ›Wer siegreich ist und standhaft im Glauben, dem kann der zweite Tod nichts anhaben.‹«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Der Brief an die Gemeinde in Pergamon</b><br>12: »Schreib an den Engel der Gemeinde in Pergamon: ›So spricht der, der das scharfe, doppelschneidige Schwert hat:<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Ich weiß, dass du dort wohnst, wo der Thron des Satans steht. Trotzdem bekennst du dich zu mir und hast deinen Glauben an mich nicht geleugnet. Das geschah nicht einmal zu der Zeit, als mein treuer Zeuge Antipas getötet wurde – bei euch, dort, wo der Satan wohnt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Aber etwas muss ich dir doch vorwerfen: Bei dir gibt es Leute, die der Lehre des Bileam folgen. Er brachte Balak bei, wie er die Israeliten zu Fall bringen konnte: Sie sollten das Fleisch von Tieren essen, die als Opfer für Götzen geschlachtet worden waren. Und sie sollten Hurerei treiben.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Solche Leute gibt es auch bei dir: Leute, die an der Lehre der Nikolaiten festhalten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Ändere dich also! Sonst werde ich bald gegen dich vorgehen. Mit dem Schwert meines Mundes werde ich diese Leute bekämpfen.‹<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: Wer ein Ohr dafür hat, soll gut zuhören, was der Geist Gottes den Gemeinden sagt: ›Wer siegreich ist und standhaft im Glauben, dem werde ich von dem verborgenen Manna geben. Außerdem gebe ich ihm einen weißen Stein. Auf dem Stein steht ein neuer Name, den niemand kennt außer dem, der ihn empfängt.‹«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Der Brief an die Gemeinde in Thyatira</b><br>18: Der Brief an die Gemeinde in Thyatira<br>18»Schreib an den Engel der Gemeinde in Thyatira: ›So spricht der Sohn Gottes, dessen Augen lodernden Flammen gleichen und dessen Füße wie Golderz glänzen:<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Ich kenne deine Taten, deine Liebe, deinen Glauben, deinen Dienst für andere und deine Standhaftigkeit. Ich weiß auch, dass du in letzter Zeit mehr getan hast als zu Beginn.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>20: Aber ich habe dir vorzuwerfen, dass du diese Frau bei dir duldest – diese Isebel, die sich als Prophetin bezeichnet. Mit ihrer Lehre verführt sie meine Diener dazu, Hurerei zu treiben. Sie bringt sie dazu, Fleisch von Tieren zu essen, die als Opfer für Götzen geschlachtet wurden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Ich habe ihr Zeit gelassen, ihr Leben zu ändern. Aber sie will ihre Hurerei nicht aufgeben.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>22: Darum werfe ich sie nun aufs Krankenbett. Und alle, die mit ihr Ehebruch begangen haben, werden Schlimmes erleiden müssen – es sei denn, sie wenden sich ab vom Treiben dieser Frau.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>23: Auch ihre Anhänger werde ich in den Tod schicken. Dann werden alle Gemeinden erkennen, dass ich es bin, der sie auf Herz und Nieren prüft. Jedem von euch werde ich das geben, was seinen Taten entspricht.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>24: Es gibt in Thyatira aber auch euch, die anderen. Ihr habt diese Lehre nicht angenommen. Und ihr wolltet nichts von dem wissen, was sie die ›tiefen Geheimnisse des Satans‹ nennen. Euch sage ich: Ich lege euch keine weitere Last auf.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>25: Haltet aber an dem fest, was ihr habt – bis ich komme!<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>26: Wer siegreich ist und standhaft im Glauben und bis zuletzt nach meinem Willen lebt: dem werde ich Macht über die Völker geben.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>27:  Er wird mit eisernem Stab über sie herrschen und sie wie Tongefäße zerschlagen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>28: Dieselbe Macht habe ich von meinem Vater empfangen. Und dazu gebe ich ihm den Morgenstern.‹<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>29: Wer ein Ohr dafür hat, soll gut zuhören, was der Geist Gottes den Gemeinden sagt!«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>

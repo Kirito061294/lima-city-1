@@ -1,0 +1,56 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Die neue Welt unter Gottes Herrschaft</b><br><br><b>Der neue Himmel und die neue Erde</b><br>Vers 1: Dann sah ich einen neuen Himmel und eine neue Erde. Denn der erste Himmel und die erste Erde sind vergangen, und das Meer ist nicht mehr da.<?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Und ich sah die heilige Stadt: das neue Jerusalem <a onclick="toggleBlock('001')">!</a><i id="001"><?php echo $neues_jerusalem ?></i>. Sie kam von Gott aus dem Himmel herab – für die Hochzeit bereit wie eine Braut, die sich für ihren Mann geschmückt hat.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Und ich hörte eine laute Stimme vom Thron her rufen: »Sieh her: Gottes Wohnung ist bei den Menschen! Er wird bei ihnen wohnen, und sie werden seine Völker sein. Gott selbst wird als ihr Gott bei ihnen sein.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Er wird jede Träne abwischen von ihren Augen <a onclick="toggleBlock('002')">!</a><i id="002">Er wird jede Träne ...: Zitat aus Jesaja 25,8.</i>. Es wird keinen Tod und keine Trauer mehr geben, kein Klagegeschrei und keinen Schmerz. Denn was früher war, ist vergangen.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Der auf dem Thron saß, sagte: »Ich mache alles neu.« Und er fügte hinzu: »Schreib alles auf, denn diese Worte sind zuverlässig und wahr.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Dann sagte er zu mir: »Es ist geschehen! Ich bin das Alpha und das Omega <a onclick="toggleBlock('003')">!</a><i id="003"><?php echo $alpha_omega ?></i>, der Anfang und das Ende. Ich werde dem Durstigen Wasser geben, das aus der Quelle des Lebens fließt. Ich gebe es ihm umsonst.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Wer siegreich ist und standhaft im Glauben, wird das alles als Erbe <a onclick="toggleBlock('004')">!</a><i id="004"><?php echo $erbe ?></i> erhalten. Ich werde sein Gott sein, und er wird mein Kind sein.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Anders geht es den Feiglingen und Treulosen, denen, die Abscheu erregen und morden, Hurerei <a onclick="toggleBlock('005')">!</a><i id="005"><?php echo $hurerei ?></i> treiben, zaubern und Götzen <a onclick="toggleBlock('006')">!</a><i id="006"><?php echo $goetze ?></i> dienen – all denen, die der Lüge verfallen sind. Auf sie wartet der See aus Feuer und brennendem Schwefel. Das ist der zweite Tod.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Das neue Jerusalem</b><br>9: Dann kam einer von den sieben Engeln <a onclick="toggleBlock('007')">!</a><i id="007">sieben Engel: Eine der Engelgruppen in der himmlischen Ratsversammlung.</i>, die die sieben Schalen ausgegossen hatten. In ihnen waren die sieben letzten Plagen gewesen. Der Engel redete mit mir und sagte: »Komm, ich will dir die Braut zeigen, die Frau des Lammes <a onclick="toggleBlock('008')">!</a><i id="008"><?php echo $lamm_gottes ?></i>.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Und er führte mich durch den Geist auf einen großen und hohen Berg. Er zeigte mir die heilige Stadt Jerusalem. Sie kam von Gott aus dem Himmel <a onclick="toggleBlock('010')">!</a><i id="010"><?php echo $himmel ?></i> herab.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Die Herrlichkeit <a onclick="toggleBlock('011')">!</a><i id="011"><?php echo $herrlichkeit ?></i> Gottes war in ihr. Sie funkelte wie ein Edelstein, wie kristallklarer Jaspis.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Die Stadt war umgeben von einer großen, hohen Mauer mit zwölf Toren. Zwölf Engel waren auf den Toren, und auf den Toren standen Namen. Es sind die Namen der zwölf Stämme des Volkes Israel <a onclick="toggleBlock('012')">!</a><i id="012"><?php echo $staemme_israels ?></i>.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Drei Tore führen nach Osten, drei Tore nach Norden, drei Tore nach Süden und drei Tore nach Westen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Die Mauer der Stadt hatte zwölf Grundsteine. Auf ihnen standen die zwölf Namen der zwölf Apostel <a onclick="toggleBlock('013')">!</a><i id="013"><?php echo $apostel ?></i> des Lammes.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Die Maße des neuen Jerusalem</b><br>15: Der Engel, der mit mir sprach, hatte einen goldenen Messstab. Mit dem sollte er die Stadt ausmessen <a onclick="toggleBlock('014')">!</a><i id="014">die Stadt ausmessen: Die Vermessung erinnert an die Vision des Propheten Ezechiel. Er erhält den Auftrag den Tempel zu vermessen, damit er im neuen Jerusalem genauso gebaut werden kann; vgl. Ezechiel 40–48.</i>, einschließlich ihrer Tore und Mauern.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Die Stadt <a onclick="toggleBlock('015')">!</a><i id="015"><?php echo $die_stadt ?></i> ist viereckig angelegt und ebenso lang wie breit. Der Engel vermaß die Stadt mit dem Stab. Ihre Länge, Breite und Höhe sind gleich: Es sind 12.000 Stadien <a onclick="toggleBlock('016')">!</a><i id="016">12.000 Stadien: Ein Stadion ist ein griechisches Längenmaß. Wichtig ist hier die symbolische Zahl, die sich zusammensetzt aus der Zahl 12, die für die 12 Stämme Israels oder die 12 Jünger von Jesus steht, und aus der Zahl 1000, die gewaltige Größe und Ewigkeit bedeutet: 12 × 1000.</i>.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: Dann vermaß er ihre Mauer: Es sind 144 Ellen <a onclick="toggleBlock('017')">!</a><i id="017">144 Ellen: Eine Elle ist ein Längenmaß. Wichtig ist hier die symbolische Zahl, die sich zusammensetzt aus der Zahl 12, die für die 12 Stämme Israels oder die 12 Jünger von Jesus steht: 12 × 12.</i> nach dem Maß der Menschen, das auch das Maß der Engel ist.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Die Mauer ist aus Jaspis gebaut, und die Stadt besteht aus reinem Gold – so rein wie Glas.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Die Grundsteine der Stadtmauer sind mit Edelsteinen aller Art geschmückt: Der erste Stein ist ein Jaspis, der zweite ein Saphir, der dritte ein Chalzedon, der vierte ein Smaragd,<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>20: der fünfte ein Sardonyx, der sechste ein Karneol, der siebte ein Chrysolith, der achte ein Beryll, der neunte ein Topas, der zehnte ein Chrysopras, der elfte ein Hyazinth und der zwölfte ein Amethyst.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Die zwölf Tore sind zwölf Perlen, jedes der Tore besteht aus einer einzigen Perle. Die Hauptstraße der Stadt ist aus reinem Gold – wie aus durchsichtigem Glas.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Das Licht der Stadt leuchtet für die Völker</b><br>22: In der Stadt sah ich keinen Tempel. Denn ihr Tempel ist Gott, der Herr <a onclick="toggleBlock('018')">!</a><i id="018"><?php echo $herr ?></i>, der Allmächtige <a onclick="toggleBlock('019')">!</a><i id="019"><?php echo $der_allmaechtige ?></i> – er und das Lamm.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>23: Die Stadt braucht weder Sonne noch Mond, die für sie scheinen. Denn die Herrlichkeit Gottes erleuchtet sie, und ihr Leuchter <a onclick="toggleBlock('020')">!</a><i id="020"><?php echo $leuchter ?></i> ist das Lamm.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>24: Die Völker werden in ihrem Licht leben. Die Könige der Erde bringen ihre Pracht in sie hinein.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>25: Die Tore der Stadt stehen den ganzen Tag offen. Sie werden nie geschlossen, denn eine Nacht gibt es dort nicht.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>26: Die Herrlichkeit und die Ehre der Völker wird man in die Stadt bringen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>27: Aber nichts Unreines <a onclick="toggleBlock('021')">!</a><i id="021"><?php echo $unrein ?></i> wird in sie hineinkommen und keiner, der Abscheuliches tut oder lügt. Hinein kommt nur, wer im Buch des Lebens steht, das dem Lamm gehört.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>

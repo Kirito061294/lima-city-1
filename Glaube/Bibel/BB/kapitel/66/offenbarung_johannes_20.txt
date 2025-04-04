@@ -1,0 +1,32 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Die tausendjährige Herrschaft des Retters</b><br>Vers 1: Dann sah ich einen Engel <a onclick="toggleBlock('001')">!</a><i id="001"><?php echo $engel ?></i> vom Himmel <a onclick="toggleBlock('002')">!</a><i id="002"><?php echo $himmel ?></i> herabkommen. In seiner Hand hatte er den Schlüssel zum Abgrund und eine große Kette.<?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Er packte den Drachen, die uralte Schlange, das ist der Teufel <a onclick="toggleBlock('003')">!</a><i id="003"><?php echo $satan_teufel ?></i> und der Satan. Und der Engel fesselte ihn für 1000 Jahre.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Er warf ihn in den Abgrund, den verschloss und versiegelte er. Denn der Drache sollte die Völker nicht mehr dazu verführen, sich von Gott abzuwenden – bis die 1000 Jahre vorüber sind. Danach muss er für kurze Zeit freigelassen werden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Dann sah ich Throne. Denjenigen, die darauf Platz nahmen, wurde die Vollmacht gegeben, Gericht <a onclick="toggleBlock('005')">!</a><i id="005">Gericht, verurteilen: Als Herrscher über die ganze Welt ist Gott der Richter, der am Ende der Zeit ein Urteil über sie spricht.</i> zu halten. Ich sah die Seelen <a onclick="toggleBlock('006')">!</a><i id="006"><?php echo $seele ?></i> der Menschen, die enthauptet worden waren. Denn sie waren als Zeugen eingetreten für Jesus <a onclick="toggleBlock('007')">!</a><i id="007"><?php echo $jesus_christus ?></i> und für Gottes Wort <a onclick="toggleBlock('008')">!</a><i id="008"><?php echo $wort_gottes ?></i>. Ich sah auch die Seelen derer, die das Tier und sein Standbild nicht angebetet hatten. Auch sein Zeichen hatten sie nicht getragen, weder auf ihrer Stirn noch auf ihrer Hand. Sie wurden wieder lebendig und herrschten mit Christus 1000 Jahre lang.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Das ist die erste Auferstehung <a onclick="toggleBlock('010')">!</a><i id="010"><?php echo $auferstehung ?></i>. – Die übrigen Toten wurden nicht lebendig, bevor nicht die 1000 Jahre vorüber waren. –<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Glückselig und heilig <a onclick="toggleBlock('011')">!</a><i id="011"><?php echo $heilig ?></i> ist, wer an der ersten Auferstehung Anteil hat! Über sie hat der zweite Tod keine Vollmacht. Sie werden Gott und Christus als Priester <a onclick="toggleBlock('013')">!</a><i id="013"><?php echo $priester ?></i> dienen und 1000 Jahre lang mit Christus herrschen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Die endgültige Vernichtung des Satans</b><br>7: Wenn die 1000 Jahre vorüber sind, wird der Satan aus seinem Gefängnis freigelassen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Er wird hinausgehen, um die Völker zu verführen, die an den vier Ecken der Erde wohnen: Gog und Magog <a onclick="toggleBlock('015')">!</a><i id="015"><?php echo $gog_magog ?></i>. Er wird sie zum Kampf sammeln. Sie werden so zahlreich sein wie der Sand am Meer.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Sie zogen herauf auf die Ebene der Erde. Dort umzingelten sie das Lager der Heiligen <a onclick="toggleBlock('016')">!</a><i id="016"><?php echo $heilige ?></i> und die geliebte Stadt. Da fiel Feuer vom Himmel und verzehrte sie.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Und der Teufel, der sie verführt hatte, wurde in den See aus Feuer und Schwefel geworfen. Dort sind auch das Tier und der falsche Prophet <a onclick="toggleBlock('018')">!</a><i id="018"><?php echo $falscher_prophet ?></i>. Sie werden Tag und Nacht gequält, für immer und ewig.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Das Gericht über die Toten</b><br>11: Dann sah ich einen großen, weißen Thron und den, der darauf sitzt. Vor seinem Angesicht flohen die Erde und der Himmel, für sie gab es keinen Platz mehr.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Und ich sah die Toten, die Mächtigen und die einfachen Leute. Sie standen vor dem Thron. Buchrollen <a onclick="toggleBlock('020')">!</a><i id="020"><?php echo $schriftrolle ?></i> wurden geöffnet. Darunter war auch das Buch des Lebens <a onclick="toggleBlock('021')">!</a><i id="021"><?php echo $buch_des_lebens ?></i>. Dann wurde das Urteil über die Toten gesprochen. Es richtete sich nach ihren Taten, die in den Rollen aufgeschrieben waren.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Da gab das Meer die Toten heraus, die in ihm waren. Auch der Tod und das Totenreich gaben ihre Toten heraus. Über alle wurde das Urteil gesprochen – über jeden so, wie es seinen Taten entsprach.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Der Tod und das Totenreich wurden in den See aus Feuer geworfen. Das ist der zweite Tod: der See aus Feuer.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Wer nicht im Buch des Lebens stand, wurde in den See aus Feuer geworfen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>

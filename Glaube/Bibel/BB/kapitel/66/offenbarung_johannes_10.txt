@@ -1,0 +1,24 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Die Schriftrolle und der erneute Auftrag an Johannes</b><br>Vers 1: Und ich sah einen anderen mächtigen Engel vom Himmel herabkommen. Er war in eine Wolke gehüllt und über seinem Kopf stand ein Regenbogen. Sein Gesicht leuchtete wie die Sonne, und seine Beine waren wie Feuersäulen.<a>1</a><i id="textzusatz"></i><?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: In seiner Hand hielt er eine kleine, geöffnete Schriftrolle. Er setzte seinen rechten Fuß auf das Meer und den linken Fuß auf das Land.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Und er rief mit lauter Stimme, so wie ein Löwe brüllt. Und nachdem er gerufen hatte, erhoben die sieben Donner ihre Stimmen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Als die sieben Donner geredet hatten, wollte ich es aufschreiben. Da hörte ich eine Stimme vom Himmel. Sie sagte: »Behalte für dich, was die sieben Donner gesagt haben. Schreib es nicht auf!«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Dann hob der Engel seine rechte Hand zum Himmel. Es war der Engel, den ich auf dem Meer und dem Land stehen sah.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Er schwor: »Bei dem, der für immer und ewig lebt; der den Himmel geschaffen hat und alles, was darin lebt; der die Erde geschaffen hat und alles, was auf ihr lebt; der das Meer geschaffen hat und alles, was darin lebt: Die Frist ist abgelaufen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Es kommt die Zeit, in der der siebte Engel seine Stimme erhebt. Wenn er die Trompete erschallen lässt, wird Gottes geheimer Plan vollendet sein. So hat er es seinen Dienern, den Propheten, verkündet.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Und die Stimme, die ich vom Himmel gehört hatte, sprach noch einmal zu mir. Sie sagte: »Geh zu dem Engel, der auf dem Meer und dem Land steht. Nimm die geöffnete Schriftrolle, die er in der Hand hält.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Ich ging zu dem Engel und bat ihn, mir die kleine Schriftrolle zu geben. Er sagte zu mir: »Nimm sie und iss sie auf. In deinem Magen wird sie bitter sein. Aber in deinem Mund wird sie süß schmecken wie Honig.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Da nahm ich die kleine Schriftrolle aus der Hand des Engels und aß sie. In meinem Mund war sie süß wie Honig. Doch als ich sie gegessen hatte, wurde mein Magen bitter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Da sagte man mir: »Du musst noch einmal prophetische Worte reden über Völker, Nationen, Sprachen und viele Könige.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>

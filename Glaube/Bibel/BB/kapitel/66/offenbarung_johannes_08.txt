@@ -1,0 +1,28 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Das siebte Siegel wird geöffnet</b><br>Vers 1: Als das Lamm das siebte Siegel öffnete, wurde es still im Himmel, etwa eine halbe Stunde lang.<a>1</a><i id="textzusatz"></i><?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?><b>Die Vision von den sieben Trompeten</b><br><br><b>Der Engel mit der Räucherpfanne</b><br>2: Ich sah die sieben Engel, die vor Gott stehen. Ihnen wurden sieben Trompeten gegeben.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Da kam ein anderer Engel und trat an den Altar. Er hatte eine goldene Räucherpfanne, und ihm wurde viel Räucherwerk gegeben. Er sollte die Gebete aller Heiligen zusammen mit dem Weihrauch als Räucheropfer darbringen. Das tat er auf dem anderen Altar, dem goldenen Räucheraltar vor dem Thron.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Und aus der Hand des Engels stieg der Duft des Weihrauchs hinauf zu Gott – zusammen mit den Gebeten der Heiligen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Dann nahm der Engel die Räucherpfanne. Er füllte sie mit Feuer vom Altar und warf es auf die Erde. Da hörte man Donner und Grollen, es blitzte und die Erde bebte.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Die erste bis vierte Trompete wird geblasen</b><br>6: Die sieben Engel mit den sieben Trompeten machten sich bereit, ihre Trompeten zu blasen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Der erste Engel ließ die Trompete erschallen. Da entstand ein Gemisch aus Hagel, Feuer und Blut, das auf die Erde geschleudert wurde. Ein Drittel der Erde verbrannte, ebenso ein Drittel der Bäume und alles grüne Gras.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Dann ließ der zweite Engel die Trompete erschallen. Da wurde etwas ins Meer geworfen, das glich einem großen Berg aus Feuer. Ein Drittel des Meeres wurde zu Blut.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Ein Drittel der Geschöpfe, die im Meer leben, starb. Und ein Drittel der Schiffe wurde zerstört.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Dann ließ der dritte Engel die Trompete erschallen. Da fiel ein großer Stern vom Himmel. Er brannte wie eine Fackel und fiel auf ein Drittel der Flüsse und auf die Wasserquellen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Der Stern trug den Namen: »Bitterkeit«. Da wurde ein Drittel des Wassers bitter. Viele Menschen starben durch das Wasser, denn es war giftig geworden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Dann ließ der vierte Engel die Trompete erschallen. Da wurden ein Drittel der Sonne, ein Drittel des Mondes und ein Drittel der Sterne weggeschlagen. Dadurch verloren sie ein Drittel ihrer Helligkeit. Ein Drittel des Tages hatte kein Licht, und genauso war es auch in der Nacht.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Dann sah ich einen Adler, der hoch am Himmel flog. Und ich hörte, wie er mit lauter Stimme rief: »Wehe! Wehe! Wehe denen, die auf der Erde leben! Noch haben drei Engel ihre Trompeten nicht geblasen. Sie werden sie aber bald erschallen lassen!«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>

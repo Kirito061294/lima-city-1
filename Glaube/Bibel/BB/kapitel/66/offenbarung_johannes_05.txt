@@ -1,0 +1,30 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Das Buch mit den sieben Siegeln</b><br>Vers 1: In der rechten Hand dessen, der auf dem Thron saß, sah ich eine Buchrolle <a onclick="toggleBlock('001')">!</a><i id="001">Buchrolle: Vorläufer des Buchs aus aneinandergenähten Lederstücken, auf die der Text in Spalten nebeneinandergeschrieben wurde.</i>. Sie war innen und außen beschrieben und war mit sieben Siegeln <a onclick="toggleBlock('002')">!</a><i id="002"><?php echo $siegel ?></i> verschlossen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Und ich sah einen mächtigen Engel <a onclick="toggleBlock('003')">!</a><i id="003"><?php echo $engel ?></i>. Er rief mit lauter Stimme: »Wer ist würdig, dieses Buch zu öffnen und seine Siegel aufzubrechen?«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Doch niemand war in der Lage, das Buch zu öffnen und hineinzuschauen – weder im Himmel noch auf der Erde noch unter der Erde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Und ich weinte sehr. Denn es fand sich niemand, der würdig war, das Buch zu öffnen und hineinzuschauen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Da sagte einer von den Ältesten zu mir: »Weine nicht! Der Löwe aus dem Stamm Juda <a onclick="toggleBlock('004')">!</a><i id="004">Löwe aus dem Stamm Juda: Das Bild stammt aus 1. Mose/Genesis 49,9 und ist hier Titel für Christus, dessen Vorfahren zum Stamm Juda gehörten.</i>, der Spross aus der Wurzel Davids <a onclick="toggleBlock('005')">!</a><i id="005">Spross aus der Wurzel Davids: Das Bild stammt aus Jesaja 11,10 und ist hier Titel des zukünftigen Retters der Welt, der aus der Familie von König David stammt.</i>, hat den Sieg errungen. Er kann das Buch und seine sieben Siegel öffnen.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Da sah ich ein Lamm <a onclick="toggleBlock('006')">!</a><i id="006"><?php echo $lamm_gottes ?></i>. Es stand zwischen dem Thron und den vier Lebewesen <a onclick="toggleBlock('007')">!</a><i id="007"><?php echo $vier_lebewesen ?></i>, mitten unter den Ältesten. Das Lamm sah aus, als ob es geschlachtet wäre. Es hatte sieben Hörner und sieben Augen. Diese Augen sind die sieben Geister Gottes <a onclick="toggleBlock('008')">!</a><i id="008"><?php echo $sieben_geister ?></i>, die in die ganze Welt gesandt worden sind.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Das Lamm ging zu dem, der auf dem Thron saß. Und es nahm das Buch aus seiner rechten Hand.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Als es das Buch genommen hatte, warfen sich die vier Lebewesen vor dem Lamm nieder. Dasselbe taten auch die 24 Ältesten. Jeder von ihnen hatte eine Leier und eine goldene Schale voller Räucherwerk <a onclick="toggleBlock('009')">!</a><i id="009"><?php echo $raeucherwerk ?></i>. Der Weihrauch, das sind die Gebete der Heiligen <a onclick="toggleBlock('010')">!</a><i id="010"><?php echo $heilige ?></i>.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Und sie sangen ein neues Lied: »Du bist würdig, das Buch zu nehmen und seine Siegel zu öffnen. Denn du wurdest geschlachtet und hast mit deinem Blut <a onclick="toggleBlock('011')">!</a><i id="011"><?php echo $blut ?></i> die Menschen für Gott freigekauft – Menschen aus allen Stämmen, Völkern und Nationen und mit allen Sprachen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Du hast ihnen Anteil am Reich Gottes gegeben <a onclick="toggleBlock('012')">!</a><i id="012">ihnen Anteil am Reich Gottes gegeben: Wörtlich »machte aus uns ein Königreich«. Dahinter steht die Vorstellung, dass Gott als König über die Welt herrscht. Durch den Tod von Christus am Kreuz leben die Menschen, die an ihn glauben, bereits jetzt im Reich Gottes.</i> und sie zu Priestern gemacht. Und sie werden auf der Erde herrschen.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Dann sah ich viele Engel und hörte ihre Stimmen. Sie standen rings um den Thron, außen um die Lebewesen und die Ältesten. Es waren 10.000mal 10.000 und 1000mal 1000.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Sie riefen mit lauter Stimme: »Das Lamm, das geschlachtet wurde, ist würdig, die Macht zu bekommen – dazu auch Reichtum und Weisheit, Kraft und Ehre, Herrlichkeit <a onclick="toggleBlock('013')">!</a><i id="013"><?php echo $herrlichkeit ?></i> und Lob.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Und alle Geschöpfe im Himmel und auf der Erde, unter der Erde und im Meer – alles, was in der Welt ist –, sie alle hörte ich rufen: »Dem, der auf dem Thron sitzt, und dem Lamm sei Lob und Ehre. Sie regieren in Herrlichkeit und Macht für immer und ewig.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Die vier Lebewesen antworteten: »Amen <a onclick="toggleBlock('014')">!</a><i id="014"><?php echo $amen ?></i>.« Und die Ältesten warfen sich nieder und beteten sie an.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>

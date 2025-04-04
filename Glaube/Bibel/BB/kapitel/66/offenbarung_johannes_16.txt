@@ -1,0 +1,44 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Die erste bis fünfte Schale wird ausgegossen</b><br>Vers 1: Ich hörte aus dem Tempel eine laute Stimme. Sie rief den sieben Engeln zu: »Geht, leert die sieben Schalen – gießt den Zorn Gottes auf die Erde aus!«<a>1</a><i id="textzusatz"></i><?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Der erste Engel ging hin und goss seine Schale über die Erde aus. Da befiel die Menschen ein bösartiges und schlimmes Geschwür. Es befiel jeden Menschen, der das Zeichen des Tieres hatte und sein Standbild anbetete.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Dann goss der zweite Engel seine Schale ins Meer aus. Da wurde das Meer zu Blut, das aussah wie das Blut von einem Toten. Und alles, was im Meer lebte, starb.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Dann goss der dritte Engel seine Schale aus in die Flüsse und die Wasserquellen. Da wurden sie zu Blut.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Und ich hörte einen anderen Engel, dem die Gewässer unterstellt sind, sagen: »Gerecht bist du, der ist und der war, der Heilige, weil du dieses Urteil gesprochen hast.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Sie haben das Blut der Heiligen und der Propheten vergossen. Deshalb hast du ihnen Blut zu trinken gegeben. Das haben sie verdient.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Und ich hörte den Altar sagen: »Ja, Herr, Gott, Allmächtiger, deine Urteile sind voll Wahrheit und Gerechtigkeit.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Der vierte Engel goss seine Schale über die Sonne aus. Ihr wurde Macht gegeben, die Menschen mit Feuer zu verbrennen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Und die Menschen wurden von der Gluthitze verbrannt. Da verfluchten sie den Namen Gottes, der die Macht hat über diese Plagen. Doch sie änderten sich nicht und weigerten sich, seine Herrlichkeit zu preisen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Dann goss der fünfte Engel seine Schale aus über den Thron des Tieres. Da wurde sein Reich in Finsternis gehüllt, und die Menschen zerbissen sich vor Schmerz die Zunge.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Sie verfluchten den Gott des Himmels wegen ihrer Schmerzen und ihrer Geschwüre. Doch sie hörten nicht auf mit ihren bösen Taten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Die sechste Schale wird ausgegossen</b><br>12: Dann goss der sechste Engel seine Schale aus über den großen Fluss Eufrat. Da versiegte sein Wasser, sodass der Weg bereit war für die Könige aus dem Osten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Ich sah aus den Mäulern des Drachen, des Tieres und des falschen Propheten drei böse Geister hervorkommen. Die sahen aus wie Frösche.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Es sind Geister von Dämonen, und sie tun Zeichen. Sie gehen zu den Königen auf der ganzen Welt, um sie zum Kampf zu sammeln – dem Kampf am großen Tag Gottes, des Allmächtigen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: »Seht doch: Ich komme unerwartet wie ein Dieb. Glückselig ist, wer wachsam bleibt und auf seine Kleider achtgibt. Er muss nicht nackt herumlaufen und sich vor den anderen nicht schämen.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Die drei Geister versammelten die Könige an einem Ort, der auf Hebräisch Harmagedon heißt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Die siebte Schale wird ausgegossen</b><br>17: Der siebte Engel goss seine Schale aus in die Luft. Da ertönte eine laute Stimme aus dem Tempel, die kam vom Thron her und rief: »Es ist geschehen.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Es blitzte, man hörte Grollen und Donnern, und die Erde bebte heftig wie nie zuvor. Seit es Menschen auf der Erde gibt, hatte es noch nie ein so schweres Erdbeben gegeben.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Die große Stadt brach in drei Teile auseinander, und die Städte der Völker stürzten ein. Gott erinnerte sich an Babylon, die Große. Deshalb reichte man ihr den Becher mit dem Wein seines grimmigen Zorns.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>20: Alle Inseln verschwanden, und von den Bergen war nichts mehr zu sehen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Ein gewaltiger Hagel fiel vom Himmel auf die Menschen herab. Die Eisbrocken waren zentnerschwer. Da verfluchten die Menschen Gott wegen des Hagels, denn diese Plage war schrecklich.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>

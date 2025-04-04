@@ -1,0 +1,46 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Der Brief an die Gemeinde in Sardes</b><br>Vers 1: Der Brief an die Gemeinde in Sardes<br>»Schreib an den Engel der Gemeinde in Sardes: ›So spricht der, der Macht über die sieben Geister Gottes hat und der die sieben Sterne hält: Ich kenne deine Taten. Ich weiß, dass du in dem Ruf stehst, lebendig zu sein. Aber du bist tot.<a>1</a><i id="textzusatz"></i><?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Wach auf! Stärke die, die übrig sind und fast gestorben wären. Denn ich habe festgestellt, dass deine Taten nicht vollkommen waren in den Augen meines Gottes.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Denk doch daran, wie du meine Botschaft empfangen und gehört hast. Befolge sie wieder und ändere dich. Wenn du nicht aufwachst, werde ich so unerwartet kommen wie ein Dieb. Und du wirst nicht wissen, zu welcher Stunde ich gegen dich vorgehen werde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Aber es gibt einige Leute in Sardes, die ihre Kleider nicht schmutzig gemacht haben. Sie werden weiße Gewänder tragen und mit mir zusammen auf dem Weg sein. Denn sie sind es wert.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Wer siegreich ist und standhaft im Glauben, dem wird ein weißes Gewand angezogen. Niemals werde ich seinen Namen aus dem Buch des Lebens streichen. Vielmehr werde ich mich vor meinem Vater und vor dessen Engeln offen zu ihm bekennen.‹<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Wer ein Ohr dafür hat, soll gut zuhören, was der Geist Gottes den Gemeinden sagt!«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Der Brief an die Gemeinde in Philadelphia</b><br>7: Der Brief an die Gemeinde in Philadelphia<br>»Schreib an den Engel der Gemeinde in Philadelphia: ›So spricht der Heilige, der Wahrhaftige, der den Schlüssel Davids hat. – Was er öffnet, kann niemand wieder schließen. Und was er schließt, kann niemand wieder öffnen. – Er lässt euch sagen:<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Ich kenne deine Taten. Sieh hin, ich habe vor dir eine Tür geöffnet, die niemand wieder schließen kann. Du hast zwar nur wenig Kraft. Aber dennoch hast du an meinem Wort festgehalten und hast meinen Namen nicht verleugnet.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Ich schicke nun einige Leute zu dir, die zur Versammlung des Satans gehören. Sie bezeichnen sich selbst als Juden. Aber das sind sie nicht, vielmehr lügen sie. Ich werde sie dazu bringen, dass sie zu dir kommen und sich vor deinen Füßen niederwerfen. Sie sollen erkennen, dass ich dich geliebt habe.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Du hast dich an mein Wort gehalten, standhaft zu bleiben. Deshalb halte ich auch in der Stunde zu dir, wenn alles auf die Probe gestellt wird. Sie wird über die ganze Welt hereinbrechen, um die Bewohner der Erde zu prüfen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Ich komme bald. Halte an dem fest, was du hast, damit dir niemand den Siegeskranz wegnimmt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Wer siegreich ist und standhaft im Glauben, den werde ich zu einer Säule machen im Tempel meines Gottes. Er wird ihn nie mehr verlassen müssen. Ich werde den Namen meines Gottes auf ihn schreiben und den Namen der Stadt meines Gottes. Diese Stadt ist das neue Jerusalem, das von meinem Gott aus dem Himmel herabkommen wird. Auch meinen neuen Namen werde ich auf ihn schreiben.‹<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Wer ein Ohr dafür hat, soll gut zuhören, was der Geist Gottes den Gemeinden sagt!«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Der Brief an die Gemeinde in Laodizea</b><br>14: Der Brief an die Gemeinde in Laodizea<br>»Schreib an den Engel der Gemeinde in Laodizea: ›So spricht der, der das Amen ist, der treue und wahrhaftige Zeuge, der Anfang von Gottes Schöpfung:<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Ich kenne deine Taten. Du bist weder kalt noch heiß. Ach, wärst du doch kalt oder heiß!<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Doch du bist lauwarm, weder heiß noch kalt. Darum will ich dich aus meinem Mund ausspucken.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: Du sagst: Ich bin reich, habe alles im Überfluss und mir fehlt es an nichts. Dabei weißt du gar nicht, wie unglücklich du eigentlich bist, bedauernswert, arm, blind und nackt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Ich gebe dir einen Rat: Kauf Gold von mir, das im Feuer gereinigt wurde. Dann bist du wirklich reich! Und kauf weiße Kleider, damit du etwas anzuziehen hast. Sonst stehst du nackt da und musst dich schämen! Kauf außerdem Salbe und streich sie auf deine Augen. Denn du sollst klar sehen können!<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Alle, die ich liebe, weise ich zurecht und erziehe sie streng. Mach also Ernst und ändere dich.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>20: Hör doch! Ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten. Ich werde mit ihm das Mahl einnehmen und er mit mir.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Wer siegreich ist und standhaft im Glauben, der soll neben mir auf meinem Thron sitzen – so wie auch ich den Sieg errungen habe und neben meinem Vater auf seinem Thron sitze.‹<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>22: Wer ein Ohr dafür hat, soll gut zuhören, was der Geist Gottes den Gemeinden sagt!«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>

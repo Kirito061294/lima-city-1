@@ -1,0 +1,38 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Der Sieg über die Gegner der Gemeinde Gottes</b><br><br><b>Die Frau mit dem Kind und der Drache</b><br>Vers 1: Am Himmel erschien ein großes Zeichen: eine Frau, die mit der Sonne bekleidet war. Unter ihren Füßen war der Mond. Auf dem Kopf trug sie einen Kranz aus zwölf Sternen.<a>1</a><i id="textzusatz"></i><?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Sie war schwanger und schrie, denn sie hatte Wehen und litt unter den Qualen der Geburt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Dann erschien am Himmel ein anderes Zeichen: ein großer, feuerroter Drache mit sieben Köpfen und zehn Hörnern. Auf jedem seiner sieben Köpfe war eine Krone.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Mit seinem Schwanz fegte er ein Drittel der Sterne vom Himmel und schleuderte sie auf die Erde. Der Drache stand vor der Frau, die gerade ihr Kind zur Welt brachte. Denn er wollte das Kind verschlingen, sobald sie es geboren hatte.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Und sie brachte ein Kind zur Welt – einen Sohn, der mit eisernem Stab über die Völker herrschen sollte. Ihr Kind wurde hinaufgenommen zu Gott und zu seinem Thron.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Die Frau aber floh in die Wüste, wo Gott einen Ort für sie vorbereitet hatte. Dort sollte sie 1260 Tage lang versorgt werden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Der Drache wird besiegt</b><br>7: Dann brach im Himmel ein Krieg aus: Michael und seine Engel kämpften mit dem Drachen. Der Drache und seine Engel kämpften,<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: aber er war nicht stark genug. So verloren sie ihren Platz im Himmel.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Der große Drache wurde hinabgestoßen – die uralte Schlange, die auch »Teufel« oder »Satan« genannt wird. Sie verführt die ganze Welt dazu, sich von Gott abzuwenden. Der Drache wurde auf die Erde hinabgestoßen, und seine Engel wurden mit ihm hinabgeworfen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Da hörte ich im Himmel eine laute Stimme. Sie rief: »Jetzt ist die Rettung da! Unser Gott hat seine Macht gezeigt, und seine Herrschaft hat begonnen. Er hat Christus Vollmacht verliehen. Der Ankläger unserer Brüder und Schwestern wurde hinabgestürzt. Tag und Nacht hat er sie vor unserem Gott angeklagt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Doch sie haben ihn besiegt durch das Blut des Lammes und durch das Wort ihrer Zeugenaussage. Ihr Leben ging ihnen nicht über alles, sie nahmen sogar den Tod in Kauf.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Darum freut euch, ihr Himmel, und alle, die darin wohnen! Aber wehe euch, Land und Meer! Denn der Teufel ist zu euch herabgekommen, und er ist rasend vor Wut. Er weiß, dass er nur wenig Zeit hat.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Die Frau wird verfolgt und gerettet</b><br>13: Der Drache sah, dass er auf die Erde hinabgestürzt worden war. Da verfolgte er die Frau, die den Sohn geboren hatte.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Die Frau bekam die beiden Flügel des großen Adlers. So konnte sie in die Wüste fliegen, an ihren Zufluchtsort. Dort soll sie dreieinhalb Jahre lang versorgt werden, in sicherer Entfernung von der Schlange.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Die Schlange stieß aus ihrem Maul eine gewaltige Wasserflut aus, hinter der Frau her. Sie sollte von den Fluten fortgerissen werden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Aber die Erde half der Frau. Sie öffnete sich und verschluckte die Fluten, die der Drache aus seinem Maul ausstieß.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: Da wurde der Drache zornig auf die Frau. Er ging fort, um mit ihren anderen Nachkommen Krieg zu führen. Das sind diejenigen, die an Gottes Geboten festhalten und bereit sind, als Zeugen für Jesus einzutreten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Das Tier, das aus dem Meer heraufsteigt</b><br>18: Der Drache trat an den Strand des Meeres.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>

@@ -1,0 +1,38 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?>Vers 1: Ich sah ein Tier aus dem Meer heraufsteigen. Es hatte zehn Hörner und sieben Köpfe. Auf seinen Hörnern trug es zehn Kronen. Und auf seinen Köpfen standen Namen, die eine Gotteslästerung darstellten.<a>1</a><i id="textzusatz"></i><?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Das Tier, das ich sah, glich einem Panther. Seine Füße waren wie die Tatzen eines Bären und sein Rachen war wie der eines Löwen. Der Drache gab ihm seine Kraft, seinen Thron und große Macht.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Einer der Köpfe des Tieres sah aus, als ob er tödlich verwundet wäre. Aber seine tödliche Wunde wurde geheilt. Da geriet die ganze Erde ins Staunen und lief dem Tier hinterher.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Die Menschen beteten den Drachen an, weil er dem Tier Macht gegeben hatte. Auch das Tier beteten sie an und sagten: »Wer kommt diesem Tier gleich? Wer kann den Kampf mit ihm aufnehmen?«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Dem Tier wurde ein Maul gegeben, um große Worte zu reden und Gott zu lästern. Es bekam die Vollmacht, das 42 Monate lang zu tun.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Das Tier riss sein Maul auf, um Gott zu lästern. Es spottete über dessen Namen und dessen Wohnung, das heißt über alle, die im Himmel wohnen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Dann wurde es ihm erlaubt, gegen die Heiligen zu kämpfen und sie zu besiegen. Es bekam Vollmacht über alle Stämme, Völker, Sprachen und Nationen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Alle Bewohner der Erde beteten es an – jeder, dessen Name seit der Erschaffung der Welt nicht im Buch des Lebens aufgeschrieben ist. Das ist das Buch des Lammes, das geschlachtet wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Wer ein Ohr dafür hat, soll gut zuhören:<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Wenn jemand für die Gefangenschaft bestimmt ist, dann wird er in Gefangenschaft geraten. Wenn jemand mit dem Schwert getötet werden soll, dann wird er mit dem Schwert getötet. Hier ist von den Heiligen Standhaftigkeit und Glaube gefordert.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Das Tier, das aus der Erde heraufsteigt</b><br>11: Aus der Erde sah ich ein anderes Tier heraufsteigen. Es hatte zwei Hörner wie ein Lamm, und es redete wie ein Drache.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Die ganze Macht des ersten Tieres übte es vor dessen Augen aus. Es brachte die Erde mit all ihren Bewohnern dazu, das erste Tier anzubeten – das Tier, dessen tödliche Wunde geheilt worden war.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Und es tat große Zeichen: Es ließ sogar vor den Augen der Menschen Feuer vom Himmel auf die Erde herabfallen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Es verführte die Bewohner der Erde dazu, sich von Gott abzuwenden. Dies geschah durch die Zeichen, die es im Auftrag des ersten Tieres vor dessen Augen tat. Es befahl den Bewohnern der Erde, ein Standbild zu machen, um das erste Tier zu ehren – das Tier, das mit dem Schwert verwundet wurde und wieder lebendig geworden war.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Das zweite Tier bekam außerdem die Macht, dem Standbild des ersten Tieres Leben einzuhauchen. Dadurch konnte das Bild sogar sprechen. Es bewirkte, dass alle getötet wurden, die es nicht anbeteten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Es brachte alle dazu, auf der rechten Hand oder der Stirn ein Zeichen anzubringen: einfache Leute und Mächtige, Reiche und Arme, Freie und Sklaven.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: Niemand kann mehr etwas kaufen oder verkaufen, wenn er das Zeichen nicht hat. Es zeigt den Namen des Tieres oder die Zahl, die sein Name ergibt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Hier ist Weisheit gefordert! Wer Verstand hat, soll die Zahl des Tieres berechnen. Denn die Zahl steht für einen Menschen, und seine Zahl ist 666.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>

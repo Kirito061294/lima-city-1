@@ -1,0 +1,50 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Der Untergang Babylons</b><br>Vers 1: Danach sah ich einen anderen Engel vom Himmel herabsteigen. Er hatte große Macht, und die Erde wurde von seiner Herrlichkeit erleuchtet.<a>1</a><i id="textzusatz"></i><?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Er rief mit gewaltiger Stimme: »Gefallen, gefallen ist Babylon, die Große! Dort hausen jetzt Dämonen. Sie ist zum Schlupfwinkel geworden für alle Arten von bösen Geistern und für alle unreinen Vögel. Ja, ein Schlupfwinkel ist sie geworden für alles unreine und scheußliche Getier.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Denn vom Zorneswein ihrer Hurerei haben alle Völker getrunken. Die Könige der Erde haben mit ihr Hurerei getrieben. Und die Kaufleute der Erde sind reich geworden durch ihren verschwenderischen Luxus.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Dann hörte ich eine andere Stimme vom Himmel. Sie rief: »Verlass diese Stadt, mein Volk! Denn du sollst keinen Anteil haben an ihrer Schuld. Lasst ihre Plagen hinter euch, denn sie sollen euch nicht treffen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Ihre Schuld türmt sich auf bis zum Himmel. Und Gott hat sich an ihre Schandtaten erinnert.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Zahlt ihr das zurück, was sie euch angetan hat. Zahlt es ihr doppelt zurück – so, wie sie es für ihre Taten verdient. Und in den Becher, in den sie euch eingeschenkt hat, schenkt ihr doppelt so viel ein!<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Gebt ihr so viel Qual und Trauer, wie sie Herrlichkeit und Luxus besessen hat. Denn in ihrem Innersten sagt sie sich: ›Ich sitze als Königin auf dem Thron und bin keine schutzlose Witwe! Ich werde gewiss keine Trauer erleben.‹<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Darum werden ihre Plagen sie an einem Tag treffen: Tod, Trauer und Hunger. Und sie wird im Feuer verbrannt werden. Denn mächtig ist Gott, der Herr, der über sie Gericht hält.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Die Könige der Erde werden weinen und um sie trauern. Denn sie hatten mit ihr Hurerei getrieben und ihren Reichtum genossen. Jetzt sehen sie den Rauch der brennenden Stadt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Weil sie sich vor ihrer Qual fürchten, bleiben sie in der Ferne stehen und sagen: ›Wehe, wehe dir, Babylon, du große und mächtige Stadt! In einer einzigen Stunde ist das Gericht über dich gekommen.‹<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Auch die Kaufleute der Erde weinen um sie. Sie klagen, denn niemand kauft mehr ihre Ware:<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Gold und Silber, Edelsteine und Perlen; feines Leinen und Seide, purpur- und scharlachrote Stoffe; all das wohlriechende Holz; all die Schnitzereien aus Elfenbein; all die Gegenstände aus Edelholz, Bronze, Eisen oder Marmor;<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: dazu auch Zimt und Kardamom; Räucherwerk, Myrrhe und Weihrauch; Wein und Olivenöl, feines Mehl und Weizen; Rinder und Schafe, Pferde und Wagen; Sklaven, die doch lebendige Menschen sind.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Auch das Obst, das du über alles geliebt hast, wurde dir genommen. Deine ganze Pracht und dein strahlender Glanz sind dir verloren gegangen. Man wird sie nie wieder finden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Die Kaufleute, die mit diesen Waren handelten, sind durch die Stadt reich geworden. Weil sie sich vor ihrer Qual fürchten, bleiben sie in der Ferne stehen. Sie weinen und klagen:<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: ›Wehe, wehe der großen Stadt! Einst war sie bekleidet mit feinem Leinen, purpur- und scharlachroten Gewändern. Sie war geschmückt mit Gold, Edelsteinen und Perlen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: In einer einzigen Stunde ist dieser ganze Reichtum vernichtet worden!‹ Auch jeder Steuermann, jeder Schiffsreisende, die Seeleute und alle, die auf dem Meer arbeiten – sie alle blieben in der Ferne.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Als sie den Rauch der brennenden Stadt sahen, riefen sie: ›Wer kam der großen Stadt gleich?‹<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Sie streuten Staub auf ihre Köpfe, weinten, klagten und riefen: ›Wehe, wehe der großen Stadt Babylon! Alle, die Schiffe auf dem Meer haben, sind durch ihren Wohlstand reich geworden. In einer einzigen Stunde ist sie vernichtet worden!‹<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>20: Doch du, Himmel, freu dich darüber! Freut euch, ihr Heiligen, Apostel und Propheten! Denn Gott hat das Urteil an ihr vollstreckt für das, was sie euch angetan hat.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Dann hob ein starker Engel einen Stein auf, der so schwer war wie ein Mühlstein. Er warf ihn ins Meer und sagte: »Mit solcher Wucht wird Babylon, die große Stadt, in die Tiefe geworfen werden. Und man wird sie nie mehr finden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>22: Babylon, in dir wird man nie wieder Musik hören. Niemand spielt die Leier und singt dazu, niemand spielt Flöte oder Trompete. In dir wird man keinen Handwerker mehr finden, der irgendein Handwerk betreibt. Auch das Geräusch der Mühlen wird man in dir nicht mehr hören.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>23: Nie mehr wird das Licht einer Lampe in dir leuchten. Und der Jubel des Bräutigams und der Braut wird in dir nicht mehr ertönen. Denn deine Kaufleute beherrschten die Erde. Durch deine Zauberei wurden alle Völker der Erde dazu verführt, sich von Gott abzuwenden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>24: In dieser Stadt fand man das Blut von Propheten und Heiligen – und von allen, die auf der Erde umgebracht wurden.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>

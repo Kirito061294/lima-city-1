@@ -1,0 +1,36 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Die Vision von den sieben Siegeln</b><br><br><b>Das erste bis vierte Siegel wird geöffnet</b><br>Vers 1: Dann sah ich, wie das Lamm <a onclick="toggleBlock('001')">!</a><i id="001"><?php echo $lamm_gottes ?></i> das erste der sieben Siegel <a onclick="toggleBlock('002')">!</a><i id="002"><?php echo $siegel ?></i> öffnete. Und ich hörte eines der vier Lebewesen <a onclick="toggleBlock('003')">!</a><i id="003"><?php echo $vier_lebewesen ?></i> rufen mit einer Stimme, die wie ein Donner klang: »Komm!«<?php echo $vers_ende;?>
+<?php echo $verse_ende_o_k;?>
+<?php echo $verse;?>2: Da sah ich ein weißes <a onclick="toggleBlock('004')">!</a><i id="004"><?php echo $weiß ?></i> Pferd. Sein Reiter hatte einen Bogen, und ihm wurde ein Siegeskranz <a onclick="toggleBlock('005')">!</a><i id="005"><?php echo $siegeskranz ?></i> gegeben. Er zog als Sieger aus, um zu siegen.<?php echo $vers_ende;?>
+<?php echo $verse_ende_o_k;?>
+<?php echo $verse;?>3: Als das Lamm das zweite Siegel öffnete, hörte ich das zweite Lebewesen rufen: »Komm!«<?php echo $vers_ende;?>
+<?php echo $verse_ende_o_k;?>
+<?php echo $verse;?>4: Da kam ein anderes, ein feuerrotes Pferd. Seinem Reiter wurde die Macht gegeben, den Frieden <a onclick="toggleBlock('006')">!</a><i id="006"><?php echo $frieden ?></i> von der Erde zu nehmen. Denn die Menschen sollten sich gegenseitig umbringen. Und es wurde ihm ein großes Schwert gegeben.<?php echo $vers_ende;?>
+<?php echo $kommentar;?>Das soll wohl umschreiben das die Kriege und Kriegsgerüchte los gehen<?php echo $verse_ende;?>
+<?php echo $verse;?>5: Als das Lamm das dritte Siegel öffnete, hörte ich das dritte Lebewesen rufen: »Komm!« Da sah ich ein schwarzes Pferd. Sein Reiter hatte eine Waage in seiner Hand.<?php echo $vers_ende;?>
+<?php echo $verse_ende_o_k;?>
+<?php echo $verse;?>6: Und ich hörte etwas wie eine Stimme rufen. Sie kam von dort, wo die vier Lebewesen waren: »Eine Tagesration Weizen soll einen Tageslohn kosten. Auch drei Tagesrationen Gerste sollen einen Tageslohn kosten. Aber das Öl <a onclick="toggleBlock('007')">!</a><i id="007"><?php echo $olivenbaum ?></i> und der Wein <a onclick="toggleBlock('008')">!</a><i id="008"><?php echo $wein ?></i> sollen nicht teurer werden!«<?php echo $vers_ende;?>
+<?php echo $kommentar;?>Hier wird alles bis auf die Grundnahrungsmittel und Lob-werkzeug massiv teurer gemacht<?php echo $verse_ende;?>
+<?php echo $verse;?>7: Als das Lamm das vierte Siegel öffnete, hörte ich die Stimme des vierten Lebewesens, die rief: »Komm!«<?php echo $vers_ende;?>
+<?php echo $verse_ende_o_k;?>
+<?php echo $verse;?>8: Da sah ich ein leichenblasses Pferd. Sein Reiter hieß »der Tod«. Und das Totenreich folgte ihm. Sie bekamen die Vollmacht über ein Viertel der Erde. Sie sollten die Menschen töten, durch Schwert, Hunger, Pest und die wilden Tiere der Erde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?>Hier wird die große weltweite Hungersnot erwähnt die an anderer Stelle angekündigt wurde<?php echo $verse_ende;?>
+<?php echo $verse;?><b>Das fünfte Siegel wird geöffnet</b><br>9: Als das Lamm das fünfte Siegel öffnete, sah ich einen Altar <a onclick="toggleBlock('009')">!</a><i id="009"><?php echo $altar ?></i> und darunter Seelen <a onclick="toggleBlock('010')">!</a><i id="010">Seele: Steht für das, was auch über den Tod hinaus das Ganze der Person ausmacht.</i>. Es waren die Seelen der Menschen, die hingeschlachtet wurden, weil sie an das Wort Gottes <a onclick="toggleBlock('011')">!</a><i id="011"><?php echo $wort_gottes ?></i> glaubten – und weil sie als Zeugen dafür eingetreten sind.<?php echo $vers_ende;?>
+<?php echo $kommentar;?>Hier sind Menschen wie Paulus gemeint<?php echo $verse_ende;?>
+<?php echo $verse;?>10: Sie riefen mit lauter Stimme: »Wie lange dauert es noch, du heiliger und wahrhaftiger Herrscher? Wann sprichst du das Urteil? Wann ziehst du die Bewohner der Erde zur Rechenschaft, weil sie unser Blut vergossen haben?«<?php echo $vers_ende;?>
+<?php echo $verse_ende_o_k;?>
+<?php echo $verse;?>11: Jede einzelne Seele erhielt ein weißes Gewand. Ihnen wurde gesagt: »Habt noch ein wenig Geduld, denn ihr seid noch nicht vollzählig. Es fehlen noch eure Brüder und Schwestern <a onclick="toggleBlock('012')">!</a><i id="012"><?php echo $bruder_schwester ?></i>, die – wie ihr – Gott dienen und getötet werden müssen.«<?php echo $vers_ende;?>
+<?php echo $verse_ende_o_k;?>
+<?php echo $verse;?><b>Das sechste Siegel wird geöffnet</b><br>12: Dann sah ich, wie das Lamm das sechste Siegel öffnete. Da gab es ein schweres Erdbeben. Die Sonne wurde schwarz wie ein Trauergewand <a onclick="toggleBlock('013')">!</a><i id="013">Trauergewand: Kleidungsstück aus rauem Leinen, das zum Zeichen von Trauer oder Buße auf bloßer Haut getragen wurde. Es wird auch »Sack« genannt.</i>. Und der ganze Mond wurde rot wie Blut.<?php echo $vers_ende;?>
+<?php echo $kommentar;?>Hier ist warscheinlich eine Umkehrung der Erdplattenverschiebung gemeint. Laut Forschern waren alle aktuellen Kontinente früher ein riesiger Kontinent, genannt Pangäa. Wenn man diese Stelle damit verbindet wird wohl der Zustand von damals wiederhergestellt. Die hier erwähnten Erdbeben werden (wenn diese Vermutung stimmt) noch über der Stärke 10 sein, welche nur Erdbeben haben die die Kontinente verändern.<?php echo $verse_ende;?>
+<?php echo $verse;?>13: Die Sterne stürzten vom Himmel auf die Erde – wie unreife Feigen, die der Feigenbaum abwirft, wenn er vom Sturm geschüttelt wird.<?php echo $vers_ende;?>
+<?php echo $verse_ende_o_k;?>
+<?php echo $verse;?>14: Und der Himmel verschwand wie eine Schriftrolle <a onclick="toggleBlock('014')">!</a><i id="014"><?php echo $schriftrolle ?></i>, die man zusammenrollt. Und jeder Berg und jede Insel wurden von ihrem Platz gerückt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?>hier ist nochmal das große Erdbeben gemeint das "Pangäa" wiederherstellt<?php echo $verse_ende;?>
+<?php echo $verse;?>15: Die Menschen verbargen sich in den Höhlen und den Felsspalten der Berge: die Könige der Erde, die hohen Regierungsbeamten und Befehlshaber, die Reichen und Mächtigen, aber auch alle Sklaven <a onclick="toggleBlock('015')">!</a><i id="015"><?php echo $sklave ?></i> und Freie.<?php echo $vers_ende;?>
+<?php echo $verse_ende_o_k;?>
+<?php echo $verse;?>16: Sie sagten zu den Bergen und Felsen: »Fallt auf uns! Verbergt uns vor dem Blick dessen, der auf dem Thron sitzt, und vor dem Zorn des Lammes.<?php echo $vers_ende;?>
+<?php echo $verse_ende_o_k;?>
+<?php echo $verse;?>17: Denn der große Tag <a onclick="toggleBlock('016')">!</a><i id="016">der große Tag: Der Tag, an dem Christus wiederkommt. Dann hält Gott Gericht und sein Reich bricht endgültig an.</i> ist gekommen, an dem ihr Zorn über uns hereinbricht. Wer kann da bestehen?«<?php echo $vers_ende;?>
+<?php echo $verse_ende_o_k;?>
+								</div>

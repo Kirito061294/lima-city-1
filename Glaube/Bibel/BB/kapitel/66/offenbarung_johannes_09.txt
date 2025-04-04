@@ -1,0 +1,44 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Die fünfte Trompete wird geblasen</b><br>Vers 1: Dann ließ der fünfte Engel die Trompete erschallen. Da sah ich einen Stern, der vom Himmel auf die Erde gefallen war. Ihm wurde der Schlüssel für den Schacht gegeben, der in den Abgrund hinabführt.<a>1</a><i id="textzusatz"></i><?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Er öffnete den Schacht zum Abgrund. Da stieg Rauch aus dem Schacht empor wie der Rauch aus einem großen Ofen. Und der Rauch aus dem Schacht verdunkelte die Sonne und die Luft.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Aus dem Rauch kamen Heuschrecken hervor und machten sich über die Erde her. Ihnen wurde die Fähigkeit gegeben, wie die Skorpione zu stechen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Den Heuschrecken wurde befohlen, dem Gras auf der Erde keinen Schaden zuzufügen – auch nicht den Pflanzen und Bäumen. Sie sollten nur den Menschen zusetzen, die das Siegel Gottes nicht auf ihrer Stirn tragen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Sie wurden angewiesen, die Menschen nicht zu töten, sondern sie fünf Monate lang zu quälen. Die Qual sollte so unerträglich sein, wie wenn ein Skorpion einen Menschen sticht.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Dann werden die Menschen den Tod suchen, aber sie werden ihn nicht finden. Sie werden sich danach sehnen zu sterben, doch der Tod wird vor ihnen fliehen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Die Heuschrecken sahen aus wie Pferde, die für die Schlacht gerüstet sind. Auf ihren Köpfen trugen sie etwas, das aussah wie goldene Siegeskränze. Und ihre Gesichter waren wie Gesichter von Menschen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Ihre Haare waren wie Frauenhaare, und ihre Zähne waren wie die Zähne von Löwen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Ihre Brust war wie mit Eisen gepanzert. Das Schlagen ihrer Flügel dröhnte wie viele mit Pferden bespannte Streitwagen, die in die Schlacht ziehen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Die Heuschrecken hatten Schwänze mit Giftstacheln wie Skorpione. Und in ihren Schwänzen steckte die Macht, den Menschen fünf Monate lang Schaden zuzufügen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Die Heuschrecken werden von einem König beherrscht, dem Engel des Abgrunds. Sein Name lautet auf Hebräisch Abaddon und auf Griechisch Apollyon, das heißt: Verderber.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Das erste Unheil ist vorüber, doch es kommen noch zwei weitere.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Die sechste Trompete wird geblasen</b><br>13: Dann ließ der sechste Engel die Trompete erschallen. Da hörte ich eine Stimme. Sie kam von den vier Hörnern des goldenen Altars her, der vor Gott steht.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Sie sagte zu dem sechsten Engel, der die Trompete hatte: »Binde die vier Engel los, die am großen Fluss Eufrat gefesselt sind.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Da wurden die vier Engel losgebunden. Sie standen für diese Stunde bereit, für diesen Tag, diesen Monat und dieses Jahr. Denn sie sollten ein Drittel der Menschen töten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Und die Zahl ihrer berittenen Truppen betrug 20.000mal 10.000. Das ist die Zahl, die ich hörte.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: So sah ich in dieser Vision die Pferde und ihre Reiter: Ihre Panzer waren feuerrot, rauchblau und schwefelgelb. Die Köpfe der Pferde waren wie die Köpfe von Löwen. Und aus ihren Mäulern kam Feuer, Rauch und Schwefel.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Durch diese drei Plagen wurde ein Drittel der Menschen getötet: durch das Feuer, den Rauch und den Schwefel, die aus ihren Mäulern kamen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Denn die Macht dieser Pferde liegt in ihrem Maul und in ihren Schwänzen. Ihre Schwänze sind wie Schlangen mit einem Kopf am Ende. Auch mit ihnen fügten sie den Menschen Schaden zu.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>20: Doch die übrigen Menschen, die diese Plagen überlebt hatten, änderten sich trotzdem nicht. Sie vertrauten weiterhin auf das, was sie mit eigenen Händen herstellten: Sie beteten ihre Dämonen an und die Götzenbilder aus Gold, Silber, Bronze, Stein oder Holz. Die können weder sehen noch hören noch umhergehen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Sie hörten nicht auf mit ihren Morden, ihrer Zauberei, ihrer Hurerei und ihren Diebstählen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>
