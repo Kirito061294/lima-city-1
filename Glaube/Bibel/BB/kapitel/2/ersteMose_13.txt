@@ -1,0 +1,38 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Abraham und Lot trennen sich</b><br>Vers 1: Abram kehrte von Ägypten in den Süden Kanaans zurück. Er nahm seine Frau und seinen ganzen Besitz mit, und auch Lot war bei ihm.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>2: Abram war sehr reich, er besaß viel Vieh, Silber und Gold.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Von einem Lagerplatz zum nächsten zog Abram weiter vom Süden Kanaans bis nach Bet-El. Er kam zu der Stelle zwischen Bet-El und Ai, wo er anfangs sein Zelt aufgeschlagen hatte.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Hier stand der Altar, den er früher an diesem Ort errichtet hatte. Dort rief Abram den Herrn bei seinem Namen an.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><br>5: Auch Lot, der mit Abram zog, hatte viele Schafe, Ziegen, Rinder und Zelte.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Doch das Land ließ nicht zu, dass sie sich gemeinsam darin aufhielten. Ihre Herden waren zu groß, um zusammenzubleiben.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Daher kam es zum Streit zwischen Abrams und Lots Viehhirten. Damals wohnten auch noch die Kanaaniter und die Perisiter in dem Land.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Da sagte Abram zu Lot: »Zwischen dir und mir soll es keinen Streit geben, auch nicht zwischen unseren Hirten. Wir sind doch miteinander verwandt!<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Liegt nicht das ganze Land vor dir? Es ist besser, wenn wir uns trennen. Wenn du nach links willst, gehe ich nach rechts. Willst du aber nach rechts, dann gehe ich nach links.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><br>10: Lot schaute sich um. Er sah, dass es um den Jordan herum genug Wasser gab. Bevor der Herr Sodom und Gomorra zerstörte, gab es in der ganzen Gegend genug Wasser. Bis hinunter nach Zoar war das Land fruchtbar wie der Garten des Herrn, wie das Land Ägypten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Da wählte Lot für sich das Gebiet um den Jordan herum und brach nach Osten auf. So trennten sich die beiden voneinander.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Abram ließ sich im Land Kanaan nieder und Lot in den Städten jener Gegend. Er zog mit seinen Zelten bis hinunter nach Sodom.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Die Bewohner von Sodom aber waren schlechte Menschen. Ihr Tun widersprach dem Willen des Herrn.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Gott wiederholt seine Verheißung an Abraham</b><br>14: Nachdem sich Lot von ihm getrennt hatte, sagte der Herr zu Abram: »Schau dich um und sieh von deinem Platz aus nach Norden, Süden, Osten und Westen!<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Das ganze Land, das du siehst, will ich dir und deinen Nachkommen für immer geben.<?php echo $vers_ende;?> 
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Ich werde deine Nachkommen so zahlreich machen wie den Staub auf der Erde. Nur wer den Staub auf der Erde zählen kann, wird auch deine Nachkommen zählen können.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: Mach dich auf und zieh durch das Land in seiner ganzen Ausdehnung! Denn dir will ich es geben.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Da zog Abram mit seinen Zelten weiter. Er ließ sich bei den Eichen von Mamre nieder, in der Nähe von Hebron. Dort baute er einen Altar für den Herrn.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>
