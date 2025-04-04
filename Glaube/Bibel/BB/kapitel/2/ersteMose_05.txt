@@ -1,0 +1,72 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Adams Nachkommen bis zur Sintflut</b><br>Vers 1: Das ist der Familienstammbaum von Adam: Als Gott den Menschen erschuf, machte er ihn als sein Ebenbild.<?php echo $vers_ende;?>
+<?php echo $kommentar_visible;?>Die Namen der Nachfahren sind:<br>Set, Enosch, Kenan, Mahalalel, Jered, Henoch, Metuschelach, Lamech, Noah.
+<br><br>Diese Namen bedeuten übersetzt: "Ersatz, Stellvertreter", "der Nichtige, Schwache", "Erwerbung", "Lob Gottes, der Gott lobt, Gottlob", "Niederung", "Einweihung, der Eingeweihte, Belehrte", "er stirbt, und es kommt", "der Umstürzler", "Trost, Ruhe".
+<br><br>Wenn man diese Bedeutungen etwas umschreibt kommt am Ende sehr genau die Menschheitsgeschichte bei raus.
+<br>Nach dem Sündenfall war der Mensch gefallen, schwach. die ersten beiden Namen stehen dafür das die Schwäche ersetzt wird.
+<br>Danach wird davon geschrieben das der Mensch Gott lobt, also ähnlich der Bekehrung.
+<br>Darauf kommt der Tot, warscheinlich als überleitung zum Empfangen des Geistes Gottes (bei erhalt von selbigen beginnt ein neues Leben), daher auch "umsturz".
+<br>Am Schluss kommt Jesus als unser Tröster wieder was die gesammte Bibel abschließt.<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Er schuf sie als Mann und Frau. Gott segnete sie und gab ihnen den Namen »Mensch« – an dem Tag, als sie erschaffen wurden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Adam war 130 Jahre alt, da wurde er wieder Vater. Sein Sohn war ihm so ähnlich wie sein Ebenbild. Er gab ihm den Namen Set.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Adam lebte nach Sets Geburt noch 800 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Er starb im Alter von 930 Jahren.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Set war 105 Jahre alt, als sein Sohn Enosch geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Set lebte nach Enoschs Geburt noch 807 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Er starb im Alter von 912 Jahren.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Enosch war 90 Jahre alt, als sein Sohn Kenan geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Enosch lebte nach Kenans Geburt noch 815 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Er starb im Alter von 905 Jahren.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Kenan war 70 Jahre alt, als sein Sohn Mahalalel geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Kenan lebte nach Mahalalels Geburt noch 840 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Er starb im Alter von 910 Jahren.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Mahalalel war 65 Jahre alt, als sein Sohn Jered geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Mahalalel lebte nach Jereds Geburt noch 830 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: Er starb im Alter von 895 Jahren.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Jered war 162 Jahre alt, als sein Sohn Henoch geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Jered lebte nach Henochs Geburt noch 800 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>20: Er starb im Alter von 962 Jahren.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Henoch war 65 Jahre alt, als sein Sohn Metuschelach geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>22: Henoch führte ein Leben in enger Beziehung zu Gott. Nach der Geburt Metuschelachs lebte er noch 300 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>23: Henoch wurde 365 Jahre alt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>24: Nachdem er in enger Beziehung zu Gott gelebt hatte, war er plötzlich nicht mehr da. Denn Gott hatte ihn von der Erde weggenommen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>25: Metuschelach war 187 Jahre alt, als sein Sohn Lamech geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>26: Metuschelach lebte nach Lamechs Geburt noch 782 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>27: Er starb im Alter von 969 Jahren.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>28: Lamech war 182 Jahre alt, als er einen Sohn bekam.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>29: Er gab ihm den Namen Noah und sagte: »Dieser wird uns trösten bei unserer Arbeit und Mühe auf dem Ackerboden, den der Herr verflucht hat.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>30: Lamech lebte nach Noahs Geburt noch 595 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>31: Er starb im Alter von 777 Jahren.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>32: Noah war 500 Jahre alt, als seine Söhne Sem, Ham und Jafet geboren wurden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>
