@@ -1,0 +1,5 @@
+<?php echo $comment_switch;?>
+									<div style="height: 25em; overflow-y: scroll;">
+<?php echo $verse;?>Hier gibts (noch) nichts zu sehen<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>
