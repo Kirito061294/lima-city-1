@@ -1,0 +1,52 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Die Vorgeschichte und der Beginn des Wirkens von Jesus</b><br><br><b>Die Geburt und Kindheit von Jesus</b><br><br><b>Der Stammbaum von Jesus</b><br>Vers 1: Das Buch vom Ursprung und der Geschichte von Jesus Christus, der ein Sohn Davids und ein Nachkomme Abrahams war.<a>1</a><i id="textzusatz"></i><?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Abraham war der Vater von Isaak, Isaak von Jakob, Jakob von Juda und seinen Brüdern.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Juda war der Vater von Perez und Serach – ihre Mutter war Tamar –, Perez von Hezron, Hezron von Ram.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Ram war der Vater von Amminadab, Amminadab von Nachschon, Nachschon von Salmon.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Salmon war der Vater von Boas – seine Mutter war Rahab –, Boas war der Vater von Obed – seine Mutter war Rut –, Obed der Vater von Isai.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Isai war der Vater von David, dem König, David von Salomo – seine Mutter war die Frau von Urija.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Salomo war der Vater von Rehabeam, Rehabeam von Abija, Abija von Asa,<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Asa von Joschafat, Joschafat von Joram, Joram von Usija,<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Usija von Jotam, Jotam von Ahas, Ahas von Hiskija,<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Hiskija von Manasse, Manasse von Amos, Amos von Joschija.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Joschija war der Vater von Jojachin und seinen Brüdern. Dann kam die Verbannung nach Babylonien.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Als die Verbannung nach Babylonien vorüber war, wurde Jojachin Vater von Schealtiel, Schealtiel von Serubbabel,<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Serubbabel von Abihud, Abihud von Eljakim, Eljakim von Azor,<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Azor von Zadok, Zadok von Achim, Achim von Eliud,<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Eliud von Eleasar, Eleasar von Mattan, Mattan von Jakob,<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Jakob von Josef. Josef war der Mann von Maria. Maria war die Mutter von Jesus, der Christus genannt wird.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: Alle Generationen zusammen sind: von Abraham bis David vierzehn Generationen, von David bis zur Verbannung nach Babylonien vierzehn Generationen, von der Verbannung nach Babylonien bis zu Christus vierzehn Generationen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Jesus wird geboren</b><br>18: Zur Geburt von Jesus Christus kam es so: Seine Mutter Maria war mit Josef verlobt. Sie hatten noch nicht miteinander geschlafen. Da stellte sich heraus, dass Maria schwanger war – aus dem Heiligen Geist.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Ihr Mann Josef lebte nach Gottes Willen, aber er wollte Maria nicht bloßstellen. Deshalb wollte er sich von ihr trennen, ohne Aufsehen zu erregen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>20: Dazu war er entschlossen. Doch im Traum erschien ihm ein Engel des Herrn und sagte: »Josef, du Nachkomme Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen. Denn das Kind, das sie erwartet, ist aus dem Heiligen Geist.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Sie wird einen Sohn zur Welt bringen. Dem sollst du den Namen Jesus geben. Denn er wird sein Volk retten: Er befreit es von aller Schuld.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>22: Das alles geschah, damit in Erfüllung ging, was der Herr durch den Propheten gesagt hat:<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>23: »Ihr werdet sehen: Die Jungfrau wird schwanger werden und einen Sohn zur Welt bringen. Dem werden sie den Namen Immanuel geben«, das heißt: Gott ist mit uns.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>24: Josef wachte auf und tat, was ihm der Engel des Herrn befohlen hatte: Er nahm seine Frau zu sich.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>25: Aber er schlief nicht mit Maria, bis sie ihren Sohn zur Welt brachte. Und er gab ihm den Namen Jesus.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>
