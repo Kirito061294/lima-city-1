@@ -1,0 +1,66 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Der Turmbau zu Babel</b><br>Vers 1: Damals hatten alle Menschen nur eine einzige Sprache – mit ein und denselben Wörtern.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>2: Sie brachen von Osten her auf und kamen zu einer Ebene im Land Schinar. Dort ließen sie sich nieder.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Sie sagten zueinander: »Kommt! Lasst uns Lehmziegel formen und brennen!« Die Lehmziegel wollten sie als Bausteine verwenden und Asphalt als Mörtel.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Dann sagten sie: »Los! Lasst uns eine Stadt mit einem Turm bauen! Seine Spitze soll in den Himmel ragen. Wir wollen uns einen Namen machen, damit wir uns nicht über die ganze Erde zerstreuen.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Da kam der Herr vom Himmel herab. Er wollte sich die Stadt und den Turm ansehen, die die Menschen bauten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Der Herr sagte: »Sie sind ein einziges Volk und sprechen alle dieselbe Sprache. Und das ist erst der Anfang! In Zukunft wird man sie nicht mehr aufhalten können. Sie werden tun, was sie wollen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Auf! Lasst uns hinabsteigen und ihre Sprache durcheinanderbringen! Dann wird keiner mehr den anderen verstehen.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Der Herr zerstreute sie von dort über die ganze Erde. Da mussten sie es aufgeben, die Stadt weiterzubauen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Deswegen nennt man sie Babel, das heißt: Durcheinander. Denn dort hat der Herr die Sprache der Menschen durcheinandergebracht. Und von dort hat sie der Herr über die ganze Erde zerstreut.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Abrahams Vorfahren</b><br>10: Das ist der Familienstammbaum von Sem: Sem war 100 Jahre alt, als sein Sohn Arpachschad geboren wurde. Das war zwei Jahre nach der Sintflut.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Sem lebte nach Arpachschads Geburt noch 500 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Arpachschad war 35 Jahre alt, als sein Sohn Schelach geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Arpachschad lebte nach Schelachs Geburt noch 403 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Schelach war 30 Jahre alt, als sein Sohn Eber geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Schelach lebte nach Ebers Geburt noch 403 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Eber war 34 Jahre alt, als sein Sohn Peleg geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: Eber lebte nach Pelegs Geburt noch 430 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Peleg war 30 Jahre alt, als sein Sohn Regu geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Peleg lebte nach Regus Geburt noch 209 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>20: Regu war 32 Jahre alt, als sein Sohn Serug geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Regu lebte nach Serugs Geburt noch 207 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>22: Serug war 30 Jahre alt, als sein Sohn Nahor geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>23: Serug lebte nach Nahors Geburt noch 200 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>24: Nahor war 29 Jahre alt, als sein Sohn Terach geboren wurde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>25: Nahor lebte nach Terachs Geburt noch 119 Jahre und bekam weitere Söhne und Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>26: Terach war 70 Jahre alt, als seine Söhne Abram, Nahor und Haran geboren wurden.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><br>27: Das ist der Familienstammbaum von Terach: Terachs Söhne sind Abram, Nahor und Haran. Harans Sohn ist Lot.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>28: Haran starb zu Lebzeiten seines Vaters Terach in seiner Heimat Ur in Babylonien.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>29: Sowohl Abram als auch Nahor heirateten. Abrams Frau hieß Sarai und Nahors Frau hieß Milka. Milka war die Tochter von Haran und Jiskas Schwester.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>30: Sarai konnte keine Kinder bekommen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>31: Terach verließ Ur in Babylonien, um in das Land Kanaan zu ziehen. Er nahm seinen Sohn Abram mit und seinen Enkel Lot, den Sohn Harans. Auch seine Schwiegertochter Sarai ging mit, die Frau seines Sohnes Abram. Sie kamen bis nach Haran und blieben dort.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>32: Terach wurde 205 Jahre alt. Er starb in Haran.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>
