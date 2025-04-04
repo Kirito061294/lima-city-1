@@ -1,0 +1,46 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Die Begrenzung der Lebenszeit</b><br>Vers 1: Als die Menschen sich vermehrten und auf der Erde ausbreiteten, bekamen sie auch viele Töchter.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>2: Die Gottessöhne sahen, dass die Töchter der Menschen schön waren. Sie nahmen sich Frauen, wie sie wollten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Da sprach der Herr: »Mein Geist soll nicht für eine so lange Zeit im Menschen bleiben. Denn der Mensch ist vergänglich. Er soll nicht mehr als 120 Jahre alt werden.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Zu dieser Zeit, wie auch später, lebten auf der Erde noch Riesen. Sie entstammten der Verbindung der Gottessöhne mit den Töchtern der Menschen. Das sind die berühmten Helden aus uralter Zeit.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Noah und die Sintflut</b><br><br><b>Die Bosheit der Menschen</b><br>5: Der Herr sah, dass die Bosheit der Menschen auf der Erde zugenommen hatte. Den ganzen Tag lang hatten sie nur Böses im Sinn.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Da bereute es der Herr, dass er die Menschen auf der Erde gemacht hatte. Er war zutiefst betrübt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Der Herr sprach: »Ich will die Menschen, die ich erschaffen habe, wieder von der Erde auslöschen. Ja, ich will alles auslöschen – von den Menschen bis zum Vieh, von den Kriechtieren bis zu den Vögeln am Himmel. Denn ich bereue, dass ich sie gemacht habe.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Noah aber fand Gnade beim Herrn.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Noah baut eine Arche</b>9: Das ist die Familiengeschichte von Noah: Noah war ein gerechter Mann und tadellos – im Gegensatz zu seinen Zeitgenossen. Er führte ein Leben in enger Beziehung zu Gott.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Noah hatte drei Söhne: Sem, Ham und Jafet.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Doch die Erde war in den Augen Gottes durch und durch verdorben und voller Gewalttaten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Gott sah auf die Erde: Sie war durch und durch verdorben. Denn alle Lebewesen auf der Erde hatten den rechten Weg verlassen und sich dem Bösen zugewandt.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Da sagte Gott zu Noah: »Ich habe den Untergang aller Lebewesen beschlossen, denn ihretwegen ist die Erde voller Gewalttaten. Ja, ich will sie mit der Erde vernichten.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Bau dir ein Schiff, eine Arche, aus Nadelholz! Statte die Arche mit Kammern aus und dichte sie innen wie außen mit Pech ab.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Mach die Arche 150 Meter lang, 25 Meter breit und 15 Meter hoch.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Mach das Dach für die Arche so, dass es einen halben Meter übersteht. Bring den Eingang der Arche an ihrer Seite an. Bau sie mit drei Stockwerken: einem unteren, einem mittleren und einem oberen. <?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: Denn ich will eine Sintflut über die Erde hereinbrechen lassen. Sie soll alles unter dem Himmel vernichten, in dem der Lebensatem ist. Alles, was auf der Erde ist, soll umkommen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Doch mit dir schließe ich einen Bund: Geh in die Arche – zusammen mit deinen Söhnen, deiner Frau und den Frauen deiner Söhne.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Nimm von allen Lebewesen jeweils ein Paar mit in die Arche. Je ein Männchen und ein Weibchen soll es sein, damit sie mit dir am Leben bleiben.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>20: Von jeder Tierart sollen je zwei zu dir kommen: von den Vögeln, dem Vieh und den Kriechtieren auf dem Boden. So bleiben sie am Leben.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Nimm genug zu essen mit, und leg Vorräte an für dich und die Tiere.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>22: Noah machte alles so, wie Gott es ihm befohlen hatte. Genauso machte er es.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>
