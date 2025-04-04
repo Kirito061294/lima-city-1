@@ -1,0 +1,64 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Die Urgeschichte</b><br><br><b>Von der Erschaffung der Welt und der Menschen</b><br><br><b>Die Erschaffung der Welt</b><br>Vers 1: Am Anfang erschuf Gott Himmel und Erde.<?php echo $vers_ende;?>
+<?php echo $kommentar;?>Test<?php echo $verse_ende;?>
+<?php echo $verse;?>2: Die Erde war wüst und leer, und Finsternis lag über dem Urmeer. Über dem Wasser schwebte Gottes Geist.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Gott sprach: »Es soll Licht werden!« Und es wurde Licht.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: Gott sah, dass das Licht gut war, und Gott trennte das Licht von der Finsternis.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Er nannte das Licht »Tag« und die Finsternis »Nacht«. Es wurde Abend und wieder Morgen – der erste Tag.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: Gott sprach: »Ein Dach soll sich wölben mitten im Urmeer! Es soll das Wasser darunter von dem Wasser darüber trennen.« Und so geschah es.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Gott machte das Dach und trennte das Wasser unter dem Dach von dem Wasser über dem Dach.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Gott nannte das Dach »Himmel«. Es wurde Abend und wieder Morgen – der zweite Tag.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Gott sprach: »Das Wasser unter dem Himmel soll sich an einem Ort sammeln, damit das Land sichtbar wird!« Und so geschah es.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Gott nannte das Land »Erde« und das gesammelte Wasser »Meer«. Und Gott sah, dass es gut war.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Gott sprach: »Die Erde soll frisches Grün sprießen lassen und Pflanzen, die Samen tragen! Sie soll auch Bäume hervorbringen mit eigenen Früchten und Samen darin!« Und so geschah es.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Die Erde brachte frisches Grün hervor und Pflanzen, die Samen tragen. Sie ließ auch Bäume wachsen mit eigenen Früchten und Samen darin. Und Gott sah, dass es gut war.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>13: Es wurde Abend und wieder Morgen – der dritte Tag.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Gott sprach: »Lichter sollen am Himmelsdach entstehen, um Tag und Nacht voneinander zu trennen! Sie sollen als Zeichen dienen, um die Feste, die Tage und Jahre zu bestimmen.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Als Leuchten sollen sie am Himmelsdach stehen und der Erde Licht geben.« Und so geschah es.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: Gott machte zwei große Lichter. Das größere Licht sollte den Tag beherrschen und das kleinere die Nacht. Dazu kamen noch die Sterne.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: Gott setzte sie an das Himmelsdach, um der Erde Licht zu geben.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Sie sollten am Tag und in der Nacht herrschen und das Licht von der Finsternis trennen. Und Gott sah, dass es gut war.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Es wurde Abend und wieder Morgen – der vierte Tag.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>20: Gott sprach: »Das Wasser soll von Lebewesen wimmeln, und Vögel sollen fliegen über der Erde und am Himmel!«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Gott schuf die großen Seeungeheuer und alle Arten von Lebewesen, von denen das Wasser wimmelt. Er schuf auch alle Arten von Vögeln. Und Gott sah, dass es gut war.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>22: Gott segnete sie und sprach: »Seid fruchtbar, vermehrt euch und füllt das ganze Meer! Auch die Vögel sollen sich vermehren auf der Erde!«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>23: Es wurde Abend und wieder Morgen – der fünfte Tag.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>24: Gott sprach: »Die Erde soll Lebewesen aller Art hervorbringen: Vieh, Kriechtiere und wilde Tiere!« Und so geschah es.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>25: Gott machte die wilden Tiere und das Vieh und alle Kriechtiere auf dem Boden. Er machte sie alle nach ihrer eigenen Art. Und Gott sah, dass es gut war.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>26: Gott sprach: »Lasst uns Menschen machen – unser Ebenbild, uns gleich sollen sie sein! Sie sollen herrschen über die Fische im Meer und die Vögel am Himmel, über das Vieh und die ganze Erde, und über alle Kriechtiere auf dem Boden.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>27: Gott schuf den Menschen nach seinem Bild. Als Gottes Ebenbild schuf er ihn, als Mann und Frau schuf er sie.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>28: Gott segnete sie und sprach zu ihnen: »Seid fruchtbar und vermehrt euch! Bevölkert die Erde und nehmt sie in Besitz! Herrscht über die Fische im Meer und die Vögel am Himmel und über alle Tiere, die auf dem Boden kriechen!«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>29: Gott sprach: »Als Nahrung gebe ich euch alle Pflanzen auf der Erde, die Samen hervorbringen – dazu alle Bäume mit Früchten und Samen darin.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>30: Die grünen Pflanzen sollen Futter für die Tiere sein: für die Tiere auf der Erde, die Vögel am Himmel und alle Kriechtiere auf dem Boden.« Und so geschah es.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>31: Gott sah alles an, was er gemacht hatte: Es war sehr gut. Es wurde Abend und wieder Morgen – der sechste Tag.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>
