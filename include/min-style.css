@@ -1,0 +1,130 @@
+:root {
+   --nav-h: 4vh; /* Höhe der NAV-Bar */
+   --nav-bg: #5F8755; /* Hintergrund der NAV-Bar */
+   
+   --footer-h: 8vh;
+   --footer-bg: #C2BBA9;
+   
+   --center-width: 80%;
+   --center-h: 87vh;
+   
+   --bg-c: linear-gradient(to bottom, var(--nav-bg) 0%, var(--footer-bg) 100%); /* Hintergrundfarbe */
+   --t-c: black; /* Textfarbe */
+   
+   --h-c: grey; /* Hoverfarbe */
+   --link-c: white; /* Textfarbe der Links */
+   --mc-submod: yellow;
+   --border: #30ff30;
+   --border2: #50ff50;
+   
+   --selection: grey;
+   
+   --ausgabe-height:60vh;
+   --ausgabe-height-mobile:30vh;
+   --mediaplayer-width:100%;
+
+   /* Explanation of the short Names */
+   /* bg-c = background-color ## t-c = text-color ## nav-h = navigation-height ## h-c = hover-color */
+}
+*{margin: 0;padding: 0;font-size: 22px;color: var(--t-c);}
+html{height: 100vh;width: 100vw;overflow: hidden;}
+body{width: 100%;height: 100vh;line-height:1;list-style:none;background-size: cover;background: var(--bg-c);background-repeat: no-repeat;overflow: hidden;}
+/* Header */
+nav{height: var(--nav-h);width: 100%;position: fixed;display: flex;justify-content: space-between;align-items: center;background-color: var(--nav-bg);border-bottom-color: black;border-bottom-style: solid;border-bottom-width: 1px;}
+.kopf a{text-decoration:none;}
+.kopf li a{color:black;}
+nav ul{height: 100%;display: flex;flex-direction: row;justify-content: flex-end;align-items: center;list-style: none; /* Stichpunkte entfernen */}
+nav li{height: 100%;width: 9vw;text-align: center;position: relative;}
+nav ul a{height: 100%;width: 100%;display: flex;color: var(--link-c);align-items: center;justify-content: center;text-decoration: none;cursor: pointer;}
+.dropdown{height: min-content;min-width: 150px;width: 200px;background-color: lightgreen;display: none;flex-direction: column;position: absolute;top: var(--nav-h);}
+nav li:hover .dropdown{display: flex;}
+nav li:hover{background-color: green;}
+nav input[type="checkbox"]{display: none;}
+.dropdown li{height: 30px;width: 100%;border: 1px solid black;}
+.dropdown li a{color: var(--nav-c);width: 100%;cursor: pointer;}
+.dropdown li a:hover{background-color: green;}
+.hide-onDesktop{display: none;}
+.expandable_li{ /* Kategorien im Header */display: flex;justify-content: center;align-items: center;}
+.header_switch{ /* button zum umschalten des headers */height: 1vh;background: var(--link-c);}
+
+/* Header Ende */
+/*#####################################*/
+
+/* Seitendesign */
+
+.center{margin: auto;width: var(--center-width);overflow-x: hidden;overflow-y: auto;margin-top: var(--nav-h);height: var(--center-h);}
+.center1{margin: auto;width: var(--center-width);overflow-x: hidden;overflow-y: auto;margin-top: var(--nav-h);height: var(--center-h);}
+.knopf{background-color: var(--footer-bg);margin-bottom: 0.5em;}
+.ueberschrift {margin: 1em 0 1em 0; /* Abstand nach oben */}
+p{padding:5px 0px;}
+#info{width: calc(100% - 20px);font-size: 20px;padding: 10px;display: none;border-color: var(--nav-bg);border-style: dashed;margin-bottom: 0.5em;}
+.main_content{}
+.main_content a:hover{color: grey;}
+.mobile{display: none;}
+.aussage{padding: 5px;width: 80%;margin: auto;text-align: center;border-color: var(--border2);border-style: dashed;}
+input{width: 8em;height: 1.85em;font-size: 70%;background-color: var(--selection);color: black;}
+.select{padding: 5px 0 0 0;}
+select{width: 10em;height: 1.85em;font-size: 70%;background-color: var(--selection);color: black;-webkit-appearance: none;-moz-appearance: none;}
+/* For IE <= 11 */
+select::-ms-expand{display: none;}
+.rechts_angezeigt{float: right;}
+.main-mod{padding: 0 0 10px 0;}
+.main-mod p a{color: red;}
+.sub-mod{border-color: var(--mc-submod);border-style: dashed;}
+.sub-mod p a{color: var(--mc-submod);}
+.scroll_y{height: 400px;overflow-y: scroll;overflow-x: hidden;}
+.zitat1 p{color: gold;padding: 0;}
+.zitat2 p{color: red;}
+/* Seitendesign Ende */
+/*#####################################*/
+
+/* Footer */
+
+footer{display: block;/*float: left;padding: 5px 0px 5px 15px;text-align: left;*/bottom: 0;position: fixed;width: 100%;height: var(--footer-h);background-color: var(--footer-bg);border-top-color: black;border-top-style: solid;border-top-width: 1px;}
+footer .spalte1, footer .spalte2 {border: none;margin: auto;text-align: center;overflow-y: hidden;overflow-x: hidden;}
+.footer_grid {display: grid;grid-template-columns: 1fr 1fr;height: 100%;}
+footer p{padding: 0;}
+
+/* Für Spieleseiten */
+
+/* Roblox - Tower Defense */
+.tower01{padding: 5px 0 0 0;}
+/* ------------------- */
+
+
+@media screen and (max-width: 1081px) { /* Alles BIS 1081 Pixel breite */
+   *{font-size: 18px;}
+   footer{}
+   .footer_grid{display: block;overflow-y: auto;}
+   .mobile{display: block;}
+   .desktop{display: none;}
+   .center{width: 91%;}
+   .center1{width: 91%;}
+   .main_content{}
+   nav ul{height: min-content;width: 100%;background: var(--nav-bg);display: none;position: absolute;top: var(--nav-h);}
+   nav ul a{padding: 5px 0;}
+   .mobile_header{height: var(--nav-h);width: 100%;}
+   nav li{height: min-content;width: 100%;}
+   .expandable_li{display: block;padding: 0;}
+   .expandable_li label{cursor: pointer;display: block;padding: 5px 0;}
+   .expandable_li:hover .dropdown{display: none;}
+   .expandable_li input[type="checkbox"]:checked ~ .dropdown{display: block;}
+   .dropdown{position: static;width: 100%;height: 100%;}
+   .dropdown li{position: static;display: block;height: 3vh;}
+   .dropdown li a{width: 100%;padding: 0;justify-content: center;}
+   header .knopf{margin-bottom: 0;}
+   select{width: 10.85em;height: 1.85em;font-size: 70%;}
+   .rechte p{font-size: 16px;}
+   .2-grids{display: block;}
+   .3-grids{display: block;}
+}
+@media screen and (min-width: 1999px) { /* Alles AB 1999 Pixel breite */
+   ul{font-size:100%;}
+   body{font-size: 30px;background-color:var(--bg-c); /* Hintergrundfarbe*/}
+}
+@media screen and (max-width: 500px) { /* Alles BIS 480 Pixel breite */
+   .center{width: 100%;}
+   .center1{width: 100%;}
+   .ueberschrift{padding-left: 30px;}
+   .main_content{}
+}
