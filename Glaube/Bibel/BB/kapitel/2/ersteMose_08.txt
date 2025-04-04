@@ -1,0 +1,46 @@
+<?php echo $kapiteldarstellung ?>
+<?php echo $verse;?><b>Die Sintflut hört auf</b><br>Vers 1: Da dachte Gott an Noah – und an alle Tiere und das Vieh, die bei ihm in der Arche waren. Er ließ einen Wind über die Erde wehen, und das Wasser begann zu sinken.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>2: Die Quellen des Urmeers wurden verschlossen und die Schleusen des Himmels verriegelt, sodass der Regen aufhörte.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>3: Da ging das Wasser auf der Erde allmählich zurück, es sank und versickerte. Nach 150 Tagen war es so weit gesunken,<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>4: dass die Arche auf dem Gebirge Ararat aufsetzte. Das war am 17. Tag des siebten Monats.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>5: Bis zum zehnten Monat sank das Wasser weiter. Am ersten Tag des zehnten Monats kamen die Berggipfel zum Vorschein.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>6: 40 Tage später öffnete Noah das Fenster, das er in die Arche eingebaut hatte.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>7: Er ließ einen Raben hinausfliegen. Der kehrte immer wieder zurück, bis das Wasser verschwunden und die Erde trocken war.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>8: Noah schickte auch eine Taube los. Er wollte herausfinden, ob das Wasser vom Erdboden abgeflossen war.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>9: Aber die Taube fand keinen Halt für ihre Füße. Da kehrte sie zu Noah in die Arche zurück, denn noch immer bedeckte Wasser die ganze Erde. Noah streckte seine Hand aus, nahm die Taube und holte sie zu sich in die Arche.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>10: Er wartete noch weitere sieben Tage. Dann schickte er die Taube wieder aus der Arche hinaus.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>11: Am Abend kam sie zu ihm zurück. Diesmal hatte sie in ihrem Schnabel ein frisches Blatt von einem Olivenbaum. Da wusste Noah, dass das Wasser auf der Erde weniger geworden war.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>12: Er wartete noch einmal sieben Tage lang. Dann schickte er die Taube wieder los. Doch nun kehrte sie nicht mehr zu ihm zurück.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Noah verlässt mit seiner Familie und den Tieren die Arche</b><br>13: Im 601. Lebensjahr Noahs, am ersten Tag des ersten Monats, war das Wasser verschwunden und die Erde trocken. Noah entfernte das Dach von der Arche und sah, dass der Erdboden trocken war.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>14: Am 27. Tag des zweiten Monats war die Erde ganz trocken.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>15: Da sagte Gott zu Noah:<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>16: »Geh aus der Arche hinaus – zusammen mit deiner Frau, deinen Söhnen und den Frauen deiner Söhne!<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>17: Nimm all die Tiere mit hinaus, die bei dir sind: die Vögel, das Vieh und alles, was auf dem Boden kriecht. Auf der Erde soll es von ihnen wimmeln. Sie sollen fruchtbar sein und sich auf der Erde vermehren.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>18: Da ging Noah hinaus – mit seinen Söhnen, seiner Frau und den Frauen seiner Söhne.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>19: Dann kamen alle Tiere, alles, was kriecht, und alle Vögel. Alles, was sich auf der Erde regt, zog nach Arten geordnet aus der Arche hinaus.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?><b>Noahs Opfer und Gottes Versprechen</b><br>20: Noah baute einen Altar für den Herrn. Von den reinen Tieren und den reinen Vögeln brachte er einige auf dem Altar als Brandopfer dar.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>21: Der Geruch stimmte den Herrn gnädig und er sagte zu sich selbst: »Nie wieder will ich die Erde wegen der Menschen verfluchen. Denn von Jugend an haben sie nur Böses im Sinn. Nie wieder will ich alles Lebendige so schwer bestrafen, wie ich es getan habe.<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+<?php echo $verse;?>22: Solange die Erde besteht, werden nicht aufhören Saat und Ernte, Frost und Hitze, Sommer und Winter, Tag und Nacht.«<?php echo $vers_ende;?>
+<?php echo $kommentar;?><?php echo $verse_ende;?>
+								</div>
