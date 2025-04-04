@@ -1,0 +1,63 @@
+.dropdown{
+   width: 250px;
+}
+.dropdown li a {
+   padding-left: 10px;
+   width: calc(100% - 10px);
+}
+p {
+   padding:3px 0px;
+}
+.color1 {
+   color: yellow;
+}
+.kommentare {
+   padding: 0 5px 0 5px;
+}
+.zitat1 p {
+   color: gold;
+   padding: 0;
+}
+.zitat2 p {
+   color: red;
+}
+.kapiteldarstellung {
+}
+.verse {
+   padding: 5px 0;
+}
+.verse a {
+   color: black;
+   font-size: 50%;
+}
+.zitat1 p i {
+   display: none;
+}
+.zitat1 p a {
+   padding: 3px 3px 0 3px;
+   border: 1px solid black;
+   background-color: lightgrey;
+}
+.querverweise {
+   padding: 3px;
+   border: 1px solid black;
+   border-bottom: 0px;
+}
+.querverweise1 {
+   color: gold;
+   margin-bottom: 5px;
+   border-bottom: 1px dashed black;
+}
+.querverweise2 {
+   color: gold;
+   margin-top: 5px;
+}
+@media screen and (max-width: 1081px) {
+   .dropdown{
+      width: 100%;
+   }
+   .dropdown li a {
+      padding-left: 10px;
+      width: calc(100% - 10px);
+   }
+}
