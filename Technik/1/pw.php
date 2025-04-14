@@ -1,1 +1,0 @@
-<p><a href="https://johannes-schiel.github.io/password-generator/" target="_blank">Generator von Morpheus und Unleashed Design</a></p>
