@@ -1,26 +1,17 @@
-
-#info p {
-   font-size: 20px;
+:root {
 }
-.video001 iframe {
-   padding: 1em 0 0 0;
-   margin: auto;
-   width: 100%;
-   height: 60vh;
-}
-/* Seitendesign Ende */
 
-/* ------------------- */
-
-
-@media screen and (max-width: 1081px) { /* Alles BIS 1081 Pixel breite */
-   .rechte p {
-      font-size: 16px;
-   }
-   .include1 .video001 iframe {
-      height: 30vh;
-   }
-}
-@media screen and (min-width:1999px) { /* Alles AB 1999 Pixel breite */
+#ausgabe, #ausgabe div, #ausgabe #rueckblende, #ausgabe a {font-size: 25px;}
+.chaptertitle {margin: 1em 0;text-align: center;font-weight: bold;}
+.authornote {margin-top: 1em;border: 1px solid black;background-color: var(--footer-bg);}
+.chapter_images {max-width: 50%;min-width: 10%;margin-left: 25%;}
+.knopf {width: 100%;}
+#ausgabe .knopf {width: 70%;margin-left:15%;}
+#auswahlmenue {display: grid;grid-template-columns: 1fr 1fr;}
    
+@media screen and (max-width: 1081px) { /* Alles BIS 1081 Pixel breite */
+}
+@media screen and (min-width: 1999px) { /* Alles AB 1999 Pixel breite */
+}
+@media screen and (max-width: 500px) { /* Alles BIS 480 Pixel breite */
 }
