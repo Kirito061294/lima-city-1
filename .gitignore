@@ -27,3 +27,6 @@ Unterhaltung/youtube_nocookies.js
 Technik/OS/Spalte2.php
 Technik/OS/Spalte3.php
 Technik/OS/Ausgabe.php
+include/Schriftarten/Lucida_Handwriting/LucidaHandwritingStdRg.woff
+include/Schriftarten/Lucida_Handwriting/LucidaHandwritingStdThin.woff
+include/style.css
